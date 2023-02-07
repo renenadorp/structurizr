@@ -1,0 +1,48 @@
+[INFO ] 2023-02-01 13:22:03.330 [main] Configuration - ***********************************************************************************
+[INFO ] 2023-02-01 13:22:03.334 [main] Configuration -    _____ _                   _              _          
+[INFO ] 2023-02-01 13:22:03.335 [main] Configuration -   / ____| |                 | |            (_)         
+[INFO ] 2023-02-01 13:22:03.335 [main] Configuration -  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+[INFO ] 2023-02-01 13:22:03.336 [main] Configuration -   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+[INFO ] 2023-02-01 13:22:03.336 [main] Configuration -   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+[INFO ] 2023-02-01 13:22:03.337 [main] Configuration -  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+[INFO ] 2023-02-01 13:22:03.337 [main] Configuration -                                                        
+[INFO ] 2023-02-01 13:22:03.338 [main] Configuration -  Structurizr on-premises installation
+[INFO ] 2023-02-01 13:22:03.339 [main] Configuration -  Build: 2920
+[INFO ] 2023-02-01 13:22:03.340 [main] Configuration -  Built: 2023-01-31T12:16:41Z
+[INFO ] 2023-02-01 13:22:03.342 [main] Configuration -  Data directory: /usr/local/structurizr (r: true; w: true; x: true)
+[INFO ] 2023-02-01 13:22:03.343 [main] Configuration -  URL: 
+[INFO ] 2023-02-01 13:22:03.343 [main] Configuration -  Memory: used=71MB; free=440MB; total=512MB; max=512MB
+[INFO ] 2023-02-01 13:22:03.344 [main] Configuration - 
+[INFO ] 2023-02-01 13:22:03.345 [main] Configuration -  Authentication: file
+[INFO ] 2023-02-01 13:22:03.346 [main] Configuration -  Session: local
+[INFO ] 2023-02-01 13:22:03.348 [main] Configuration -  Data storage: file
+[INFO ] 2023-02-01 13:22:03.349 [main] Configuration -  Search: lucene
+[INFO ] 2023-02-01 13:22:03.350 [main] Configuration - ***********************************************************************************
+[WARN ] 2023-02-01 13:22:15.984 [http-nio-8080-exec-2] PageNotFound - No mapping for GET /apple-touch-icon.png
+[WARN ] 2023-02-01 13:22:15.984 [http-nio-8080-exec-1] PageNotFound - No mapping for GET /apple-touch-icon-precomposed.png
+[INFO ] 2023-02-02 16:51:14.751 [Thread-1] Configuration - ********************************************************
+[INFO ] 2023-02-02 16:51:14.754 [Thread-1] Configuration -  Stopping Structurizr
+[INFO ] 2023-02-02 16:51:14.755 [Thread-1] Configuration - ********************************************************
+[INFO ] 2023-02-02 16:52:33.707 [main] Configuration - ***********************************************************************************
+[INFO ] 2023-02-02 16:52:33.712 [main] Configuration -    _____ _                   _              _          
+[INFO ] 2023-02-02 16:52:33.712 [main] Configuration -   / ____| |                 | |            (_)         
+[INFO ] 2023-02-02 16:52:33.713 [main] Configuration -  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+[INFO ] 2023-02-02 16:52:33.713 [main] Configuration -   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+[INFO ] 2023-02-02 16:52:33.714 [main] Configuration -   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+[INFO ] 2023-02-02 16:52:33.714 [main] Configuration -  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+[INFO ] 2023-02-02 16:52:33.715 [main] Configuration -                                                        
+[INFO ] 2023-02-02 16:52:33.715 [main] Configuration -  Structurizr on-premises installation
+[INFO ] 2023-02-02 16:52:33.717 [main] Configuration -  Build: 2920
+[INFO ] 2023-02-02 16:52:33.718 [main] Configuration -  Built: 2023-01-31T12:16:41Z
+[INFO ] 2023-02-02 16:52:33.719 [main] Configuration -  Data directory: /usr/local/structurizr (r: true; w: true; x: true)
+[INFO ] 2023-02-02 16:52:33.720 [main] Configuration -  URL: 
+[INFO ] 2023-02-02 16:52:33.721 [main] Configuration -  Memory: used=71MB; free=440MB; total=512MB; max=512MB
+[INFO ] 2023-02-02 16:52:33.721 [main] Configuration - 
+[INFO ] 2023-02-02 16:52:33.722 [main] Configuration -  Authentication: file
+[INFO ] 2023-02-02 16:52:33.724 [main] Configuration -  Session: local
+[INFO ] 2023-02-02 16:52:33.725 [main] Configuration -  Data storage: file
+[INFO ] 2023-02-02 16:52:33.726 [main] Configuration -  Search: lucene
+[INFO ] 2023-02-02 16:52:33.727 [main] Configuration - ***********************************************************************************
+[INFO ] 2023-02-02 16:53:52.042 [Thread-1] Configuration - ********************************************************
+[INFO ] 2023-02-02 16:53:52.044 [Thread-1] Configuration -  Stopping Structurizr
+[INFO ] 2023-02-02 16:53:52.045 [Thread-1] Configuration - ********************************************************

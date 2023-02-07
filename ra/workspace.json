@@ -1,0 +1,441 @@
+{
+  "id" : 1,
+  "name" : "Inergy - Reference Architecture Data Platform",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-02-07T08:47:26Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "LyoKIGRvY2tlciBydW4gLS1uYW1lIHN0cnVjdCAtaXQgLS1ybSAgLXAgODA4MDo4MDgwIC12IC9Vc2Vycy9ybmFkb3JwL0RvY3VtZW50cy9JbnRlcm5hbC9TdHJ1Y3R1cml6ci9yYS86L3Vzci9sb2NhbC9zdHJ1Y3R1cml6ciBzdHJ1Y3R1cml6ci9saXRlCiBkb2NrZXIgcnVuIC0tbmFtZSBuZ25peCAgIC1kIC0tcm0gIC1wIDcwNzA6ODAgICAtdiAvVXNlcnMvcm5hZG9ycC9Eb2N1bWVudHMvSW50ZXJuYWwvU3RydWN0dXJpenIvcmE6L3Vzci9zaGFyZS9uZ2lueC9odG1sOnJvIC1kIG5naW54CiBkb2NrZXIgbmV0d29yayBjb25uZWN0IHN0cnVjdHVyaXpyLW5ldCBzdHJ1Y3QKIGRvY2tlciBuZXR3b3JrIGNvbm5lY3Qgc3RydWN0dXJpenItbmV0IG5nbml4CiAKIGRvY2tlciBleGVjIC10aSBuZ25peCBwaW5nIHN0cnVjdAoKCiBPTkxZIE9OQ0UsIEJFRk9SRSBkb2NrZXIgbmV0d29yayBjb25uZWN0IHN0YXRlbWVudHM6IGRvY2tlciBuZXR3b3JrIGNyZWF0ZSBzdHJ1Y3R1cml6ci1uZXQgCiAKKi8KIWNvbnN0YW50IE9SR0FOSVNBVElPTl9OQU1FICJJbmVyZ3kiCiFjb25zdGFudCBBUkNISVRFQ1RVUkVfTkFNRSAiUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSBEYXRhIFBsYXRmb3JtIgoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CgogICAgIWRvY3Mgd2lraQogICAgIWFkcnMgIGFkcnMKCiAgICBtb2RlbCB7CiAgICAgICAgZW50ZXJwcmlzZSAiJHtPUkdBTklTQVRJT05fTkFNRX0iIHsKICAgICAgICAgICAgZG9tYWluRXhwZXJ0RmluYW5jZSA9IHBlcnNvbiAiRG9tYWluIEV4cGVydCBGaW5hbmNlIiAiIiAiSW5lcmd5IC0gUGVyc29uIgogICAgICAgICAgICBkb21haW5FeHBlcnREYXRhR292ZXJuYW5jZSA9IHBlcnNvbiAiRG9tYWluIEV4cGVydCBERyIgIiIgIk1pY3Jvc29mdCBBenVyZSAtICIKICAgICAgICAgICAgZGF0YUdvdmVybmFuY2VTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRGF0YSBHb3Zlcm5hbmNlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgZGF0YU1hbmFnZW1lbnRBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiUHVydmlldyIgIkRlc2NyIiAiVGVjaG5vbG9neSIgICAKCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZXJwU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkVSUCIgewogICAgICAgICAgICAgICAgZXJwRmluYW5jZSA9IGNvbnRhaW5lciAiRmluYW5jZSIgImRlc2NyIiAidGVjaG4iICJNaWNyb3NvZnQgQXp1cmUgLSBEeW5hbWljcyIKICAgICAgICAgICAgfQogICAgICAgICAgICBjcm1TeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiQ1JNIiB7CiAgICAgICAgICAgICAgICBjcm1PcHBNZ3QgPSBjb250YWluZXIgIk9wcG9ydHVuaXR5IE1hbmFnZW1lbnQiICJkZXNjciIgInRlY2huIiAiPHRhZz4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGF0YVBsYXRmb3JtU3lzdGVtICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiRGF0YSBQbGF0Zm9ybSIgICB7CiAgICAgICAgICAgICAgICBkcERhdGFMYXllckluZ2VzdCAgICAgICAgICA9IGNvbnRhaW5lciAgIkxheWVyIEluZ2VzdCIgICAgImRlc2NyIiAidGVjaG4iICAgICAiTWljcm9zb2Z0IEF6dXJlIC0gRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgICAgICBkcEluZ2VzdEZpbGVTdG9yYWdlICAgID0gY29tcG9uZW50ICAiRmlsZSBTdG9yYWdlIiAiRGVzY3IiICJUZWNobiIgIk1pY3Jvc29mdCBBenVyZSAtIEZpbGVTdG9yYWdlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZHBEYXRhTGF5ZXJEYXRhQXJlYSAgICAgICAgPSBjb250YWluZXIgICAgICAiTGF5ZXIgRGF0YSBBcmVhIiAiZGVzY3IiICJTbm93Zmxha2UiICJNaWNyb3NvZnQgQXp1cmUgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBkcERhdGFMYXllckJ1c2luZXNzQXJlYSAgICA9IGNvbnRhaW5lciAgICAgICJMYXllciBCdXNpbmVzcyBBcmVhIiAiZGVzY3IiICJTbm93Zmxha2UiICJNaWNyb3NvZnQgQXp1cmUgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBkcERhdGFMYXllckluZm9ybWF0aW9uQXJlYSA9IGNvbnRhaW5lciAgICAgICJMYXllciBJbmZvcm1hdGlvbiBBcmVhIiAiZGVzY3IiICJTbm93Zmxha2UiICJNaWNyb3NvZnQgQXp1cmUgLSBTbm93Zmxha2UiCiAgICAgICAgICAgIH0KICAgICAgICB9CgoKCiAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMKICAgIGRvbWFpbkV4cGVydERhdGFHb3Zlcm5hbmNlIC0+IGRhdGFHb3Zlcm5hbmNlU3lzdGVtICJNYW5hZ2VzIERhdGEgR292ZXJuYW5jZSIKICAgIGRvbWFpbkV4cGVydEZpbmFuY2UgLT4gZGF0YUdvdmVybmFuY2VTeXN0ZW0gIlVzZXMgRGF0YSBHb3Zlcm5hbmNlIgogICAgZG9tYWluRXhwZXJ0RmluYW5jZSAtPiBlcnBGaW5hbmNlICJNYW5hZ2VzIEZpbmFuY2UiCiAgICAKICAgIAogICAgIyByZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29udGFpbmVycwogICAgZXJwRmluYW5jZSAtPiBkcERhdGFMYXllckluZ2VzdCAiUHVzaCBkYXRhIHRvIgogICAgY3JtU3lzdGVtIC0+IGRwRGF0YUxheWVySW5nZXN0ICJQdXNoIGRhdGEgdG8iCiAgICBkcERhdGFMYXllckluZ2VzdCAtPiBkcERhdGFMYXllckRhdGFBcmVhICJUcmFuc2Zvcm0gdG8iCiAgICBkcERhdGFMYXllckRhdGFBcmVhIC0+IGRwRGF0YUxheWVyQnVzaW5lc3NBcmVhICJUcmFuc2Zvcm0gdG8iCgoKICAgICMgcmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbXBvbmVudHMKICAgIAoKICAgIH0KICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgIlN5c3RlbUxhbmRzY2FwZSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3lzdGVtY29udGV4dCBkYXRhR292ZXJuYW5jZVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlIGRhdGFHb3Zlcm5hbmNlU3lzdGVtCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBkYXRhR292ZXJuYW5jZVN5c3RlbQoKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIHN5c3RlbWNvbnRleHQgZGF0YVBsYXRmb3JtU3lzdGVtICJEYXRhUGxhdGZvcm1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgZGF0YUdvdmVybmFuY2VTeXN0ZW0gZGF0YVBsYXRmb3JtU3lzdGVtCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBkYXRhR292ZXJuYW5jZVN5c3RlbQoKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZGF0YVBsYXRmb3JtU3lzdGVtICJEYXRhUGxhdGZvcm1Db250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgZHBEYXRhTGF5ZXJJbmdlc3QKICAgICAgICAgICAgICAgIGRwRGF0YUxheWVyRGF0YUFyZWEKICAgICAgICAgICAgICAgIGRwRGF0YUxheWVyQnVzaW5lc3NBcmVhCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAKICAgICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgY29sb3IgI2E1MjAyNQogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkN1c3RvbWVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgfQogICAgCiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODgxYjFmCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2E1MjAyNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiTWljcm9zb2Z0IEF6dXJlIC0gQXp1cmUgU3luYXBzZSBBbmFseXRpY3MiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgICAgICAgICAgb3BhY2l0eSA5MAoKICAgICAgICAgICAgfQogICAgICAgIH0KCgogICAgICAgIHRoZW1lcyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vc3RydWN0dXJpenIvdGhlbWVzL21hc3Rlci9taWNyb3NvZnQtYXp1cmUtMjAyMS4wMS4yNi90aGVtZS5qc29uCiAgICAgICAgCn0KfQoKICAgICAgIAo="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Inergy"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,Inergy - Person",
+      "name" : "Domain Expert Finance",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Manages Finance"
+      }, {
+        "id" : "18",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Manages Finance",
+        "linkedRelationshipId" : "17"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Uses Data Governance"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,Microsoft Azure -",
+      "name" : "Domain Expert DG",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Manages Data Governance"
+      } ],
+      "location" : "Internal"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Data Governance System",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "Purview",
+        "description" : "Descr",
+        "technology" : "Technology",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "name" : "Data Platform",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "13",
+        "tags" : "Element,Container,Microsoft Azure - Snowflake",
+        "name" : "Layer Business Area",
+        "description" : "descr",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Microsoft Azure - Snowflake",
+        "name" : "Layer Information Area",
+        "description" : "descr",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Microsoft Azure - Snowflake",
+        "name" : "Layer Data Area",
+        "description" : "descr",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "13",
+          "description" : "Transform to"
+        } ],
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,Microsoft Azure - Datalake",
+        "name" : "Layer Ingest",
+        "description" : "descr",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "12",
+          "description" : "Transform to"
+        } ],
+        "technology" : "techn",
+        "components" : [ {
+          "id" : "11",
+          "tags" : "Element,Component,Microsoft Azure - FileStorage",
+          "name" : "File Storage",
+          "description" : "Descr",
+          "technology" : "Techn",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "name" : "CRM",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "10",
+        "description" : "Push data to"
+      }, {
+        "id" : "24",
+        "sourceId" : "7",
+        "destinationId" : "9",
+        "description" : "Push data to",
+        "linkedRelationshipId" : "23"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "8",
+        "tags" : "Element,Container,<tag>",
+        "name" : "Opportunity Management",
+        "description" : "descr",
+        "technology" : "techn",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "ERP",
+      "relationships" : [ {
+        "id" : "21",
+        "sourceId" : "5",
+        "destinationId" : "10",
+        "description" : "Push data to",
+        "linkedRelationshipId" : "19"
+      }, {
+        "id" : "22",
+        "sourceId" : "5",
+        "destinationId" : "9",
+        "description" : "Push data to",
+        "linkedRelationshipId" : "19"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "6",
+        "tags" : "Element,Container,Microsoft Azure - Dynamics",
+        "name" : "Finance",
+        "description" : "descr",
+        "relationships" : [ {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "Push data to"
+        }, {
+          "id" : "20",
+          "sourceId" : "6",
+          "destinationId" : "9",
+          "description" : "Push data to",
+          "linkedRelationshipId" : "19"
+        } ],
+        "technology" : "techn",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "title" : "Data Platform Context ",
+      "content" : "## Data Platform Context \nThe diagram below reflects the system \"Data Platform\" in its context.\n![](embed:DataPlatformContext)\n\n",
+      "format" : "Markdown",
+      "filename" : "0003_DataPlatformContext.md",
+      "order" : 3
+    }, {
+      "title" : "Introduction",
+      "content" : "## Introduction\nThese pages comprise architecture documenation for the Inergy Data Platform Reference Architecture. \nThe purpose is to describe the standard architecture that Inergy will implement for any customer that needs a data platform. \n\nThe architecture is described using the C4 model to model the architecture:\n- Software System \n- Containers\n- Components \n- Code \n\nNext, any number of views (diagrams) can be created to communicate the architecture. \n\n\n",
+      "format" : "Markdown",
+      "filename" : "0001_Overview.md",
+      "order" : 1
+    }, {
+      "title" : "System Landscape",
+      "content" : "## System Landscape\nThe diagram below reflects the system \"Data Platform\" in its context.\n![](embed:SystemLandscape)",
+      "format" : "Markdown",
+      "filename" : "0002_SystemLandscape.md",
+      "order" : 2
+    } ]
+  },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2608,
+        "height" : 2258
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1829,
+        "y" : 292
+      }, {
+        "id" : "2",
+        "x" : 1104,
+        "y" : 292
+      }, {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 992
+      }, {
+        "id" : "5",
+        "x" : 1829,
+        "y" : 992
+      }, {
+        "id" : "7",
+        "x" : 329,
+        "y" : 992
+      }, {
+        "id" : "9",
+        "x" : 1079,
+        "y" : 1592
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "22"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "9",
+      "key" : "DataPlatformContext",
+      "order" : 3,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "3" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "9",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "key" : "SystemContext",
+      "order" : 2,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "3" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "9",
+      "key" : "DataPlatformContainers",
+      "order" : 4,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2095,
+        "height" : 2620
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "10" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "12" ],
+        "relationships" : [ "25" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "13" ],
+        "relationships" : [ "26" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 583,
+        "y" : 1408
+      }, {
+        "id" : "13",
+        "x" : 583,
+        "y" : 2008
+      }, {
+        "id" : "14",
+        "x" : 1333,
+        "y" : 808
+      }, {
+        "id" : "5",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "7",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 583,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "21"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "color" : "#a52025",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b"
+        }, {
+          "tag" : "Software System",
+          "background" : "#881b1f",
+          "color" : "#ffffff",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#a52025",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Microsoft Azure - Azure Synapse Analytics",
+          "background" : "#999999",
+          "color" : "#ffffff",
+          "opacity" : 90
+        } ]
+      },
+      "themes" : [ "https://raw.githubusercontent.com/structurizr/themes/master/microsoft-azure-2021.01.26/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "SystemLandscape"
+    }
+  }
+}
