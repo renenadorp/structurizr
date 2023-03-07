@@ -3,9 +3,11 @@
   "description" : "abc",
   "elements" : [ {
     "tag" : "Database - Snowflake",
-    "stroke" : "#578BCF",
     "color" : "#ffffff",
-    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-  }]
+    "icon" : "  https://raw.githubusercontent.com/microsoft/PowerBI-Icons/f1d4dd6cd52338a186f58bc29c437f64cf6b327b/PNG/Dataset.png"
+  }
+
+
+]
 }
 

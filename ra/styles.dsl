@@ -5,6 +5,12 @@ styles {
                 fontSize 22
                 shape Person
             }
+            element "Datalake" {
+                color #ffffff
+
+                fontSize 22
+                shape Folder
+            }
             element "Customer" {
                 background #08427b
                 shape Person
@@ -28,11 +34,12 @@ styles {
                 shape MobileDeviceLandscape
             }
             element "Database" {
-               "background": "#ffffff"
                 shape Cylinder
             }
             element "Database - Snowflake" {
                 background #ffffff
+                stroke #578BCF
+                color  #578BCF
                 shape Cylinder
             }
             element "Component" {
