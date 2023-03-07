@@ -28,6 +28,7 @@ styles {
                 shape MobileDeviceLandscape
             }
             element "Database" {
+               "background": "#ffffff"
                 shape Cylinder
             }
             element "Database - Snowflake" {

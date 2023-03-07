@@ -5,7 +5,6 @@
     "tag" : "Database - Snowflake",
     "stroke" : "#578BCF",
     "color" : "#ffffff",
-    "background": "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
   }]
 }
