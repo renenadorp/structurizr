@@ -32,7 +32,7 @@
 
             }
             EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" {
-                biDataSet = container "BI Dataset" "BI Dataset" "Power BI" "Power BI Dataset"
+                biDataSet = container "BI Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
                 biReport  = container "BI Report" "BI Report" "Power BI" "Power BI Report"
             }
 

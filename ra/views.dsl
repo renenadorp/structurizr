@@ -15,7 +15,7 @@ views {
         autoLayout lr
     }
     container EnterpriseReportingSystem "Reporting" {
-        include biDataSet, biReport
+        include *
 
         autoLayout lr
     }
