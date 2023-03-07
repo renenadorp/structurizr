@@ -3,7 +3,7 @@
             
 
         enterprise "Data Platform Reference Architecture " {
-            erpStaff    = person "ERP Staff" "ERP" "Database - Snowflake"
+            erpStaff    = person "ERP Staff" "ERP" "Internal Staff"
             crmStaff    = person "CRM Staff" "CRM Staff" "Internal Staff"
             dataOwner   = person "Data Owner" "CRM Staff" "Internal Staff"
             dataExpert  = person "Data Expert" "CRM Staff" "Internal Staff"
