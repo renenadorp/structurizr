@@ -1,4 +1,5 @@
 !constant ORGANISATION_NAME "Inergy"
-!constant ARCHITECTURE_NAME "Reference Architecture Data Platform"
-!constant THEMES "https://gist.githubusercontent.com/renenadorp/78e94042ba0c3bbde5b3060ff838882a/raw/0a7e9445ca7ec2f0c5b7f5bb9658e13450996c8b/theme_Inergy" 
+!constant ARCHITECTURE_NAME "Dataplatform Reference Architecture"
+!constant THEME_AZURE "https://nadorp.z6.web.core.windows.net/structurizr/themes/theme_standard/Azure/theme.json"
+!constant THEME_STANDARD "https://gist.githubusercontent.com/renenadorp/78e94042ba0c3bbde5b3060ff838882a/raw/c21bc957f83a8e2eaa77e3d0e2b61cc87b8f9080/theme_Inergy" 
 

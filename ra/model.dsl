@@ -1,44 +1,57 @@
 
      model {
-        enterprise "${ORGANISATION_NAME}" {
-            domainExpertFinance = person "Domain Expert Finance" "" "Inergy - Person"
-            domainExpertDataGovernance = person "Domain Expert DG" "" "Microsoft Azure - "
-            dataGovernanceSystem = softwaresystem "Data Governance System" {
-                dataManagementApplication = container "Purview" "Descr" "Technology"   
+            
 
+        enterprise "Data Platform Reference Architecture " {
+            erpStaff    = person "ERP Staff" "ERP" "Internal Staff"
+            crmStaff    = person "CRM Staff" "CRM Staff" "Internal Staff"
+            dataOwner   = person "Data Owner" "CRM Staff" "Internal Staff"
+            dataExpert  = person "Data Expert" "CRM Staff" "Internal Staff"
+            dataSteward = person "Data Steward" "Data Steward" "Internal Staff"
+            reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
+
+            erpSystem = softwaresystem "ERP System" "Stores all of the core information about customers, accounts, transactions, etc." "System OutScope"
+            crmSystem = softwaresystem "CRM System" "Allows customers to withdraw cash." "System OutScope"
+
+
+            DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
+                ingestionContainer      = container "Ingestion Area" "Ingest" "<Technology used>" "File System"
+                enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
+                stagingContainer        = container "Data Area" "Staging" "Snowflake" "Database"
+                enterpriseContainer     = container "Business Area" "Business Area" "Snowflake" "Database - Snowflake"
+                biContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
+                metadataContainer       = container "Metadata Area" "Metadata" "Database"
             }
-            erpSystem = softwaresystem "ERP" {
-                erpFinance = container "Finance" "descr" "techn" "Microsoft Azure - Dynamics"
-            }
-            crmSystem = softwaresystem "CRM" {
-                crmOppMgt = container "Opportunity Management" "descr" "techn" "<tag>"
-            }
-            dataPlatformSystem         = softwaresystem "Data Platform"   {
-                dpDataLayerIngest          = container  "Layer Ingest"    "descr" "techn"     "Microsoft Azure - Datalake" {
-                    dpIngestFileStorage    = component  "File Storage" "Descr" "Techn" "Microsoft Azure - FileStorage"
-                }
-                dpDataLayerDataArea        = container      "Layer Data Area" "descr" "Snowflake" "Microsoft Azure - Snowflake"
-                dpDataLayerBusinessArea    = container      "Layer Business Area" "descr" "Snowflake" "Microsoft Azure - Snowflake"
-                dpDataLayerInformationArea = container      "Layer Information Area" "descr" "Snowflake" "Microsoft Azure - Snowflake"
-            }
+            MetaDataSystem = softwaresystem "Metadata " "Metadata " "System InScope"
+            MasterDataSystem = softwaresystem "Masterdata " "Masterdata " "System OutScope"
+            DataEnrichtmentSystem = softwaresystem "Data Enrichment Sytstem" "Data Enrichment" "System InScope"
+            EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope"
+
         }
 
+        # relationships between people and software systems
+        erpStaff    -> erpSystem "Uses"
+        crmStaff    -> crmSystem "Uses"
+        dataSteward -> MetaDataSystem "Uses"
+        dataSteward -> MasterDataSystem "Uses"
+        dataExpert  -> MetadataSystem "Data Expert"
+        dataOwner   -> MetadataSystem "Data Owner"
+        reportUser  -> EnterpriseReportingSystem
+
+        # relationships between software systems and software systems
+        erpSystem -> dataPlatformSystem "ERP Data "
+        crmSystem -> dataPlatformSystem "CRM Data"
+        DataEnrichtmentSystem -> dataPlatformSystem "Enrichment Data"
+        MasterDataSystem -> dataPlatformSystem "Master Data"
+        DataPlatformSystem -> EnterpriseReportingSystem "Uses data from"
+        DataPlatformSystem -> MetaDataSystem "Vertical Lineage"
 
 
-    # relationships between people and software systems
-    domainExpertDataGovernance -> dataGovernanceSystem "Manages Data Governance"
-    domainExpertFinance -> dataGovernanceSystem "Uses Data Governance"
-    domainExpertFinance -> erpFinance "Manages Finance"
-    
-    
-    # relationships to/from containers
-    erpFinance -> dpDataLayerIngest "Push data to"
-    crmSystem -> dpDataLayerIngest "Push data to"
-    dpDataLayerIngest -> dpDataLayerDataArea "Transform to"
-    dpDataLayerDataArea -> dpDataLayerBusinessArea "Transform to"
 
+        # relationships between containers
 
-    # relationships to/from components
-    
+        # relationships between components
 
+        
+            
     }
