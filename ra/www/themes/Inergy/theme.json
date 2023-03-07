@@ -3,9 +3,9 @@
   "description" : "abc",
   "elements" : [ {
     "tag" : "Database - Snowflake",
-    "stroke" : "#ffffff",
+    "stroke" : "#578BCF",
     "color" : "#ffffff",
-    "background": "#578BCF",
+    "background": "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
   }]
 }
