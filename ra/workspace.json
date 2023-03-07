@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Inergy Data Platform",
   "description" : "Inergy Data Platform Reference",
-  "lastModifiedDate" : "2023-03-07T09:17:52Z",
+  "lastModifiedDate" : "2023-03-07T09:20:58Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
     "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0iICJJbmVyZ3kgRGF0YSBQbGF0Zm9ybSBSZWZlcmVuY2UiIHsKICAgIAogICAgIWRvY3Mgd2lraQogICAgIWFkcnMgYWRycwohY29uc3RhbnQgT1JHQU5JU0FUSU9OX05BTUUgIkluZXJneSIKIWNvbnN0YW50IEFSQ0hJVEVDVFVSRV9OQU1FICJEYXRhcGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIKIWNvbnN0YW50IFRIRU1FX0FaVVJFICJodHRwczovL25hZG9ycC56Ni53ZWIuY29yZS53aW5kb3dzLm5ldC9zdHJ1Y3R1cml6ci90aGVtZXMvdGhlbWVfc3RhbmRhcmQvQXp1cmUvdGhlbWUuanNvbiIKIWNvbnN0YW50IFRIRU1FX1NUQU5EQVJEICJodHRwczovL2dpc3QuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JlbmVuYWRvcnAvNzhlOTQwNDJiYTBjM2JiZGU1YjMwNjBmZjgzODg4MmEvcmF3L2MyMWJjOTU3ZjgzYThlMmVhYTc3ZTNkMGUyYjYxY2M4N2I4ZjkwODAvdGhlbWVfSW5lcmd5IiAKCgoKICAgICBtb2RlbCB7CiAgICAgICAgICAgIAoKICAgICAgICBlbnRlcnByaXNlICJEYXRhIFBsYXRmb3JtIFJlZmVyZW5jZSBBcmNoaXRlY3R1cmUgIiB7CiAgICAgICAgICAgIGVycFN0YWZmICAgID0gcGVyc29uICJFUlAgU3RhZmYiICJFUlAiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgY3JtU3RhZmYgICAgPSBwZXJzb24gIkNSTSBTdGFmZiIgIkNSTSBTdGFmZiIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICBkYXRhT3duZXIgICA9IHBlcnNvbiAiRGF0YSBPd25lciIgIkNSTSBTdGFmZiIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICBkYXRhRXhwZXJ0ICA9IHBlcnNvbiAiRGF0YSBFeHBlcnQiICJDUk0gU3RhZmYiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgZGF0YVN0ZXdhcmQgPSBwZXJzb24gIkRhdGEgU3Rld2FyZCIgIkRhdGEgU3Rld2FyZCIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICByZXBvcnRVc2VyICA9IHBlcnNvbiAiUmVwb3J0aW5nIFN0YWZmIiAiUmVwb3J0aW5nIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCgogICAgICAgICAgICBlcnBTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRVJQIFN5c3RlbSIgIlN0b3JlcyBhbGwgb2YgdGhlIGNvcmUgaW5mb3JtYXRpb24gYWJvdXQgY3VzdG9tZXJzLCBhY2NvdW50cywgdHJhbnNhY3Rpb25zLCBldGMuIiAiU3lzdGVtIE91dFNjb3BlIgogICAgICAgICAgICBjcm1TeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiQ1JNIFN5c3RlbSIgIkFsbG93cyBjdXN0b21lcnMgdG8gd2l0aGRyYXcgY2FzaC4iICJTeXN0ZW0gT3V0U2NvcGUiCgoKICAgICAgICAgICAgRGF0YVBsYXRmb3JtU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkVudGVycHJpc2UgRGF0YSBQbGF0Zm9ybSIgIkRhdGEgcGxhdGZvcm0uIiAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGluZ2VzdGlvbkNvbnRhaW5lciAgICAgID0gY29udGFpbmVyICJJbmdlc3Rpb24gQXJlYSIgIkluZ2VzdCIgIjxUZWNobm9sb2d5IHVzZWQ+IiAiRmlsZSBTeXN0ZW0iCiAgICAgICAgICAgICAgICBlbnJpY2htZW50QXBwbGljYXRpb24gICA9IGNvbnRhaW5lciAiRGF0YSBFbnJpY2htZW50IFdlYiBBcHBsaWNhdGlvbiIgIkRhdGFiYXNlIiAiQXBwIgogICAgICAgICAgICAgICAgc3RhZ2luZ0NvbnRhaW5lciAgICAgICAgPSBjb250YWluZXIgIkRhdGEgQXJlYSIgIlN0YWdpbmciICJTbm93Zmxha2UiICJEYXRhYmFzZSIKICAgICAgICAgICAgICAgIGVudGVycHJpc2VDb250YWluZXIgICAgID0gY29udGFpbmVyICJCdXNpbmVzcyBBcmVhIiAiQnVzaW5lc3MgQXJlYSIgIlNub3dmbGFrZSIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgYmlDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkluZm9ybWF0aW9uIEFyZWEiICJJbmZvcm1hdGlvbiBBcmVhIiAiU25vd2ZsYWtlIiAiRGF0YWJhc2UgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBtZXRhZGF0YUNvbnRhaW5lciAgICAgICA9IGNvbnRhaW5lciAiTWV0YWRhdGEgQXJlYSIgIk1ldGFkYXRhIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgTWV0YURhdGFTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiTWV0YWRhdGEgIiAiTWV0YWRhdGEgIiAiU3lzdGVtIEluU2NvcGUiCiAgICAgICAgICAgIE1hc3RlckRhdGFTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiTWFzdGVyZGF0YSAiICJNYXN0ZXJkYXRhICIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgRGF0YUVucmljaHRtZW50U3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkRhdGEgRW5yaWNobWVudCBTeXRzdGVtIiAiRGF0YSBFbnJpY2htZW50IiAiU3lzdGVtIEluU2NvcGUiCiAgICAgICAgICAgIEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRW50ZXJwcmlzZSBSZXBvcnRpbmciICJFbnRlcnByaXNlIFJlcG9ydGluZyIgIlN5c3RlbSBJblNjb3BlIgoKICAgICAgICB9CgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIHBlb3BsZSBhbmQgc29mdHdhcmUgc3lzdGVtcwogICAgICAgIGVycFN0YWZmICAgIC0+IGVycFN5c3RlbSAiVXNlcyIKICAgICAgICBjcm1TdGFmZiAgICAtPiBjcm1TeXN0ZW0gIlVzZXMiCiAgICAgICAgZGF0YVN0ZXdhcmQgLT4gTWV0YURhdGFTeXN0ZW0gIlVzZXMiCiAgICAgICAgZGF0YVN0ZXdhcmQgLT4gTWFzdGVyRGF0YVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhRXhwZXJ0ICAtPiBNZXRhZGF0YVN5c3RlbSAiRGF0YSBFeHBlcnQiCiAgICAgICAgZGF0YU93bmVyICAgLT4gTWV0YWRhdGFTeXN0ZW0gIkRhdGEgT3duZXIiCiAgICAgICAgcmVwb3J0VXNlciAgLT4gRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbQoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBzb2Z0d2FyZSBzeXN0ZW1zIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgZXJwU3lzdGVtIC0+IGRhdGFQbGF0Zm9ybVN5c3RlbSAiRVJQIERhdGEgIgogICAgICAgIGNybVN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkNSTSBEYXRhIgogICAgICAgIERhdGFFbnJpY2h0bWVudFN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkVucmljaG1lbnQgRGF0YSIKICAgICAgICBNYXN0ZXJEYXRhU3lzdGVtIC0+IGRhdGFQbGF0Zm9ybVN5c3RlbSAiTWFzdGVyIERhdGEiCiAgICAgICAgRGF0YVBsYXRmb3JtU3lzdGVtIC0+IEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gIlVzZXMgZGF0YSBmcm9tIgogICAgICAgIERhdGFQbGF0Zm9ybVN5c3RlbSAtPiBNZXRhRGF0YVN5c3RlbSAiVmVydGljYWwgTGluZWFnZSIKCgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBjb250YWluZXJzCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIGNvbXBvbmVudHMKCiAgICAgICAgCiAgICAgICAgICAgIAogICAgfQogICAgdmlld3MgewogICAgICAgIHN5c3RlbWxhbmRzY2FwZSAiZGF0YVBsYXRmb3JtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1jb250ZXh0IGRhdGFQbGF0Zm9ybVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGRhdGFQbGF0Zm9ybVN5c3RlbSAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlN5c3RlbSBPdXRTY29wZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgIG9wYWNpdHkgMjUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICB0aGVtZXMgaHR0cHM6Ly9yZW5lbmFkb3JwLmdpdGh1Yi5pby9zdHJ1Y3R1cml6ci9yYS93d3cvdGhlbWVzL0luZXJneS90aGVtZS5qc29uIAoKICAgIH0KfQoKCg=="
@@ -13,16 +13,16 @@
       "name" : "Data Platform Reference Architecture"
     },
     "people" : [ {
-      "id" : "3",
+      "id" : "2",
       "tags" : "Element,Person,Internal Staff",
-      "name" : "Data Owner",
+      "name" : "CRM Staff",
       "description" : "CRM Staff",
       "relationships" : [ {
-        "id" : "25",
+        "id" : "21",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "16",
-        "description" : "Data Owner"
+        "sourceId" : "2",
+        "destinationId" : "8",
+        "description" : "Uses"
       } ],
       "location" : "Internal"
     }, {
@@ -39,47 +39,21 @@
       } ],
       "location" : "Internal"
     }, {
-      "id" : "1",
-      "tags" : "Element,Person,Internal Staff",
-      "name" : "ERP Staff",
-      "description" : "ERP",
-      "relationships" : [ {
-        "id" : "20",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "7",
-        "description" : "Uses"
-      } ],
-      "location" : "Internal"
-    }, {
       "id" : "5",
       "tags" : "Element,Person,Internal Staff",
       "name" : "Data Steward",
       "description" : "Data Steward",
       "relationships" : [ {
-        "id" : "22",
-        "tags" : "Relationship",
-        "sourceId" : "5",
-        "destinationId" : "16",
-        "description" : "Uses"
-      }, {
         "id" : "23",
         "tags" : "Relationship",
         "sourceId" : "5",
         "destinationId" : "17",
         "description" : "Uses"
-      } ],
-      "location" : "Internal"
-    }, {
-      "id" : "2",
-      "tags" : "Element,Person,Internal Staff",
-      "name" : "CRM Staff",
-      "description" : "CRM Staff",
-      "relationships" : [ {
-        "id" : "21",
+      }, {
+        "id" : "22",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "8",
+        "sourceId" : "5",
+        "destinationId" : "16",
         "description" : "Uses"
       } ],
       "location" : "Internal"
@@ -95,18 +69,44 @@
         "destinationId" : "19"
       } ],
       "location" : "Internal"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person,Internal Staff",
+      "name" : "Data Owner",
+      "description" : "CRM Staff",
+      "relationships" : [ {
+        "id" : "25",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "16",
+        "description" : "Data Owner"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,Internal Staff",
+      "name" : "ERP Staff",
+      "description" : "ERP",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Uses"
+      } ],
+      "location" : "Internal"
     } ],
     "softwareSystems" : [ {
-      "id" : "18",
-      "tags" : "Element,Software System,System InScope",
-      "name" : "Data Enrichment Sytstem",
-      "description" : "Data Enrichment",
+      "id" : "7",
+      "tags" : "Element,Software System,System OutScope",
+      "name" : "ERP System",
+      "description" : "Stores all of the core information about customers, accounts, transactions, etc.",
       "relationships" : [ {
-        "id" : "29",
+        "id" : "27",
         "tags" : "Relationship",
-        "sourceId" : "18",
+        "sourceId" : "7",
         "destinationId" : "9",
-        "description" : "Enrichment Data"
+        "description" : "ERP Data"
       } ],
       "location" : "Internal",
       "documentation" : { }
@@ -125,24 +125,80 @@
       "location" : "Internal",
       "documentation" : { }
     }, {
+      "id" : "16",
+      "tags" : "Element,Software System,System InScope",
+      "name" : "Metadata",
+      "description" : "Metadata",
+      "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System,System InScope",
+      "name" : "Enterprise Data Platform",
+      "description" : "Data platform.",
+      "relationships" : [ {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "9",
+        "destinationId" : "19",
+        "description" : "Uses data from"
+      }, {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "9",
+        "destinationId" : "16",
+        "description" : "Vertical Lineage"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container,Database",
+        "name" : "Data Area",
+        "description" : "Staging",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Database - Snowflake",
+        "name" : "Information Area",
+        "description" : "Information Area",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,File System",
+        "name" : "Ingestion Area",
+        "description" : "Ingest",
+        "technology" : "<Technology used>",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Database - Snowflake",
+        "name" : "Business Area",
+        "description" : "Business Area",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "name" : "Data Enrichment Web Application",
+        "description" : "Database",
+        "technology" : "App",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "Metadata Area",
+        "description" : "Metadata",
+        "technology" : "Database",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
       "id" : "19",
       "tags" : "Element,Software System,System InScope",
       "name" : "Enterprise Reporting",
       "description" : "Enterprise Reporting",
-      "location" : "Internal",
-      "documentation" : { }
-    }, {
-      "id" : "7",
-      "tags" : "Element,Software System,System OutScope",
-      "name" : "ERP System",
-      "description" : "Stores all of the core information about customers, accounts, transactions, etc.",
-      "relationships" : [ {
-        "id" : "27",
-        "tags" : "Relationship",
-        "sourceId" : "7",
-        "destinationId" : "9",
-        "description" : "ERP Data"
-      } ],
       "location" : "Internal",
       "documentation" : { }
     }, {
@@ -160,73 +216,17 @@
       "location" : "Internal",
       "documentation" : { }
     }, {
-      "id" : "9",
+      "id" : "18",
       "tags" : "Element,Software System,System InScope",
-      "name" : "Enterprise Data Platform",
-      "description" : "Data platform.",
+      "name" : "Data Enrichment Sytstem",
+      "description" : "Data Enrichment",
       "relationships" : [ {
-        "id" : "32",
+        "id" : "29",
         "tags" : "Relationship",
-        "sourceId" : "9",
-        "destinationId" : "16",
-        "description" : "Vertical Lineage"
-      }, {
-        "id" : "31",
-        "tags" : "Relationship",
-        "sourceId" : "9",
-        "destinationId" : "19",
-        "description" : "Uses data from"
+        "sourceId" : "18",
+        "destinationId" : "9",
+        "description" : "Enrichment Data"
       } ],
-      "location" : "Internal",
-      "containers" : [ {
-        "id" : "12",
-        "tags" : "Element,Container,Database",
-        "name" : "Data Area",
-        "description" : "Staging",
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "11",
-        "tags" : "Element,Container",
-        "name" : "Data Enrichment Web Application",
-        "description" : "Database",
-        "technology" : "App",
-        "documentation" : { }
-      }, {
-        "id" : "14",
-        "tags" : "Element,Container,Database - Snowflake",
-        "name" : "Information Area",
-        "description" : "Information Area",
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "15",
-        "tags" : "Element,Container",
-        "name" : "Metadata Area",
-        "description" : "Metadata",
-        "technology" : "Database",
-        "documentation" : { }
-      }, {
-        "id" : "13",
-        "tags" : "Element,Container,Database - Snowflake",
-        "name" : "Business Area",
-        "description" : "Business Area",
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "10",
-        "tags" : "Element,Container,File System",
-        "name" : "Ingestion Area",
-        "description" : "Ingest",
-        "technology" : "<Technology used>",
-        "documentation" : { }
-      } ],
-      "documentation" : { }
-    }, {
-      "id" : "16",
-      "tags" : "Element,Software System,System InScope",
-      "name" : "Metadata",
-      "description" : "Metadata",
       "location" : "Internal",
       "documentation" : { }
     } ]
