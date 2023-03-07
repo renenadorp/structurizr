@@ -27,7 +27,7 @@ workspace "Inergy Data Platform" "Inergy Data Platform Reference" {
 
         !include styles.dsl
         
-        themes https://172.21.0.4:8081/Azure/theme.json
+        themes https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/theme.json 
 
     }
 }

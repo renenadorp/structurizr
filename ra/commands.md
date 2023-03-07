@@ -7,7 +7,7 @@ docker build -f Dockerfile.ping -t ping .
 `
 ## Start Structurizr
 >`
-docker run -it --rm  -p 8080:8080 -v /Users/rnadorp/Documents/Internal/Structurizr/DnA/:/usr/local/structurizr structurizr/lite
+docker run -it --rm  -p 8080:8080 -v /Users/rnadorp/Documents/Internal/Structurizr/ra/:/usr/local/structurizr structurizr/lite
 `
 
 ## Start Nginx
