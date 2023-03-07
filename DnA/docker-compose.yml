@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  data-consumer:
+    image: struct
+    container_name: 'struct'
+    volumes:  
+      - /Users/rnadorp/Documents/Internal/Structurizr/DnA/:/usr/local/structurizr
+    ports:
+      - 8080:8080
+    networks:
+      - structurizr-external
+  
+  data-provider:
+    image: nginx
+    container_name: 'nginx'
+    volumes:
+      - /Users/rnadorp/Documents/Internal/Structurizr/DnA/www/themes:/usr/share/nginx/html
+      - /Users/rnadorp/Documents/Internal/Structurizr/DnA/www/conf.d:/etc/nginx/conf.d
+    ports:
+      - 8081:8081
+    networks:
+      - structurizr-external
+  
+  network-ping:
+    image: ping
+    tty: true
+    container_name: 'ping'
+    ports:
+      - 8082:8082
+    networks:
+      - structurizr-external
+
+networks:
+  structurizr-external:
+      external: true
+

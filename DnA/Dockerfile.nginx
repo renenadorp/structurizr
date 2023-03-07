@@ -1,0 +1,4 @@
+FROM nginx
+COPY www/themes  /usr/share/nginx/html
+COPY www/conf.d  /etc/nginx/conf.d
+
