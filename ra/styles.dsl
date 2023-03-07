@@ -32,6 +32,7 @@ styles {
                 shape Cylinder
             }
             element "Database - Snowflake" {
+                background #ffffff
                 shape Cylinder
             }
             element "Component" {
