@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Inergy Data Platform",
   "description" : "Inergy Data Platform Reference",
-  "lastModifiedDate" : "2023-03-08T07:44:41Z",
+  "lastModifiedDate" : "2023-03-08T07:46:49Z",
   "properties" : {
     "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0iICJJbmVyZ3kgRGF0YSBQbGF0Zm9ybSBSZWZlcmVuY2UiIHsKICAgIAogICAgIWRvY3Mgd2lraQogICAgIWFkcnMgYWRycwohY29uc3RhbnQgT1JHQU5JU0FUSU9OX05BTUUgIkluZXJneSIKIWNvbnN0YW50IEFSQ0hJVEVDVFVSRV9OQU1FICJEYXRhcGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIKIWNvbnN0YW50IFRIRU1FX0FaVVJFICJodHRwczovL25hZG9ycC56Ni53ZWIuY29yZS53aW5kb3dzLm5ldC9zdHJ1Y3R1cml6ci90aGVtZXMvdGhlbWVfc3RhbmRhcmQvQXp1cmUvdGhlbWUuanNvbiIKIWNvbnN0YW50IFRIRU1FX1NUQU5EQVJEICJodHRwczovL2dpc3QuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JlbmVuYWRvcnAvNzhlOTQwNDJiYTBjM2JiZGU1YjMwNjBmZjgzODg4MmEvcmF3L2MyMWJjOTU3ZjgzYThlMmVhYTc3ZTNkMGUyYjYxY2M4N2I4ZjkwODAvdGhlbWVfSW5lcmd5IiAKCgoKICAgICBtb2RlbCB7CiAgICAgICAgICAgIAoKIy8qCiAgICAgICAgICAgIGVycFN0YWZmICAgID0gcGVyc29uICJFUlAgU3RhZmYiICJFUlAiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgY3JtU3RhZmYgICAgPSBwZXJzb24gIkNSTSBTdGFmZiIgIkNSTSBTdGFmZiIgIkludGVybmFsIFN0YWZmIgoKCiAgICAgICAgICAgIGRhdGFPd25lciAgID0gcGVyc29uICJEYXRhIE93bmVyIiAiQ1JNIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCiAgICAgICAgICAgIGRhdGFFeHBlcnQgID0gcGVyc29uICJEYXRhIEV4cGVydCIgIkNSTSBTdGFmZiIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICBkYXRhU3Rld2FyZCA9IHBlcnNvbiAiRGF0YSBTdGV3YXJkIiAiRGF0YSBTdGV3YXJkIiAiSW50ZXJuYWwgU3RhZmYiCiAgICAgICAgICAgIHJlcG9ydFVzZXIgID0gcGVyc29uICJSZXBvcnRpbmcgU3RhZmYiICJSZXBvcnRpbmcgU3RhZmYiICJJbnRlcm5hbCBTdGFmZiIKCiMqLwogICAgICAgIGVudGVycHJpc2UgIkRhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSAiIHsKCiAgICAgICAgICAgIGVycFN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJFUlAgU3lzdGVtIiAiU3RvcmVzIGFsbCBvZiB0aGUgY29yZSBpbmZvcm1hdGlvbiBhYm91dCBjdXN0b21lcnMsIGFjY291bnRzLCB0cmFuc2FjdGlvbnMsIGV0Yy4iICJTeXN0ZW0gT3V0U2NvcGUiCiAgICAgICAgICAgIGNybVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJDUk0gU3lzdGVtIiAiQWxsb3dzIGN1c3RvbWVycyB0byB3aXRoZHJhdyBjYXNoLiIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgTWFzdGVyRGF0YVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJNYXN0ZXJkYXRhICIgIk1hc3RlcmRhdGEgIiAiU3lzdGVtIE91dFNjb3BlIgoKCiAgICAgICAgICAgIERhdGFQbGF0Zm9ybVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJFbnRlcnByaXNlIERhdGEgUGxhdGZvcm0iICJEYXRhIHBsYXRmb3JtLiIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICBpbmdlc3Rpb25Db250YWluZXIgICAgICA9IGNvbnRhaW5lciAiSW5nZXN0aW9uIEFyZWEiICJJbmdlc3QiICI8VGVjaG5vbG9neSB1c2VkPiIgIkRhdGFsYWtlIgogICAgICAgICAgICAgICAgZGFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkRhdGEgQXJlYSIgIlN0YWdpbmciICJTbm93Zmxha2UiICJEYXRhYmFzZSAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIGRhMmJhQ29udGFpbmVyICAgICAgICAgID0gY29udGFpbmVyICJCdXNpbmVzcyBBcmVhIFRyYW5zZm9ybWF0aW9uIiAiIiAiIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgYmEyaWFDb250YWluZXIgICAgICAgICAgPSBjb250YWluZXIgIkluZm9ybWF0aW9uIEFyZWEgVHJhbnNmb3JtYXRpb24iICIiICIiICJDb21wb25lbnQgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBpbjJkYUNvbnRhaW5lciAgICAgICAgICA9IGNvbnRhaW5lciAiRGF0YSBBcmVhIFRyYW5zZm9ybWF0aW9uIiAiIiAiIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgYmFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkJ1c2luZXNzIEFyZWEiICJCdXNpbmVzcyBBcmVhIiAiU25vd2ZsYWtlIiAiRGF0YWJhc2UgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBpYUNvbnRhaW5lciAgICAgICAgICAgICA9IGNvbnRhaW5lciAiSW5mb3JtYXRpb24gQXJlYSIgIkluZm9ybWF0aW9uIEFyZWEiICJTbm93Zmxha2UiICJEYXRhYmFzZSAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIGRxQ29udGFpbmVyICAgICAgICAgICAgID0gY29udGFpbmVyICJEYXRhIFF1YWxpdHkgRW5naW5lIiAiRGF0YSBRdWFsaXR5IEVuZ2luZSIgIlNub3dmbGFrZSIgIkNvbXBvbmVudCAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIG1hQ29udGFpbmVyICAgICAgICAgICAgID0gY29udGFpbmVyICJNZXRhZGF0YSBBcmVhIiAiTWV0YWRhdGEiICIiICJEYXRhYmFzZSAtIFNub3dmbGFrZSIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgTWV0YURhdGFTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiTWV0YWRhdGEgU3lzdGVtIiAiTWV0YWRhdGEgU3lzdGVtIiAiU3lzdGVtIEluU2NvcGUiCiAgICAgICAgICAgIAogICAgICAgICAgICBEYXRhRW5yaWNodG1lbnRTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRGF0YSBFbnJpY2htZW50IFN5c3RlbSIgIkRhdGEgRW5yaWNobWVudCIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICBlbnJpY2htZW50QXBwbGljYXRpb24gICA9IGNvbnRhaW5lciAiRGF0YSBFbnJpY2htZW50IFdlYiBBcHBsaWNhdGlvbiIgIkRhdGFiYXNlIiAiQXBwIgoKICAgICAgICAgICAgfQogICAgICAgICAgICBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkVudGVycHJpc2UgUmVwb3J0aW5nIiAiRW50ZXJwcmlzZSBSZXBvcnRpbmciICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgYmlEYXRhU2V0ID0gY29udGFpbmVyICJCSSBEYXRhc2V0IiAiQkkgRGF0YXNldCIgIlBvd2VyIEJJIiAiRGF0YXNldCAtIFBvd2VyQkkiCiAgICAgICAgICAgICAgICBiaVJlcG9ydCAgPSBjb250YWluZXIgIkJJIFJlcG9ydCIgIkJJIFJlcG9ydCIgIlBvd2VyIEJJIiAiUG93ZXIgQkkgUmVwb3J0IgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBEYXRhUGxhdGZvcm1Nb25pdG9yaW5nU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkRhdGFQbGF0Zm9ybSBNb25pdG9yaW5nIFN5c3RlbSIgIk1vbml0b3JpbmciICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgZHBNb25pdG9yaW5nID0gY29udGFpbmVyICJEYXRhIFBsYXRmb3JtIE1vbml0b3JpbmcgU2VydmljZSIgIkJJIERhdGFzZXQiICJQb3dlciBCSSIgIk1vbml0b3JpbmcgLSAiCiAgICAgICAgICAgICAgICBkcEFsZXJ0aW5nICAgPSBjb250YWluZXIgIkRhdGEgUGxhdGZvcm0gQWxlcnRpbmcgU2VydmljZSIgIkJJIFJlcG9ydCIgIlBvd2VyIEJJIiAiQWxlcnRpbmcgLSBPcHNHZW5pZSIKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIHBlb3BsZSBhbmQgc29mdHdhcmUgc3lzdGVtcwogICAgICAgCiAgICAgICAgZXJwU3RhZmYgICAgLT4gZXJwU3lzdGVtICJVc2VzIgogICAgICAgIGNybVN0YWZmICAgIC0+IGNybVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhU3Rld2FyZCAtPiBNZXRhRGF0YVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhU3Rld2FyZCAtPiBNYXN0ZXJEYXRhU3lzdGVtICJVc2VzIgogICAgICAgIGRhdGFFeHBlcnQgIC0+IE1ldGFkYXRhU3lzdGVtICJEYXRhIEV4cGVydCIKICAgICAgICBkYXRhT3duZXIgICAtPiBNZXRhZGF0YVN5c3RlbSAiRGF0YSBPd25lciIKICAgICAgICByZXBvcnRVc2VyICAtPiBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtCiAgIAoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBzb2Z0d2FyZSBzeXN0ZW1zIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgI2VycFN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkVSUCBEYXRhIgogICAgICAgICNjcm1TeXN0ZW0gLT4gZGF0YVBsYXRmb3JtU3lzdGVtICJDUk0gRGF0YSIKCiAgICAgICAgI0RhdGFFbnJpY2h0bWVudFN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkVucmljaG1lbnQgRGF0YSIKICAgICAgICBNYXN0ZXJEYXRhU3lzdGVtICAgICAgICAgICAgIC0+IGRhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgIk1hc3RlciBEYXRhIgogICAgICAgIERhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgLT4gRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbSAgICAiSXMgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgRGF0YVBsYXRmb3JtTW9uaXRvcmluZ1N5c3RlbSAtPiBEYXRhUGxhdGZvcm1TeXN0ZW0gICAgICAgICAgICJNb25pdG9ycyIKICAgICAgICBNZXRhRGF0YVN5c3RlbSAgICAgICAgICAgICAgIC0+IERhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgIkRlc2NyaWJlcyIKICAgICAgICBNZXRhRGF0YVN5c3RlbSAgICAgICAgICAgICAgIC0+IEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gICAgIkRlc2NyaWJlcyIKCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIGNvbnRhaW5lcnMKICAgICAgICBiYUNvbnRhaW5lciAtPiBiYTJpYUNvbnRhaW5lciAiSXMgYSBkYXRhc291cmNlIGZvciIKICAgICAgICBiYTJpYUNvbnRhaW5lciAtPiBpYUNvbnRhaW5lciAiVHJhbnNmb3JtcyBkYXRhIGZvciIKICAgICAgICBpbmdlc3Rpb25Db250YWluZXIgLT4gaW4yZGFDb250YWluZXIgIklzIGEgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgaW4yZGFDb250YWluZXIgLT4gZGEyYmFDb250YWluZXIgIkxvYWRzIGRhdGEgaW50byIKCiAgICAgICAgbWFDb250YWluZXIgLT4gZGFDb250YWluZXIgIkRlc2NyaWJlcyIKICAgICAgICBtYUNvbnRhaW5lciAtPiBiYUNvbnRhaW5lciAiRGVzY3JpYmVzIgogICAgICAgIG1hQ29udGFpbmVyIC0+IGlhQ29udGFpbmVyICJEZXNjcmliZXMiCiAgICAgICAgZW5yaWNobWVudEFwcGxpY2F0aW9uIC0+IGluZ2VzdGlvbkNvbnRhaW5lciAiSXMgYSBkYXRhc291cmNlIGZvciIKICAgICAgICBlcnBTeXN0ZW0gLT4gaW5nZXN0aW9uQ29udGFpbmVyICJFUlAgRGF0YSIKICAgICAgICBjcm1TeXN0ZW0gLT4gaW5nZXN0aW9uQ29udGFpbmVyICJDUk0gRGF0YSIKICAgICAgICBkYUNvbnRhaW5lciAtPiBkYTJiYUNvbnRhaW5lciAiSXMgaW5wdXQgZm9yIgogICAgICAgIGRhMmJhQ29udGFpbmVyIC0+ICAgYmFDb250YWluZXIgIlRyYW5zZm9ybXMgZGF0YSBmb3IiCiAgICAgICAgZGFDb250YWluZXIgLT4gZHFDb250YWluZXIgIklzIHZhbGlkYXRlZCBieSIKICAgICAgICBiYUNvbnRhaW5lciAtPiBkcUNvbnRhaW5lciAiSXMgdmFsaWRhdGVkIGJ5IgogICAgICAgIGRxQ29udGFpbmVyIC0+IG1hQ29udGFpbmVyICJTdG9yZSBEUSBkYXRhIGluICIKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBjb21wb25lbnRzCiAgICAgICAgYmlEYXRhU2V0IC0+IGJpUmVwb3J0ICJJcyBhIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIAogICAgICAgIAogICAgICAgICAgICAKICAgIH0Kdmlld3MgewogICAgc3lzdGVtbGFuZHNjYXBlICJkYXRhUGxhdGZvcm1MYW5kc2NhcGUiIHsKICAgICAgICBpbmNsdWRlICoKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9CgogICAgc3lzdGVtY29udGV4dCBkYXRhUGxhdGZvcm1TeXN0ZW0gIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICBpbmNsdWRlICogCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbnRhaW5lciBkYXRhUGxhdGZvcm1TeXN0ZW0gIkRhdGFQbGF0Zm9ybSIgewogICAgICAgIGluY2x1ZGUgKiAKCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQogICAgY29udGFpbmVyIEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gIlJlcG9ydGluZyIgewogICAgICAgIGluY2x1ZGUgKgoKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9CgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlN5c3RlbSBPdXRTY29wZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNmZmZmZmYKICAgICAgICAgICAgICAgIHN0cm9rZSAjNTc4QkNGCiAgICAgICAgICAgICAgICBjb2xvciAgIzU3OEJDRgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb21wb25lbnQgLSBTbm93Zmxha2UiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlICM1NzhCQ0YKICAgICAgICAgICAgICAgIGNvbG9yICAjNTc4QkNGCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAyNQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgCiAgICB0aGVtZXMgaHR0cHM6Ly9yZW5lbmFkb3JwLmdpdGh1Yi5pby9zdHJ1Y3R1cml6ci9yYS93d3cvdGhlbWVzL0luZXJneS90aGVtZS5qc29uIAoKfQoKfQoKCg=="
   },
@@ -193,6 +193,67 @@
       } ],
       "location" : "Internal",
       "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container,Database - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dacontainer"
+        },
+        "name" : "Data Area",
+        "description" : "Staging",
+        "relationships" : [ {
+          "id" : "56",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "13",
+          "description" : "Is input for"
+        }, {
+          "id" : "58",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "18",
+          "description" : "Is validated by"
+        } ],
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container,Component - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "in2dacontainer"
+        },
+        "name" : "Data Area Transformation",
+        "relationships" : [ {
+          "id" : "44",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "13",
+          "description" : "Loads data into"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,Database - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bacontainer"
+        },
+        "name" : "Business Area",
+        "description" : "Business Area",
+        "relationships" : [ {
+          "id" : "41",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "14",
+          "description" : "Is a datasource for"
+        }, {
+          "id" : "59",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "18",
+          "description" : "Is validated by"
+        } ],
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
         "id" : "13",
         "tags" : "Element,Container,Component - Snowflake",
         "properties" : {
@@ -206,6 +267,16 @@
           "destinationId" : "16",
           "description" : "Transforms data for"
         } ],
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,Database - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "iacontainer"
+        },
+        "name" : "Information Area",
+        "description" : "Information Area",
+        "technology" : "Snowflake",
         "documentation" : { }
       }, {
         "id" : "19",
@@ -236,86 +307,6 @@
         } ],
         "documentation" : { }
       }, {
-        "id" : "11",
-        "tags" : "Element,Container,Datalake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "ingestioncontainer"
-        },
-        "name" : "Ingestion Area",
-        "description" : "Ingest",
-        "relationships" : [ {
-          "id" : "43",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "15",
-          "description" : "Is a datasource for"
-        } ],
-        "technology" : "<Technology used>",
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container,Database - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bacontainer"
-        },
-        "name" : "Business Area",
-        "description" : "Business Area",
-        "relationships" : [ {
-          "id" : "41",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "14",
-          "description" : "Is a datasource for"
-        }, {
-          "id" : "59",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "18",
-          "description" : "Is validated by"
-        } ],
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "17",
-        "tags" : "Element,Container,Database - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "iacontainer"
-        },
-        "name" : "Information Area",
-        "description" : "Information Area",
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "15",
-        "tags" : "Element,Container,Component - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "in2dacontainer"
-        },
-        "name" : "Data Area Transformation",
-        "relationships" : [ {
-          "id" : "44",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "13",
-          "description" : "Loads data into"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "14",
-        "tags" : "Element,Container,Component - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "ba2iacontainer"
-        },
-        "name" : "Information Area Transformation",
-        "relationships" : [ {
-          "id" : "42",
-          "tags" : "Relationship",
-          "sourceId" : "14",
-          "destinationId" : "17",
-          "description" : "Transforms data for"
-        } ],
-        "documentation" : { }
-      }, {
         "id" : "18",
         "tags" : "Element,Container,Component - Snowflake",
         "properties" : {
@@ -333,27 +324,36 @@
         "technology" : "Snowflake",
         "documentation" : { }
       }, {
-        "id" : "12",
-        "tags" : "Element,Container,Database - Snowflake",
+        "id" : "14",
+        "tags" : "Element,Container,Component - Snowflake",
         "properties" : {
-          "structurizr.dsl.identifier" : "dacontainer"
+          "structurizr.dsl.identifier" : "ba2iacontainer"
         },
-        "name" : "Data Area",
-        "description" : "Staging",
+        "name" : "Information Area Transformation",
         "relationships" : [ {
-          "id" : "56",
+          "id" : "42",
           "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "13",
-          "description" : "Is input for"
-        }, {
-          "id" : "58",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "18",
-          "description" : "Is validated by"
+          "sourceId" : "14",
+          "destinationId" : "17",
+          "description" : "Transforms data for"
         } ],
-        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Datalake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ingestioncontainer"
+        },
+        "name" : "Ingestion Area",
+        "description" : "Ingest",
+        "relationships" : [ {
+          "id" : "43",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "15",
+          "description" : "Is a datasource for"
+        } ],
+        "technology" : "<Technology used>",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -437,6 +437,16 @@
       "description" : "Enterprise Reporting",
       "location" : "Internal",
       "containers" : [ {
+        "id" : "25",
+        "tags" : "Element,Container,Power BI Report",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bireport"
+        },
+        "name" : "BI Report",
+        "description" : "BI Report",
+        "technology" : "Power BI",
+        "documentation" : { }
+      }, {
         "id" : "24",
         "tags" : "Element,Container,Dataset - PowerBI",
         "properties" : {
@@ -451,16 +461,6 @@
           "destinationId" : "25",
           "description" : "Is a datasource for"
         } ],
-        "technology" : "Power BI",
-        "documentation" : { }
-      }, {
-        "id" : "25",
-        "tags" : "Element,Container,Power BI Report",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bireport"
-        },
-        "name" : "BI Report",
-        "description" : "BI Report",
         "technology" : "Power BI",
         "documentation" : { }
       } ],
@@ -682,11 +682,11 @@
       "relationships" : [ {
         "id" : "37"
       }, {
+        "id" : "51"
+      }, {
         "id" : "36"
       }, {
         "id" : "40"
-      }, {
-        "id" : "51"
       }, {
         "id" : "53"
       }, {
@@ -760,19 +760,19 @@
         "y" : 0
       } ],
       "relationships" : [ {
-        "id" : "50"
-      }, {
         "id" : "60"
       }, {
-        "id" : "52"
+        "id" : "50"
       }, {
         "id" : "41"
       }, {
+        "id" : "52"
+      }, {
         "id" : "42"
       }, {
-        "id" : "54"
-      }, {
         "id" : "43"
+      }, {
+        "id" : "54"
       }, {
         "id" : "44"
       }, {
