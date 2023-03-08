@@ -5,12 +5,12 @@ views {
     }
 
     systemcontext dataPlatformSystem "SystemContext" {
-        include DataPlatformSystem
-        autoLayout
+        include * 
+        autoLayout lr
     }
 
     container dataPlatformSystem "DataPlatform" {
-        include *
+        include * 
 
         autoLayout lr
     }

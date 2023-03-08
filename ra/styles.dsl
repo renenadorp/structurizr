@@ -42,9 +42,11 @@ styles {
                 color  #578BCF
                 shape Cylinder
             }
-            element "Component" {
-                background #85bbf0
-                color #000000
+            element "Component - Snowflake" {
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
+                shape Component
             }
             element "Failover" {
                 opacity 25
