@@ -15,9 +15,12 @@
 #*/
         enterprise "Data Platform Reference Architecture " {
 
-            erpSystem = softwaresystem "ERP System" "Stores all of the core information about customers, accounts, transactions, etc." "System OutScope"
-            crmSystem = softwaresystem "CRM System" "Allows customers to withdraw cash." "System OutScope"
-            MasterDataSystem = softwaresystem "Masterdata " "Masterdata " "System OutScope"
+            erpSystem           = softwaresystem "ERP System" "Enterprise Resource Planning" "System OutScope"
+            crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope"
+            wmsSystem           = softwaresystem "WMS" "Warehouse Management System" "System OutScope"
+            hrmSystem           = softwaresystem "HRM" "Human Resource Management System" "System OutScope"
+            iamSystem           = softwaresystem "IAM" "Identity & Access Management System" "System InScope"
+            MasterDataSystem    = softwaresystem "Masterdata " "Masterdata " "System OutScope"
 
 
             DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
@@ -30,17 +33,26 @@
                 iaContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
                 dqContainer             = container "Data Quality Engine" "Data Quality Engine" "Snowflake" "Component - Snowflake"
                 maContainer             = container "Metadata Area" "Metadata" "" "Database - Snowflake"
+                orchestrationContainer  = container "Orchestration Engine" "Orchestration" "" "Microsoft Azure - Data Factories"
             }
             
-            MetaDataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope"
+            MetaDataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
+                businessGlossaryContainer = container "Business Glossary" "Glossary" "" "Glossary - Purview"
+                dataCatalogContainer = container "Data Catalog" "Catalog" "" "Catalog - Purview"
+
+
+            }
             
             DataEnrichtmentSystem = softwaresystem "Data Enrichment System" "Data Enrichment" "System InScope" {
                 enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
 
             }
             EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" {
-                biDataSet = container "BI Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
-                biReport  = container "BI Report" "BI Report" "Power BI" "Power BI Report"
+                biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
+                biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
+                biDomainDataSet2        = container "BI Domain Dataset 2" "BI Dataset" "Power BI" "Dataset - PowerBI"
+                biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
+                biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
             }
             
             DataPlatformMonitoringSystem = softwaresystem "DataPlatform Monitoring System" "Monitoring" "System InScope" {
@@ -74,24 +86,37 @@
 
 
         # relationships between containers
-        baContainer -> ba2iaContainer "Is a datasource for"
-        ba2iaContainer -> iaContainer "Transforms data for"
-        ingestionContainer -> in2daContainer "Is a datasource for"
-        in2daContainer -> da2baContainer "Loads data into"
+        enrichmentApplication -> ingestionContainer "Is a datasource for"
+        erpSystem -> ingestionContainer "ERP Data"
+        crmSystem -> ingestionContainer "CRM Data"
+
+        ingestionContainer      -> in2daContainer "Is a datasource for"
+        in2daContainer          -> daContainer "Transforms data for"
+
+        daContainer             -> da2baContainer "Is input for"
+        da2baContainer          -> baContainer "Transforms data for"
+
+        baContainer             -> ba2iaContainer "Is a datasource for"
+        ba2iaContainer          -> iaContainer "Transforms data for"
+
+        orchestrationContainer  -> in2daContainer "Orchestrates"
+        orchestrationContainer  -> da2baContainer "Orchestrates"
+        orchestrationContainer  -> ba2iaContainer "Orchestrates"
+        
 
         maContainer -> daContainer "Describes"
         maContainer -> baContainer "Describes"
         maContainer -> iaContainer "Describes"
-        enrichmentApplication -> ingestionContainer "Is a datasource for"
-        erpSystem -> ingestionContainer "ERP Data"
-        crmSystem -> ingestionContainer "CRM Data"
-        daContainer -> da2baContainer "Is input for"
-        da2baContainer ->   baContainer "Transforms data for"
+
         daContainer -> dqContainer "Is validated by"
         baContainer -> dqContainer "Is validated by"
         dqContainer -> maContainer "Store DQ data in "
+
         # relationships between components
-        biDataSet -> biReport "Is a datasource for"
+        biEnterpriseDataSet -> biDomainDataSet1 "Is a dataset for"
+        biEnterpriseDataSet -> biDomainDataSet2 "Is a dataset for"
+        biDomainDataSet1 -> biReport1 "Is a datasource for"
+        biDomainDataSet2 -> biReport2 "Is a datasource for"
         
         
             

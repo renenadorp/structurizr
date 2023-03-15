@@ -1,7 +1,7 @@
 /*
 workspace "${ORGANISATION_NAME} - ${ARCHITECTURE_NAME}" {
 */
-workspace "Inergy Data Platform" "Inergy Data Platform Reference" {
+workspace "Inergy Data Platform Reference Architecture" "Inergy Data Platform Reference" {
     
     !docs wiki
     !adrs adrs

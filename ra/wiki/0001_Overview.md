@@ -11,3 +11,4 @@ The architecture is described using the C4 model to model the architecture:
 Next, any number of views (diagrams) can be created to communicate the architecture. 
 
 
+

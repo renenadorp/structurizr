@@ -16,8 +16,16 @@
     "tag" : "Component - Snowflake",
     "color" : "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-  }
 
+}
+,
+{
+  "tag" : "Orchestration - ADF",
+  "color" : "#ffffff",
+  "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+
+}
+  
 ]
 }
 

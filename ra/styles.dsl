@@ -36,6 +36,12 @@ styles {
             element "Database" {
                 shape Cylinder
             }
+            element "Microsoft Azure - Data Factories"{
+                shape Component
+                                stroke #578BCF
+                color  #578BCF
+                background #ffffff
+            }
             element "Database - Snowflake" {
                 background #ffffff
                 stroke #578BCF
