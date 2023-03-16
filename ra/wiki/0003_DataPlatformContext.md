@@ -1,4 +1,4 @@
-## Data Platform Context 
+## Data Platform Container Diagram 
 The diagram below reflects the system "Data Platform" in its context.
 
 ![](embed:DataPlatform)

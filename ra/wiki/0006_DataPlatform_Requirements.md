@@ -45,6 +45,9 @@ Prio|Naam|Omschrijving|
 ||Certificering van datasets||
 ||Audit trail||
 ||Disaster Recovery||
+||Herstartbaarheid||
+||Data Classificatie||
+
 
 
 

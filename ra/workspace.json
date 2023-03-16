@@ -2,15 +2,12 @@
   "id" : 1,
   "name" : "Inergy Data Platform Reference Architecture",
   "description" : "Inergy Data Platform Reference",
-  "lastModifiedDate" : "2023-03-15T12:48:59Z",
+  "lastModifiedDate" : "2023-03-16T17:28:58Z",
   "properties" : {
-    "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIgIkluZXJneSBEYXRhIFBsYXRmb3JtIFJlZmVyZW5jZSIgewogICAgCiAgICAhZG9jcyB3aWtpCiAgICAhYWRycyBhZHJzCiFjb25zdGFudCBPUkdBTklTQVRJT05fTkFNRSAiSW5lcmd5IgohY29uc3RhbnQgQVJDSElURUNUVVJFX05BTUUgIkRhdGFwbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlIgohY29uc3RhbnQgVEhFTUVfQVpVUkUgImh0dHBzOi8vbmFkb3JwLno2LndlYi5jb3JlLndpbmRvd3MubmV0L3N0cnVjdHVyaXpyL3RoZW1lcy90aGVtZV9zdGFuZGFyZC9BenVyZS90aGVtZS5qc29uIgohY29uc3RhbnQgVEhFTUVfU1RBTkRBUkQgImh0dHBzOi8vZ2lzdC5naXRodWJ1c2VyY29udGVudC5jb20vcmVuZW5hZG9ycC83OGU5NDA0MmJhMGMzYmJkZTViMzA2MGZmODM4ODgyYS9yYXcvYzIxYmM5NTdmODNhOGUyZWFhNzdlM2QwZTJiNjFjYzg3YjhmOTA4MC90aGVtZV9JbmVyZ3kiIAoKCgogICAgIG1vZGVsIHsKICAgICAgICAgICAgCgojLyoKICAgICAgICAgICAgZXJwU3RhZmYgICAgPSBwZXJzb24gIkVSUCBTdGFmZiIgIkVSUCIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICBjcm1TdGFmZiAgICA9IHBlcnNvbiAiQ1JNIFN0YWZmIiAiQ1JNIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCgoKICAgICAgICAgICAgZGF0YU93bmVyICAgPSBwZXJzb24gIkRhdGEgT3duZXIiICJDUk0gU3RhZmYiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgZGF0YUV4cGVydCAgPSBwZXJzb24gIkRhdGEgRXhwZXJ0IiAiQ1JNIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCiAgICAgICAgICAgIGRhdGFTdGV3YXJkID0gcGVyc29uICJEYXRhIFN0ZXdhcmQiICJEYXRhIFN0ZXdhcmQiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgcmVwb3J0VXNlciAgPSBwZXJzb24gIlJlcG9ydGluZyBTdGFmZiIgIlJlcG9ydGluZyBTdGFmZiIgIkludGVybmFsIFN0YWZmIgoKIyovCiAgICAgICAgZW50ZXJwcmlzZSAiRGF0YSBQbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlICIgewoKICAgICAgICAgICAgZXJwU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJFUlAgU3lzdGVtIiAiRW50ZXJwcmlzZSBSZXNvdXJjZSBQbGFubmluZyIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgY3JtU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJDUk0gU3lzdGVtIiAiQ3VzdG9tZXIgUmVsYXRpb25zaGlwIE1hbmFnZW1lbnQgU3lzdGVtIiAiU3lzdGVtIE91dFNjb3BlIgogICAgICAgICAgICB3bXNTeXN0ZW0gICAgICAgICAgID0gc29mdHdhcmVzeXN0ZW0gIldNUyIgIldhcmVob3VzZSBNYW5hZ2VtZW50IFN5c3RlbSIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgaHJtU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJIUk0iICJIdW1hbiBSZXNvdXJjZSBNYW5hZ2VtZW50IFN5c3RlbSIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgaWFtU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJJQU0iICJJZGVudGl0eSAmIEFjY2VzcyBNYW5hZ2VtZW50IFN5c3RlbSIgIlN5c3RlbSBJblNjb3BlIgogICAgICAgICAgICBNYXN0ZXJEYXRhU3lzdGVtICAgID0gc29mdHdhcmVzeXN0ZW0gIk1hc3RlcmRhdGEgIiAiTWFzdGVyZGF0YSAiICJTeXN0ZW0gT3V0U2NvcGUiCgoKICAgICAgICAgICAgRGF0YVBsYXRmb3JtU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkVudGVycHJpc2UgRGF0YSBQbGF0Zm9ybSIgIkRhdGEgcGxhdGZvcm0uIiAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGluZ2VzdGlvbkNvbnRhaW5lciAgICAgID0gY29udGFpbmVyICJJbmdlc3Rpb24gQXJlYSIgIkluZ2VzdCIgIjxUZWNobm9sb2d5IHVzZWQ+IiAiRGF0YWxha2UiCiAgICAgICAgICAgICAgICBkYUNvbnRhaW5lciAgICAgICAgICAgICA9IGNvbnRhaW5lciAiRGF0YSBBcmVhIiAiU3RhZ2luZyIgIlNub3dmbGFrZSIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgZGEyYmFDb250YWluZXIgICAgICAgICAgPSBjb250YWluZXIgIkJ1c2luZXNzIEFyZWEgVHJhbnNmb3JtYXRpb24iICIiICIiICJDb21wb25lbnQgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBiYTJpYUNvbnRhaW5lciAgICAgICAgICA9IGNvbnRhaW5lciAiSW5mb3JtYXRpb24gQXJlYSBUcmFuc2Zvcm1hdGlvbiIgIiIgIiIgIkNvbXBvbmVudCAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIGluMmRhQ29udGFpbmVyICAgICAgICAgID0gY29udGFpbmVyICJEYXRhIEFyZWEgVHJhbnNmb3JtYXRpb24iICIiICIiICJDb21wb25lbnQgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBiYUNvbnRhaW5lciAgICAgICAgICAgICA9IGNvbnRhaW5lciAiQnVzaW5lc3MgQXJlYSIgIkJ1c2luZXNzIEFyZWEiICJTbm93Zmxha2UiICJEYXRhYmFzZSAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIGlhQ29udGFpbmVyICAgICAgICAgICAgID0gY29udGFpbmVyICJJbmZvcm1hdGlvbiBBcmVhIiAiSW5mb3JtYXRpb24gQXJlYSIgIlNub3dmbGFrZSIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgZHFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkRhdGEgUXVhbGl0eSBFbmdpbmUiICJEYXRhIFF1YWxpdHkgRW5naW5lIiAiU25vd2ZsYWtlIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgbWFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIk1ldGFkYXRhIEFyZWEiICJNZXRhZGF0YSIgIiIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgb3JjaGVzdHJhdGlvbkNvbnRhaW5lciAgPSBjb250YWluZXIgIk9yY2hlc3RyYXRpb24gRW5naW5lIiAiT3JjaGVzdHJhdGlvbiIgIiIgIk9yY2hlc3RyYXRpb24gLSBBREYiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIE1ldGFEYXRhU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIk1ldGFkYXRhIFN5c3RlbSIgIk1ldGFkYXRhIFN5c3RlbSIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICBidXNpbmVzc0dsb3NzYXJ5Q29udGFpbmVyID0gY29udGFpbmVyICJCdXNpbmVzcyBHbG9zc2FyeSIgIkdsb3NzYXJ5IiAiIiAiR2xvc3NhcnkgLSBQdXJ2aWV3IgogICAgICAgICAgICAgICAgZGF0YUNhdGFsb2dDb250YWluZXIgPSBjb250YWluZXIgIkRhdGEgQ2F0YWxvZyIgIkNhdGFsb2ciICIiICJDYXRhbG9nIC0gUHVydmlldyIKCgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBEYXRhRW5yaWNodG1lbnRTeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRGF0YSBFbnJpY2htZW50IFN5c3RlbSIgIkRhdGEgRW5yaWNobWVudCIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICBlbnJpY2htZW50QXBwbGljYXRpb24gICA9IGNvbnRhaW5lciAiRGF0YSBFbnJpY2htZW50IFdlYiBBcHBsaWNhdGlvbiIgIkRhdGFiYXNlIiAiQXBwIgoKICAgICAgICAgICAgfQogICAgICAgICAgICBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkVudGVycHJpc2UgUmVwb3J0aW5nIiAiRW50ZXJwcmlzZSBSZXBvcnRpbmciICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgYmlFbnRlcnByaXNlRGF0YVNldCAgICAgPSBjb250YWluZXIgIkJJIEVudGVycHJpc2UgRGF0YXNldCIgIkJJIERhdGFzZXQiICJQb3dlciBCSSIgIkRhdGFzZXQgLSBQb3dlckJJIgogICAgICAgICAgICAgICAgYmlEb21haW5EYXRhU2V0MSAgICAgICAgPSBjb250YWluZXIgIkJJIERvbWFpbiBEYXRhc2V0IDEiICJCSSBEYXRhc2V0IiAiUG93ZXIgQkkiICJEYXRhc2V0IC0gUG93ZXJCSSIKICAgICAgICAgICAgICAgIGJpRG9tYWluRGF0YVNldDIgICAgICAgID0gY29udGFpbmVyICJCSSBEb21haW4gRGF0YXNldCAyIiAiQkkgRGF0YXNldCIgIlBvd2VyIEJJIiAiRGF0YXNldCAtIFBvd2VyQkkiCiAgICAgICAgICAgICAgICBiaVJlcG9ydDEgICAgICAgICAgICAgICA9IGNvbnRhaW5lciAiQkkgUmVwb3J0IDEiICJCSSBSZXBvcnQiICJQb3dlciBCSSIgIlBvd2VyIEJJIFJlcG9ydCIKICAgICAgICAgICAgICAgIGJpUmVwb3J0MiAgICAgICAgICAgICAgID0gY29udGFpbmVyICJCSSBSZXBvcnQgMiIgIkJJIFJlcG9ydCIgIlBvd2VyIEJJIiAiUG93ZXIgQkkgUmVwb3J0IgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBEYXRhUGxhdGZvcm1Nb25pdG9yaW5nU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkRhdGFQbGF0Zm9ybSBNb25pdG9yaW5nIFN5c3RlbSIgIk1vbml0b3JpbmciICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgZHBNb25pdG9yaW5nID0gY29udGFpbmVyICJEYXRhIFBsYXRmb3JtIE1vbml0b3JpbmcgU2VydmljZSIgIkJJIERhdGFzZXQiICJQb3dlciBCSSIgIk1vbml0b3JpbmcgLSAiCiAgICAgICAgICAgICAgICBkcEFsZXJ0aW5nICAgPSBjb250YWluZXIgIkRhdGEgUGxhdGZvcm0gQWxlcnRpbmcgU2VydmljZSIgIkJJIFJlcG9ydCIgIlBvd2VyIEJJIiAiQWxlcnRpbmcgLSBPcHNHZW5pZSIKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIHBlb3BsZSBhbmQgc29mdHdhcmUgc3lzdGVtcwogICAgICAgCiAgICAgICAgZXJwU3RhZmYgICAgLT4gZXJwU3lzdGVtICJVc2VzIgogICAgICAgIGNybVN0YWZmICAgIC0+IGNybVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhU3Rld2FyZCAtPiBNZXRhRGF0YVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhU3Rld2FyZCAtPiBNYXN0ZXJEYXRhU3lzdGVtICJVc2VzIgogICAgICAgIGRhdGFFeHBlcnQgIC0+IE1ldGFkYXRhU3lzdGVtICJEYXRhIEV4cGVydCIKICAgICAgICBkYXRhT3duZXIgICAtPiBNZXRhZGF0YVN5c3RlbSAiRGF0YSBPd25lciIKICAgICAgICByZXBvcnRVc2VyICAtPiBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtCiAgIAoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBzb2Z0d2FyZSBzeXN0ZW1zIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgI2VycFN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkVSUCBEYXRhIgogICAgICAgICNjcm1TeXN0ZW0gLT4gZGF0YVBsYXRmb3JtU3lzdGVtICJDUk0gRGF0YSIKCiAgICAgICAgI0RhdGFFbnJpY2h0bWVudFN5c3RlbSAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gIkVucmljaG1lbnQgRGF0YSIKICAgICAgICBNYXN0ZXJEYXRhU3lzdGVtICAgICAgICAgICAgIC0+IGRhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgIk1hc3RlciBEYXRhIgogICAgICAgIERhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgLT4gRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbSAgICAiSXMgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgRGF0YVBsYXRmb3JtTW9uaXRvcmluZ1N5c3RlbSAtPiBEYXRhUGxhdGZvcm1TeXN0ZW0gICAgICAgICAgICJNb25pdG9ycyIKICAgICAgICBNZXRhRGF0YVN5c3RlbSAgICAgICAgICAgICAgIC0+IERhdGFQbGF0Zm9ybVN5c3RlbSAgICAgICAgICAgIkRlc2NyaWJlcyIKICAgICAgICBNZXRhRGF0YVN5c3RlbSAgICAgICAgICAgICAgIC0+IEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gICAgIkRlc2NyaWJlcyIKCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIGNvbnRhaW5lcnMKICAgICAgICBlbnJpY2htZW50QXBwbGljYXRpb24gLT4gaW5nZXN0aW9uQ29udGFpbmVyICJJcyBhIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIGVycFN5c3RlbSAtPiBpbmdlc3Rpb25Db250YWluZXIgIkVSUCBEYXRhIgogICAgICAgIGNybVN5c3RlbSAtPiBpbmdlc3Rpb25Db250YWluZXIgIkNSTSBEYXRhIgoKICAgICAgICBpbmdlc3Rpb25Db250YWluZXIgICAgICAtPiBpbjJkYUNvbnRhaW5lciAiSXMgYSBkYXRhc291cmNlIGZvciIKICAgICAgICBpbjJkYUNvbnRhaW5lciAgICAgICAgICAtPiBkYUNvbnRhaW5lciAiVHJhbnNmb3JtcyBkYXRhIGZvciIKCiAgICAgICAgZGFDb250YWluZXIgICAgICAgICAgICAgLT4gZGEyYmFDb250YWluZXIgIklzIGlucHV0IGZvciIKICAgICAgICBkYTJiYUNvbnRhaW5lciAgICAgICAgICAtPiBiYUNvbnRhaW5lciAiVHJhbnNmb3JtcyBkYXRhIGZvciIKCiAgICAgICAgYmFDb250YWluZXIgICAgICAgICAgICAgLT4gYmEyaWFDb250YWluZXIgIklzIGEgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgYmEyaWFDb250YWluZXIgICAgICAgICAgLT4gaWFDb250YWluZXIgIlRyYW5zZm9ybXMgZGF0YSBmb3IiCgogICAgICAgIG9yY2hlc3RyYXRpb25Db250YWluZXIgIC0+IGluMmRhQ29udGFpbmVyICJPcmNoZXN0cmF0ZXMiCiAgICAgICAgb3JjaGVzdHJhdGlvbkNvbnRhaW5lciAgLT4gZGEyYmFDb250YWluZXIgIk9yY2hlc3RyYXRlcyIKICAgICAgICBvcmNoZXN0cmF0aW9uQ29udGFpbmVyICAtPiBiYTJpYUNvbnRhaW5lciAiT3JjaGVzdHJhdGVzIgogICAgICAgIAoKICAgICAgICBtYUNvbnRhaW5lciAtPiBkYUNvbnRhaW5lciAiRGVzY3JpYmVzIgogICAgICAgIG1hQ29udGFpbmVyIC0+IGJhQ29udGFpbmVyICJEZXNjcmliZXMiCiAgICAgICAgbWFDb250YWluZXIgLT4gaWFDb250YWluZXIgIkRlc2NyaWJlcyIKCiAgICAgICAgZGFDb250YWluZXIgLT4gZHFDb250YWluZXIgIklzIHZhbGlkYXRlZCBieSIKICAgICAgICBiYUNvbnRhaW5lciAtPiBkcUNvbnRhaW5lciAiSXMgdmFsaWRhdGVkIGJ5IgogICAgICAgIGRxQ29udGFpbmVyIC0+IG1hQ29udGFpbmVyICJTdG9yZSBEUSBkYXRhIGluICIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gY29tcG9uZW50cwogICAgICAgIGJpRW50ZXJwcmlzZURhdGFTZXQgLT4gYmlEb21haW5EYXRhU2V0MSAiSXMgYSBkYXRhc2V0IGZvciIKICAgICAgICBiaUVudGVycHJpc2VEYXRhU2V0IC0+IGJpRG9tYWluRGF0YVNldDIgIklzIGEgZGF0YXNldCBmb3IiCiAgICAgICAgYmlEb21haW5EYXRhU2V0MSAtPiBiaVJlcG9ydDEgIklzIGEgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgYmlEb21haW5EYXRhU2V0MiAtPiBiaVJlcG9ydDIgIklzIGEgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgCiAgICAgICAgCiAgICAgICAgICAgIAogICAgfQp2aWV3cyB7CiAgICBzeXN0ZW1sYW5kc2NhcGUgImRhdGFQbGF0Zm9ybUxhbmRzY2FwZSIgewogICAgICAgIGluY2x1ZGUgKgogICAgICAgIGF1dG9MYXlvdXQgbHIKICAgIH0KCiAgICBzeXN0ZW1jb250ZXh0IGRhdGFQbGF0Zm9ybVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgIGluY2x1ZGUgKiAKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9CgogICAgY29udGFpbmVyIGRhdGFQbGF0Zm9ybVN5c3RlbSAiRGF0YVBsYXRmb3JtIiB7CiAgICAgICAgaW5jbHVkZSAqIAoKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9CiAgICBjb250YWluZXIgRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbSAiUmVwb3J0aW5nIiB7CiAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIGF1dG9MYXlvdXQgbHIKICAgIH0KCnN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkludGVybmFsIFN0YWZmIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMzMzViNDMKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhbGFrZSIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgoKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBGb2xkZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDdXN0b21lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIE91dFNjb3BlIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiT3JjaGVzdHJhdGlvbiAtIEFERiJ7CiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UgIzU3OEJDRgogICAgICAgICAgICAgICAgY29sb3IgICM1NzhCQ0YKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNmZmZmZmYKICAgICAgICAgICAgICAgIHN0cm9rZSAjNTc4QkNGCiAgICAgICAgICAgICAgICBjb2xvciAgIzU3OEJDRgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb21wb25lbnQgLSBTbm93Zmxha2UiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlICM1NzhCQ0YKICAgICAgICAgICAgICAgIGNvbG9yICAjNTc4QkNGCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAyNQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgCiAgICB0aGVtZXMgaHR0cHM6Ly9yZW5lbmFkb3JwLmdpdGh1Yi5pby9zdHJ1Y3R1cml6ci9yYS93d3cvdGhlbWVzL0luZXJneS90aGVtZS5qc29uIAoKfQoKfQoKCg=="
+    "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIgIkluZXJneSBEYXRhIFBsYXRmb3JtIFJlZmVyZW5jZSIgewogICAgCiAgICAhZG9jcyB3aWtpCiAgICAhYWRycyBhZHJzCiFjb25zdGFudCBPUkdBTklTQVRJT05fTkFNRSAiSW5lcmd5IgohY29uc3RhbnQgQVJDSElURUNUVVJFX05BTUUgIkRhdGFwbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlIgohY29uc3RhbnQgVEhFTUVfQVpVUkUgImh0dHBzOi8vbmFkb3JwLno2LndlYi5jb3JlLndpbmRvd3MubmV0L3N0cnVjdHVyaXpyL3RoZW1lcy90aGVtZV9zdGFuZGFyZC9BenVyZS90aGVtZS5qc29uIgohY29uc3RhbnQgVEhFTUVfU1RBTkRBUkQgImh0dHBzOi8vZ2lzdC5naXRodWJ1c2VyY29udGVudC5jb20vcmVuZW5hZG9ycC83OGU5NDA0MmJhMGMzYmJkZTViMzA2MGZmODM4ODgyYS9yYXcvYzIxYmM5NTdmODNhOGUyZWFhNzdlM2QwZTJiNjFjYzg3YjhmOTA4MC90aGVtZV9JbmVyZ3kiIAoKCgogICAgIG1vZGVsIHsKICAgICAgICAgICAgCgojLyoKICAgICAgICAgICAgZXJwU3RhZmYgICAgPSBwZXJzb24gIkVSUCBTdGFmZiIgIkVSUCIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICBjcm1TdGFmZiAgICA9IHBlcnNvbiAiQ1JNIFN0YWZmIiAiQ1JNIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCgoKICAgICAgICAgICAgZGF0YU93bmVyICAgPSBwZXJzb24gIkRhdGEgT3duZXIiICJDUk0gU3RhZmYiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgZGF0YUV4cGVydCAgPSBwZXJzb24gIkRhdGEgRXhwZXJ0IiAiQ1JNIFN0YWZmIiAiSW50ZXJuYWwgU3RhZmYiCiAgICAgICAgICAgIGRhdGFTdGV3YXJkID0gcGVyc29uICJEYXRhIFN0ZXdhcmQiICJEYXRhIFN0ZXdhcmQiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgcmVwb3J0VXNlciAgPSBwZXJzb24gIlJlcG9ydGluZyBTdGFmZiIgIlJlcG9ydGluZyBTdGFmZiIgIkludGVybmFsIFN0YWZmIgoKIyovCiAgICAgICAgZ3JvdXAgIkRhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSAiIHsKCiAgICAgICAgICAgIGVycFN5c3RlbSAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiRVJQIFN5c3RlbSIgIkVudGVycHJpc2UgUmVzb3VyY2UgUGxhbm5pbmciICJTeXN0ZW0gT3V0U2NvcGUiCiAgICAgICAgICAgIGNybVN5c3RlbSAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiQ1JNIFN5c3RlbSIgIkN1c3RvbWVyIFJlbGF0aW9uc2hpcCBNYW5hZ2VtZW50IFN5c3RlbSIgIlN5c3RlbSBPdXRTY29wZSIKICAgICAgICAgICAgd21zU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJXTVMiICJXYXJlaG91c2UgTWFuYWdlbWVudCBTeXN0ZW0iICJTeXN0ZW0gT3V0U2NvcGUiCiAgICAgICAgICAgIGhybVN5c3RlbSAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiSFJNIiAiSHVtYW4gUmVzb3VyY2UgTWFuYWdlbWVudCBTeXN0ZW0iICJTeXN0ZW0gT3V0U2NvcGUiCiAgICAgICAgICAgIGlhbVN5c3RlbSAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiSUFNIiAiSWRlbnRpdHkgJiBBY2Nlc3MgTWFuYWdlbWVudCBTeXN0ZW0iICJTeXN0ZW0gSW5TY29wZSIKICAgICAgICAgICAgTWFzdGVyRGF0YVN5c3RlbSAgICA9IHNvZnR3YXJlc3lzdGVtICJNYXN0ZXJkYXRhICIgIk1hc3RlcmRhdGEgIiAiU3lzdGVtIE91dFNjb3BlIgoKCiAgICAgICAgICAgIERhdGFQbGF0Zm9ybVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJFbnRlcnByaXNlIERhdGEgUGxhdGZvcm0iICJEYXRhIHBsYXRmb3JtLiIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICBpbmdlc3Rpb25Db250YWluZXIgICAgICA9IGNvbnRhaW5lciAiSW5nZXN0aW9uIEFyZWEiICJJbmdlc3QiICI8VGVjaG5vbG9neSB1c2VkPiIgIkRhdGFsYWtlIgogICAgICAgICAgICAgICAgZGFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkRhdGEgQXJlYSIgIlN0YWdpbmciICJTbm93Zmxha2UiICJEYXRhYmFzZSAtIFNub3dmbGFrZSIKICAgICAgICAgICAgICAgIGRhMmJhQ29udGFpbmVyICAgICAgICAgID0gY29udGFpbmVyICJCdXNpbmVzcyBBcmVhIFRyYW5zZm9ybWF0aW9uIiAiIiAiIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgYmEyaWFDb250YWluZXIgICAgICAgICAgPSBjb250YWluZXIgIkluZm9ybWF0aW9uIEFyZWEgVHJhbnNmb3JtYXRpb24iICIiICIiICJDb21wb25lbnQgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICBpbjJkYUNvbnRhaW5lciAgICAgICAgICA9IGNvbnRhaW5lciAiRGF0YSBBcmVhIFRyYW5zZm9ybWF0aW9uIiAiIiAiIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgYmFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkJ1c2luZXNzIEFyZWEiICJCdXNpbmVzcyBBcmVhIiAiLi4iICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgIGJhU2NoZW1hQ29tcG9uZW50ICAgICAgICAgICA9IGNvbXBvbmVudCAiQnVzaW5lc3MgQXJlYSBTY2hlbWEiICJCdXNpbmVzcyBBcmVhIiAiRGF0YWJhc2UgU2NoZW1hIiAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlNub3dmbGFrZSIKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UgU2NoZW1hIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgICAgIH0gCiAgICAgICAgICAgICAgICAgICAgYmFFbnRpdHlTY3JpcHRDb21wb25lbnQgICAgID0gY29tcG9uZW50ICJCdXNpbmVzcyBBcmVhIEVudGl0eSBTY3JpcHQiICJCdXNpbmVzcyBBcmVhIiAiU1FMIiAiRGF0YWJhc2UgU1FMIFNjcmlwdCIgewogICAgICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTbm93Zmxha2UiCiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkRhdGFiYXNlIFNRTCBTY3JpcHQgLSBTbm93Zmxha2UiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlhQ29udGFpbmVyICAgICAgICAgICAgID0gY29udGFpbmVyICJJbmZvcm1hdGlvbiBBcmVhIiAiSW5mb3JtYXRpb24gQXJlYSIgIlNub3dmbGFrZSIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgZHFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIkRhdGEgUXVhbGl0eSBFbmdpbmUiICJEYXRhIFF1YWxpdHkgRW5naW5lIiAiU25vd2ZsYWtlIiAiQ29tcG9uZW50IC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgbWFDb250YWluZXIgICAgICAgICAgICAgPSBjb250YWluZXIgIk1ldGFkYXRhIEFyZWEiICJNZXRhZGF0YSIgIiIgIkRhdGFiYXNlIC0gU25vd2ZsYWtlIgogICAgICAgICAgICAgICAgb3JjaGVzdHJhdGlvbkNvbnRhaW5lciAgPSBjb250YWluZXIgIk9yY2hlc3RyYXRpb24gRW5naW5lIiAiT3JjaGVzdHJhdGlvbiIgIiIgIk1pY3Jvc29mdCBBenVyZSAtIERhdGEgRmFjdG9yaWVzIgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBNZXRhRGF0YVN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJNZXRhZGF0YSBTeXN0ZW0iICJNZXRhZGF0YSBTeXN0ZW0iICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgYnVzaW5lc3NHbG9zc2FyeUNvbnRhaW5lciA9IGNvbnRhaW5lciAiQnVzaW5lc3MgR2xvc3NhcnkiICJHbG9zc2FyeSIgIiIgIkdsb3NzYXJ5IC0gUHVydmlldyIKICAgICAgICAgICAgICAgIGRhdGFDYXRhbG9nQ29udGFpbmVyID0gY29udGFpbmVyICJEYXRhIENhdGFsb2ciICJDYXRhbG9nIiAiIiAiQ2F0YWxvZyAtIFB1cnZpZXciCgoKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgRGF0YUVucmljaHRtZW50U3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkRhdGEgRW5yaWNobWVudCBTeXN0ZW0iICJEYXRhIEVucmljaG1lbnQiICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgZW5yaWNobWVudEFwcGxpY2F0aW9uICAgPSBjb250YWluZXIgIkRhdGEgRW5yaWNobWVudCBXZWIgQXBwbGljYXRpb24iICJEYXRhYmFzZSIgIkFwcCIKCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJFbnRlcnByaXNlIFJlcG9ydGluZyIgIkVudGVycHJpc2UgUmVwb3J0aW5nIiAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGJpRW50ZXJwcmlzZURhdGFTZXQgICAgID0gY29udGFpbmVyICJCSSBFbnRlcnByaXNlIERhdGFzZXQiICJCSSBEYXRhc2V0IiAiUG93ZXIgQkkiICJEYXRhc2V0IC0gUG93ZXJCSSIKICAgICAgICAgICAgICAgIGJpRG9tYWluRGF0YVNldDEgICAgICAgID0gY29udGFpbmVyICJCSSBEb21haW4gRGF0YXNldCAxIiAiQkkgRGF0YXNldCIgIlBvd2VyIEJJIiAiRGF0YXNldCAtIFBvd2VyQkkiCiAgICAgICAgICAgICAgICBiaURvbWFpbkRhdGFTZXQyICAgICAgICA9IGNvbnRhaW5lciAiQkkgRG9tYWluIERhdGFzZXQgMiIgIkJJIERhdGFzZXQiICJQb3dlciBCSSIgIkRhdGFzZXQgLSBQb3dlckJJIgogICAgICAgICAgICAgICAgYmlSZXBvcnQxICAgICAgICAgICAgICAgPSBjb250YWluZXIgIkJJIFJlcG9ydCAxIiAiQkkgUmVwb3J0IiAiUG93ZXIgQkkiICJQb3dlciBCSSBSZXBvcnQiCiAgICAgICAgICAgICAgICBiaVJlcG9ydDIgICAgICAgICAgICAgICA9IGNvbnRhaW5lciAiQkkgUmVwb3J0IDIiICJCSSBSZXBvcnQiICJQb3dlciBCSSIgIlBvd2VyIEJJIFJlcG9ydCIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgRGF0YVBsYXRmb3JtTW9uaXRvcmluZ1N5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJEYXRhUGxhdGZvcm0gTW9uaXRvcmluZyBTeXN0ZW0iICJNb25pdG9yaW5nIiAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGRwTW9uaXRvcmluZyA9IGNvbnRhaW5lciAiRGF0YSBQbGF0Zm9ybSBNb25pdG9yaW5nIFNlcnZpY2UiICJCSSBEYXRhc2V0IiAiUG93ZXIgQkkiICJNb25pdG9yaW5nIC0gIgogICAgICAgICAgICAgICAgZHBBbGVydGluZyAgID0gY29udGFpbmVyICJEYXRhIFBsYXRmb3JtIEFsZXJ0aW5nIFNlcnZpY2UiICJCSSBSZXBvcnQiICJQb3dlciBCSSIgIkFsZXJ0aW5nIC0gT3BzR2VuaWUiCiAgICAgICAgICAgIH0KCiAgICAgICAgfQoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMKICAgICAgIAogICAgICAgIGVycFN0YWZmICAgIC0+IGVycFN5c3RlbSAiVXNlcyIKICAgICAgICBjcm1TdGFmZiAgICAtPiBjcm1TeXN0ZW0gIlVzZXMiCiAgICAgICAgZGF0YVN0ZXdhcmQgLT4gTWV0YURhdGFTeXN0ZW0gIlVzZXMiCiAgICAgICAgZGF0YVN0ZXdhcmQgLT4gTWFzdGVyRGF0YVN5c3RlbSAiVXNlcyIKICAgICAgICBkYXRhRXhwZXJ0ICAtPiBNZXRhZGF0YVN5c3RlbSAiRGF0YSBFeHBlcnQiCiAgICAgICAgZGF0YU93bmVyICAgLT4gTWV0YWRhdGFTeXN0ZW0gIkRhdGEgT3duZXIiCiAgICAgICAgcmVwb3J0VXNlciAgLT4gRW50ZXJwcmlzZVJlcG9ydGluZ1N5c3RlbQogICAKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gc29mdHdhcmUgc3lzdGVtcyBhbmQgc29mdHdhcmUgc3lzdGVtcwogICAgICAgICNlcnBTeXN0ZW0gLT4gZGF0YVBsYXRmb3JtU3lzdGVtICJFUlAgRGF0YSIKICAgICAgICAjY3JtU3lzdGVtIC0+IGRhdGFQbGF0Zm9ybVN5c3RlbSAiQ1JNIERhdGEiCgogICAgICAgICNEYXRhRW5yaWNodG1lbnRTeXN0ZW0gLT4gZGF0YVBsYXRmb3JtU3lzdGVtICJFbnJpY2htZW50IERhdGEiCiAgICAgICAgTWFzdGVyRGF0YVN5c3RlbSAgICAgICAgICAgICAtPiBkYXRhUGxhdGZvcm1TeXN0ZW0gICAgICAgICAgICJNYXN0ZXIgRGF0YSIKICAgICAgICBEYXRhUGxhdGZvcm1TeXN0ZW0gICAgICAgICAgIC0+IEVudGVycHJpc2VSZXBvcnRpbmdTeXN0ZW0gICAgIklzIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIERhdGFQbGF0Zm9ybU1vbml0b3JpbmdTeXN0ZW0gLT4gRGF0YVBsYXRmb3JtU3lzdGVtICAgICAgICAgICAiTW9uaXRvcnMiCiAgICAgICAgTWV0YURhdGFTeXN0ZW0gICAgICAgICAgICAgICAtPiBEYXRhUGxhdGZvcm1TeXN0ZW0gICAgICAgICAgICJEZXNjcmliZXMiCiAgICAgICAgTWV0YURhdGFTeXN0ZW0gICAgICAgICAgICAgICAtPiBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtICAgICJEZXNjcmliZXMiCgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBjb250YWluZXJzCiAgICAgICAgZW5yaWNobWVudEFwcGxpY2F0aW9uIC0+IGluZ2VzdGlvbkNvbnRhaW5lciAiSXMgYSBkYXRhc291cmNlIGZvciIKICAgICAgICBlcnBTeXN0ZW0gLT4gaW5nZXN0aW9uQ29udGFpbmVyICJFUlAgRGF0YSIKICAgICAgICBjcm1TeXN0ZW0gLT4gaW5nZXN0aW9uQ29udGFpbmVyICJDUk0gRGF0YSIKCiAgICAgICAgaW5nZXN0aW9uQ29udGFpbmVyICAgICAgLT4gaW4yZGFDb250YWluZXIgIklzIGEgZGF0YXNvdXJjZSBmb3IiCiAgICAgICAgaW4yZGFDb250YWluZXIgICAgICAgICAgLT4gZGFDb250YWluZXIgIlRyYW5zZm9ybXMgZGF0YSBmb3IiCgogICAgICAgIGRhQ29udGFpbmVyICAgICAgICAgICAgIC0+IGRhMmJhQ29udGFpbmVyICJJcyBpbnB1dCBmb3IiCiAgICAgICAgZGEyYmFDb250YWluZXIgICAgICAgICAgLT4gYmFDb250YWluZXIgIlRyYW5zZm9ybXMgZGF0YSBmb3IiCgogICAgICAgIGJhQ29udGFpbmVyICAgICAgICAgICAgIC0+IGJhMmlhQ29udGFpbmVyICJJcyBhIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIGJhMmlhQ29udGFpbmVyICAgICAgICAgIC0+IGlhQ29udGFpbmVyICJUcmFuc2Zvcm1zIGRhdGEgZm9yIgoKICAgICAgICBvcmNoZXN0cmF0aW9uQ29udGFpbmVyICAtPiBpbjJkYUNvbnRhaW5lciAiT3JjaGVzdHJhdGVzIgogICAgICAgIG9yY2hlc3RyYXRpb25Db250YWluZXIgIC0+IGRhMmJhQ29udGFpbmVyICJPcmNoZXN0cmF0ZXMiCiAgICAgICAgb3JjaGVzdHJhdGlvbkNvbnRhaW5lciAgLT4gYmEyaWFDb250YWluZXIgIk9yY2hlc3RyYXRlcyIKICAgICAgICAKCiAgICAgICAgbWFDb250YWluZXIgLT4gZGFDb250YWluZXIgIkRlc2NyaWJlcyIKICAgICAgICBtYUNvbnRhaW5lciAtPiBiYUNvbnRhaW5lciAiRGVzY3JpYmVzIgogICAgICAgIG1hQ29udGFpbmVyIC0+IGlhQ29udGFpbmVyICJEZXNjcmliZXMiCgogICAgICAgIGRhQ29udGFpbmVyIC0+IGRxQ29udGFpbmVyICJJcyB2YWxpZGF0ZWQgYnkiCiAgICAgICAgYmFDb250YWluZXIgLT4gZHFDb250YWluZXIgIklzIHZhbGlkYXRlZCBieSIKICAgICAgICBkcUNvbnRhaW5lciAtPiBtYUNvbnRhaW5lciAiU3RvcmUgRFEgZGF0YSBpbiAiCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIGNvbXBvbmVudHMKICAgICAgICBiaUVudGVycHJpc2VEYXRhU2V0IC0+IGJpRG9tYWluRGF0YVNldDEgIkxpbmtzIHNlbGVjdGVkIGRhdGFzZXRzIHRvIgogICAgICAgIGJpRW50ZXJwcmlzZURhdGFTZXQgLT4gYmlEb21haW5EYXRhU2V0MiAiTGlua3Mgc2VsZWN0ZWQgZGF0YXNldHMgdG8iCgogICAgICAgIGJpRG9tYWluRGF0YVNldDEgLT4gYmlSZXBvcnQxICJJcyBhIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIGJpRG9tYWluRGF0YVNldDIgLT4gYmlSZXBvcnQyICJJcyBhIGRhdGFzb3VyY2UgZm9yIgogICAgICAgIAogICAgICAgIAogICAgICAgICAgICAKICAgIH0Kdmlld3MgewogICAgc3lzdGVtbGFuZHNjYXBlICJkYXRhUGxhdGZvcm1MYW5kc2NhcGUiIHsKICAgICAgICBpbmNsdWRlICoKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9CgogICAgc3lzdGVtY29udGV4dCBkYXRhUGxhdGZvcm1TeXN0ZW0gIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICBpbmNsdWRlICogCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbnRhaW5lciBkYXRhUGxhdGZvcm1TeXN0ZW0gIkRhdGFQbGF0Zm9ybSIgewogICAgICAgIGluY2x1ZGUgKiAKCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbnRhaW5lciBFbnRlcnByaXNlUmVwb3J0aW5nU3lzdGVtICJSZXBvcnRpbmciIHsKICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbnRhaW5lciBNZXRhZGF0YVN5c3RlbSAiTWV0YWRhdGEiIHsKICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbXBvbmVudCBiYUNvbnRhaW5lciAiYmFDb250YWluZXIiICAgIHsKICAgICAgICBpbmNsdWRlICoKICAgICAgICBhdXRvTGF5b3V0CiAgICB9CgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlN5c3RlbSBPdXRTY29wZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNaWNyb3NvZnQgQXp1cmUgLSBEYXRhIEZhY3RvcmllcyJ7CiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UgIzU3OEJDRgogICAgICAgICAgICAgICAgY29sb3IgICM1NzhCQ0YKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNmZmZmZmYKICAgICAgICAgICAgICAgIHN0cm9rZSAjNTc4QkNGCiAgICAgICAgICAgICAgICBjb2xvciAgIzU3OEJDRgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSBTY2hlbWEgLSBTbm93Zmxha2UiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlICM1NzhCQ0YKICAgICAgICAgICAgICAgIGNvbG9yICAjNTc4QkNGCiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UgU1FMIFNjcmlwdCAtIFNub3dmbGFrZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2UgIzU3OEJDRgogICAgICAgICAgICAgICAgY29sb3IgICM1NzhCQ0YKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb21wb25lbnQgLSBTbm93Zmxha2UiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlICM1NzhCQ0YKICAgICAgICAgICAgICAgIGNvbG9yICAjNTc4QkNGCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgdGhlbWVzIGh0dHBzOi8vcmVuZW5hZG9ycC5naXRodWIuaW8vc3RydWN0dXJpenIvcmEvd3d3L3RoZW1lcy9JbmVyZ3kvdGhlbWUuanNvbiAgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3N0cnVjdHVyaXpyL3RoZW1lcy9tYXN0ZXIvbWljcm9zb2Z0LWF6dXJlLTIwMjMuMDEuMjQvdGhlbWUuanNvbgogICAgCgp9Cgp9CgoK"
   },
   "configuration" : { },
   "model" : {
-    "enterprise" : {
-      "name" : "Data Platform Reference Architecture"
-    },
     "people" : [ {
       "id" : "1",
       "tags" : "Element,Person,Internal Staff",
@@ -20,13 +17,13 @@
       "name" : "ERP Staff",
       "description" : "ERP",
       "relationships" : [ {
-        "id" : "38",
+        "id" : "40",
         "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "7",
         "description" : "Uses"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
       "id" : "2",
       "tags" : "Element,Person,Internal Staff",
@@ -36,13 +33,13 @@
       "name" : "CRM Staff",
       "description" : "CRM Staff",
       "relationships" : [ {
-        "id" : "39",
+        "id" : "41",
         "tags" : "Relationship",
         "sourceId" : "2",
         "destinationId" : "8",
         "description" : "Uses"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
       "id" : "3",
       "tags" : "Element,Person,Internal Staff",
@@ -52,13 +49,13 @@
       "name" : "Data Owner",
       "description" : "CRM Staff",
       "relationships" : [ {
-        "id" : "43",
+        "id" : "45",
         "tags" : "Relationship",
         "sourceId" : "3",
-        "destinationId" : "24",
+        "destinationId" : "26",
         "description" : "Data Owner"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
       "id" : "4",
       "tags" : "Element,Person,Internal Staff",
@@ -68,13 +65,13 @@
       "name" : "Data Expert",
       "description" : "CRM Staff",
       "relationships" : [ {
-        "id" : "42",
+        "id" : "44",
         "tags" : "Relationship",
         "sourceId" : "4",
-        "destinationId" : "24",
+        "destinationId" : "26",
         "description" : "Data Expert"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
       "id" : "5",
       "tags" : "Element,Person,Internal Staff",
@@ -84,19 +81,19 @@
       "name" : "Data Steward",
       "description" : "Data Steward",
       "relationships" : [ {
-        "id" : "40",
+        "id" : "42",
         "tags" : "Relationship",
         "sourceId" : "5",
-        "destinationId" : "24",
+        "destinationId" : "26",
         "description" : "Uses"
       }, {
-        "id" : "41",
+        "id" : "43",
         "tags" : "Relationship",
         "sourceId" : "5",
         "destinationId" : "12",
         "description" : "Uses"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
       "id" : "6",
       "tags" : "Element,Person,Internal Staff",
@@ -106,12 +103,12 @@
       "name" : "Reporting Staff",
       "description" : "Reporting Staff",
       "relationships" : [ {
-        "id" : "44",
+        "id" : "46",
         "tags" : "Relationship",
         "sourceId" : "6",
-        "destinationId" : "29"
+        "destinationId" : "31"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
       "id" : "7",
@@ -122,19 +119,20 @@
       "name" : "ERP System",
       "description" : "Enterprise Resource Planning",
       "relationships" : [ {
-        "id" : "54",
+        "id" : "56",
         "tags" : "Relationship",
         "sourceId" : "7",
         "destinationId" : "14",
         "description" : "ERP Data"
       }, {
-        "id" : "55",
+        "id" : "57",
         "sourceId" : "7",
         "destinationId" : "13",
         "description" : "ERP Data",
-        "linkedRelationshipId" : "54"
+        "linkedRelationshipId" : "56"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "8",
@@ -145,19 +143,20 @@
       "name" : "CRM System",
       "description" : "Customer Relationship Management System",
       "relationships" : [ {
-        "id" : "56",
+        "id" : "58",
         "tags" : "Relationship",
         "sourceId" : "8",
         "destinationId" : "14",
         "description" : "CRM Data"
       }, {
-        "id" : "57",
+        "id" : "59",
         "sourceId" : "8",
         "destinationId" : "13",
         "description" : "CRM Data",
-        "linkedRelationshipId" : "56"
+        "linkedRelationshipId" : "58"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "9",
@@ -167,7 +166,8 @@
       },
       "name" : "WMS",
       "description" : "Warehouse Management System",
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "10",
@@ -177,7 +177,8 @@
       },
       "name" : "HRM",
       "description" : "Human Resource Management System",
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "11",
@@ -187,7 +188,8 @@
       },
       "name" : "IAM",
       "description" : "Identity & Access Management System",
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "12",
@@ -198,13 +200,14 @@
       "name" : "Masterdata",
       "description" : "Masterdata",
       "relationships" : [ {
-        "id" : "45",
+        "id" : "47",
         "tags" : "Relationship",
         "sourceId" : "12",
         "destinationId" : "13",
         "description" : "Master Data"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "documentation" : { }
     }, {
       "id" : "13",
@@ -215,43 +218,16 @@
       "name" : "Enterprise Data Platform",
       "description" : "Data platform.",
       "relationships" : [ {
-        "id" : "46",
+        "id" : "48",
         "tags" : "Relationship",
         "sourceId" : "13",
-        "destinationId" : "29",
+        "destinationId" : "31",
         "description" : "Is datasource for"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "containers" : [ {
         "id" : "23",
-        "tags" : "Element,Container,Orchestration - ADF",
-        "properties" : {
-          "structurizr.dsl.identifier" : "orchestrationcontainer"
-        },
-        "name" : "Orchestration Engine",
-        "description" : "Orchestration",
-        "relationships" : [ {
-          "id" : "64",
-          "tags" : "Relationship",
-          "sourceId" : "23",
-          "destinationId" : "18",
-          "description" : "Orchestrates"
-        }, {
-          "id" : "65",
-          "tags" : "Relationship",
-          "sourceId" : "23",
-          "destinationId" : "16",
-          "description" : "Orchestrates"
-        }, {
-          "id" : "66",
-          "tags" : "Relationship",
-          "sourceId" : "23",
-          "destinationId" : "17",
-          "description" : "Orchestrates"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "21",
         "tags" : "Element,Container,Component - Snowflake",
         "properties" : {
           "structurizr.dsl.identifier" : "dqcontainer"
@@ -259,49 +235,11 @@
         "name" : "Data Quality Engine",
         "description" : "Data Quality Engine",
         "relationships" : [ {
-          "id" : "72",
+          "id" : "74",
           "tags" : "Relationship",
-          "sourceId" : "21",
-          "destinationId" : "22",
+          "sourceId" : "23",
+          "destinationId" : "24",
           "description" : "Store DQ data in"
-        } ],
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "17",
-        "tags" : "Element,Container,Component - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "ba2iacontainer"
-        },
-        "name" : "Information Area Transformation",
-        "relationships" : [ {
-          "id" : "63",
-          "tags" : "Relationship",
-          "sourceId" : "17",
-          "destinationId" : "20",
-          "description" : "Transforms data for"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "19",
-        "tags" : "Element,Container,Database - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bacontainer"
-        },
-        "name" : "Business Area",
-        "description" : "Business Area",
-        "relationships" : [ {
-          "id" : "62",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "17",
-          "description" : "Is a datasource for"
-        }, {
-          "id" : "71",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "21",
-          "description" : "Is validated by"
         } ],
         "technology" : "Snowflake",
         "documentation" : { }
@@ -314,43 +252,18 @@
         "name" : "Data Area",
         "description" : "Staging",
         "relationships" : [ {
-          "id" : "60",
+          "id" : "62",
           "tags" : "Relationship",
           "sourceId" : "15",
           "destinationId" : "16",
           "description" : "Is input for"
         }, {
-          "id" : "70",
+          "id" : "72",
           "tags" : "Relationship",
           "sourceId" : "15",
-          "destinationId" : "21",
+          "destinationId" : "23",
           "description" : "Is validated by"
         } ],
-        "technology" : "Snowflake",
-        "documentation" : { }
-      }, {
-        "id" : "18",
-        "tags" : "Element,Container,Component - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "in2dacontainer"
-        },
-        "name" : "Data Area Transformation",
-        "relationships" : [ {
-          "id" : "59",
-          "tags" : "Relationship",
-          "sourceId" : "18",
-          "destinationId" : "15",
-          "description" : "Transforms data for"
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "20",
-        "tags" : "Element,Container,Database - Snowflake",
-        "properties" : {
-          "structurizr.dsl.identifier" : "iacontainer"
-        },
-        "name" : "Information Area",
-        "description" : "Information Area",
         "technology" : "Snowflake",
         "documentation" : { }
       }, {
@@ -361,7 +274,7 @@
         },
         "name" : "Business Area Transformation",
         "relationships" : [ {
-          "id" : "61",
+          "id" : "63",
           "tags" : "Relationship",
           "sourceId" : "16",
           "destinationId" : "19",
@@ -369,7 +282,7 @@
         } ],
         "documentation" : { }
       }, {
-        "id" : "22",
+        "id" : "24",
         "tags" : "Element,Container,Database - Snowflake",
         "properties" : {
           "structurizr.dsl.identifier" : "macontainer"
@@ -377,22 +290,22 @@
         "name" : "Metadata Area",
         "description" : "Metadata",
         "relationships" : [ {
-          "id" : "67",
+          "id" : "69",
           "tags" : "Relationship",
-          "sourceId" : "22",
+          "sourceId" : "24",
           "destinationId" : "15",
           "description" : "Describes"
         }, {
-          "id" : "68",
+          "id" : "70",
           "tags" : "Relationship",
-          "sourceId" : "22",
+          "sourceId" : "24",
           "destinationId" : "19",
           "description" : "Describes"
         }, {
-          "id" : "69",
+          "id" : "71",
           "tags" : "Relationship",
-          "sourceId" : "22",
-          "destinationId" : "20",
+          "sourceId" : "24",
+          "destinationId" : "22",
           "description" : "Describes"
         } ],
         "documentation" : { }
@@ -405,7 +318,7 @@
         "name" : "Ingestion Area",
         "description" : "Ingest",
         "relationships" : [ {
-          "id" : "58",
+          "id" : "60",
           "tags" : "Relationship",
           "sourceId" : "14",
           "destinationId" : "18",
@@ -413,10 +326,122 @@
         } ],
         "technology" : "<Technology used>",
         "documentation" : { }
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,Component - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "in2dacontainer"
+        },
+        "name" : "Data Area Transformation",
+        "relationships" : [ {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "15",
+          "description" : "Transforms data for"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container,Database - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "iacontainer"
+        },
+        "name" : "Information Area",
+        "description" : "Information Area",
+        "technology" : "Snowflake",
+        "documentation" : { }
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container,Microsoft Azure - Data Factories",
+        "properties" : {
+          "structurizr.dsl.identifier" : "orchestrationcontainer"
+        },
+        "name" : "Orchestration Engine",
+        "description" : "Orchestration",
+        "relationships" : [ {
+          "id" : "66",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "18",
+          "description" : "Orchestrates"
+        }, {
+          "id" : "67",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "16",
+          "description" : "Orchestrates"
+        }, {
+          "id" : "68",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "17",
+          "description" : "Orchestrates"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,Component - Snowflake",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ba2iacontainer"
+        },
+        "name" : "Information Area Transformation",
+        "relationships" : [ {
+          "id" : "65",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "22",
+          "description" : "Transforms data for"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bacontainer"
+        },
+        "name" : "Business Area",
+        "description" : "Business Area",
+        "relationships" : [ {
+          "id" : "64",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "17",
+          "description" : "Is a datasource for"
+        }, {
+          "id" : "73",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "23",
+          "description" : "Is validated by"
+        } ],
+        "technology" : "..",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component,Database Schema,Database Schema - Snowflake",
+          "properties" : {
+            "structurizr.dsl.identifier" : "baschemacomponent"
+          },
+          "name" : "Business Area Schema",
+          "description" : "Business Area",
+          "technology" : "Snowflake",
+          "documentation" : { }
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component,Database SQL Script,Database SQL Script - Snowflake",
+          "properties" : {
+            "structurizr.dsl.identifier" : "baentityscriptcomponent"
+          },
+          "name" : "Business Area Entity Script",
+          "description" : "Business Area",
+          "technology" : "Snowflake",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
       } ],
       "documentation" : { }
     }, {
-      "id" : "24",
+      "id" : "26",
       "tags" : "Element,Software System,System InScope",
       "properties" : {
         "structurizr.dsl.identifier" : "metadatasystem"
@@ -424,30 +449,22 @@
       "name" : "Metadata System",
       "description" : "Metadata System",
       "relationships" : [ {
-        "id" : "48",
+        "id" : "50",
         "tags" : "Relationship",
-        "sourceId" : "24",
+        "sourceId" : "26",
         "destinationId" : "13",
         "description" : "Describes"
       }, {
-        "id" : "49",
+        "id" : "51",
         "tags" : "Relationship",
-        "sourceId" : "24",
-        "destinationId" : "29",
+        "sourceId" : "26",
+        "destinationId" : "31",
         "description" : "Describes"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "containers" : [ {
-        "id" : "26",
-        "tags" : "Element,Container,Catalog - Purview",
-        "properties" : {
-          "structurizr.dsl.identifier" : "datacatalogcontainer"
-        },
-        "name" : "Data Catalog",
-        "description" : "Catalog",
-        "documentation" : { }
-      }, {
-        "id" : "25",
+        "id" : "27",
         "tags" : "Element,Container,Glossary - Purview",
         "properties" : {
           "structurizr.dsl.identifier" : "businessglossarycontainer"
@@ -455,52 +472,14 @@
         "name" : "Business Glossary",
         "description" : "Glossary",
         "documentation" : { }
-      } ],
-      "documentation" : { }
-    }, {
-      "id" : "27",
-      "tags" : "Element,Software System,System InScope",
-      "properties" : {
-        "structurizr.dsl.identifier" : "dataenrichtmentsystem"
-      },
-      "name" : "Data Enrichment System",
-      "description" : "Data Enrichment",
-      "relationships" : [ {
-        "id" : "52",
-        "sourceId" : "27",
-        "destinationId" : "14",
-        "description" : "Is a datasource for",
-        "linkedRelationshipId" : "50"
       }, {
-        "id" : "53",
-        "sourceId" : "27",
-        "destinationId" : "13",
-        "description" : "Is a datasource for",
-        "linkedRelationshipId" : "50"
-      } ],
-      "location" : "Internal",
-      "containers" : [ {
         "id" : "28",
-        "tags" : "Element,Container",
+        "tags" : "Element,Container,Catalog - Purview",
         "properties" : {
-          "structurizr.dsl.identifier" : "enrichmentapplication"
+          "structurizr.dsl.identifier" : "datacatalogcontainer"
         },
-        "name" : "Data Enrichment Web Application",
-        "description" : "Database",
-        "relationships" : [ {
-          "id" : "50",
-          "tags" : "Relationship",
-          "sourceId" : "28",
-          "destinationId" : "14",
-          "description" : "Is a datasource for"
-        }, {
-          "id" : "51",
-          "sourceId" : "28",
-          "destinationId" : "13",
-          "description" : "Is a datasource for",
-          "linkedRelationshipId" : "50"
-        } ],
-        "technology" : "App",
+        "name" : "Data Catalog",
+        "description" : "Catalog",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -508,13 +487,79 @@
       "id" : "29",
       "tags" : "Element,Software System,System InScope",
       "properties" : {
+        "structurizr.dsl.identifier" : "dataenrichtmentsystem"
+      },
+      "name" : "Data Enrichment System",
+      "description" : "Data Enrichment",
+      "relationships" : [ {
+        "id" : "54",
+        "sourceId" : "29",
+        "destinationId" : "14",
+        "description" : "Is a datasource for",
+        "linkedRelationshipId" : "52"
+      }, {
+        "id" : "55",
+        "sourceId" : "29",
+        "destinationId" : "13",
+        "description" : "Is a datasource for",
+        "linkedRelationshipId" : "52"
+      } ],
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "30",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "enrichmentapplication"
+        },
+        "name" : "Data Enrichment Web Application",
+        "description" : "Database",
+        "relationships" : [ {
+          "id" : "52",
+          "tags" : "Relationship",
+          "sourceId" : "30",
+          "destinationId" : "14",
+          "description" : "Is a datasource for"
+        }, {
+          "id" : "53",
+          "sourceId" : "30",
+          "destinationId" : "13",
+          "description" : "Is a datasource for",
+          "linkedRelationshipId" : "52"
+        } ],
+        "technology" : "App",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "31",
+      "tags" : "Element,Software System,System InScope",
+      "properties" : {
         "structurizr.dsl.identifier" : "enterprisereportingsystem"
       },
       "name" : "Enterprise Reporting",
       "description" : "Enterprise Reporting",
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "containers" : [ {
         "id" : "33",
+        "tags" : "Element,Container,Dataset - PowerBI",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bidomaindataset1"
+        },
+        "name" : "BI Domain Dataset 1",
+        "description" : "BI Dataset",
+        "relationships" : [ {
+          "id" : "77",
+          "tags" : "Relationship",
+          "sourceId" : "33",
+          "destinationId" : "35",
+          "description" : "Is a datasource for"
+        } ],
+        "technology" : "Power BI",
+        "documentation" : { }
+      }, {
+        "id" : "35",
         "tags" : "Element,Container,Power BI Report",
         "properties" : {
           "structurizr.dsl.identifier" : "bireport1"
@@ -525,6 +570,23 @@
         "documentation" : { }
       }, {
         "id" : "34",
+        "tags" : "Element,Container,Dataset - PowerBI",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bidomaindataset2"
+        },
+        "name" : "BI Domain Dataset 2",
+        "description" : "BI Dataset",
+        "relationships" : [ {
+          "id" : "78",
+          "tags" : "Relationship",
+          "sourceId" : "34",
+          "destinationId" : "36",
+          "description" : "Is a datasource for"
+        } ],
+        "technology" : "Power BI",
+        "documentation" : { }
+      }, {
+        "id" : "36",
         "tags" : "Element,Container,Power BI Report",
         "properties" : {
           "structurizr.dsl.identifier" : "bireport2"
@@ -537,63 +599,29 @@
         "id" : "32",
         "tags" : "Element,Container,Dataset - PowerBI",
         "properties" : {
-          "structurizr.dsl.identifier" : "bidomaindataset2"
-        },
-        "name" : "BI Domain Dataset 2",
-        "description" : "BI Dataset",
-        "relationships" : [ {
-          "id" : "76",
-          "tags" : "Relationship",
-          "sourceId" : "32",
-          "destinationId" : "34",
-          "description" : "Is a datasource for"
-        } ],
-        "technology" : "Power BI",
-        "documentation" : { }
-      }, {
-        "id" : "30",
-        "tags" : "Element,Container,Dataset - PowerBI",
-        "properties" : {
           "structurizr.dsl.identifier" : "bienterprisedataset"
         },
         "name" : "BI Enterprise Dataset",
         "description" : "BI Dataset",
         "relationships" : [ {
-          "id" : "73",
-          "tags" : "Relationship",
-          "sourceId" : "30",
-          "destinationId" : "31",
-          "description" : "Is a dataset for"
-        }, {
-          "id" : "74",
-          "tags" : "Relationship",
-          "sourceId" : "30",
-          "destinationId" : "32",
-          "description" : "Is a dataset for"
-        } ],
-        "technology" : "Power BI",
-        "documentation" : { }
-      }, {
-        "id" : "31",
-        "tags" : "Element,Container,Dataset - PowerBI",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bidomaindataset1"
-        },
-        "name" : "BI Domain Dataset 1",
-        "description" : "BI Dataset",
-        "relationships" : [ {
           "id" : "75",
           "tags" : "Relationship",
-          "sourceId" : "31",
+          "sourceId" : "32",
           "destinationId" : "33",
-          "description" : "Is a datasource for"
+          "description" : "Links selected datasets to"
+        }, {
+          "id" : "76",
+          "tags" : "Relationship",
+          "sourceId" : "32",
+          "destinationId" : "34",
+          "description" : "Links selected datasets to"
         } ],
         "technology" : "Power BI",
         "documentation" : { }
       } ],
       "documentation" : { }
     }, {
-      "id" : "35",
+      "id" : "37",
       "tags" : "Element,Software System,System InScope",
       "properties" : {
         "structurizr.dsl.identifier" : "dataplatformmonitoringsystem"
@@ -601,25 +629,16 @@
       "name" : "DataPlatform Monitoring System",
       "description" : "Monitoring",
       "relationships" : [ {
-        "id" : "47",
+        "id" : "49",
         "tags" : "Relationship",
-        "sourceId" : "35",
+        "sourceId" : "37",
         "destinationId" : "13",
         "description" : "Monitors"
       } ],
-      "location" : "Internal",
+      "group" : "Data Platform Reference Architecture",
+      "location" : "Unspecified",
       "containers" : [ {
-        "id" : "37",
-        "tags" : "Element,Container,Alerting - OpsGenie",
-        "properties" : {
-          "structurizr.dsl.identifier" : "dpalerting"
-        },
-        "name" : "Data Platform Alerting Service",
-        "description" : "BI Report",
-        "technology" : "Power BI",
-        "documentation" : { }
-      }, {
-        "id" : "36",
+        "id" : "38",
         "tags" : "Element,Container,Monitoring -",
         "properties" : {
           "structurizr.dsl.identifier" : "dpmonitoring"
@@ -628,31 +647,46 @@
         "description" : "BI Dataset",
         "technology" : "Power BI",
         "documentation" : { }
+      }, {
+        "id" : "39",
+        "tags" : "Element,Container,Alerting - OpsGenie",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dpalerting"
+        },
+        "name" : "Data Platform Alerting Service",
+        "description" : "BI Report",
+        "technology" : "Power BI",
+        "documentation" : { }
       } ],
       "documentation" : { }
     } ]
   },
   "documentation" : {
     "sections" : [ {
+      "content" : "## Data Platform Requirements\n\nHieronder een lijst met requirements:\n\nPrio|Naam|Omschrijving|\n|--|--|--|\n|?| Historiseren | |\n||Time travel voor data, reports en data leveringen||\n|?| Data testen ||\n|?|Delta load||\n|?|Delete detectie||\n|?|Initial Load||\n|?|Schema drift||\n|?|Real time data in ||\n|?|Real time data out||\n|?|Row level security: AAD ||\n|?|Row level security: Data driven||\n|?|Data push from source (formats?)||\n|?|Data pull from source (formats? / technogie)||\n|?|Batch data processing||\n|?|Micro batch data processing||\n|?|Event based data processing||\n|?|CDC|\n||GDPR||\n||Ondersteuning FK en PK||\n||Orchestratie, met job afhankelijkheden||\n||Parellelle data processing||\n||Integratie met OpsGenie||\n||Column level security||\n||Data modellering: dimensioneel||\n||Data modellering: relationeel||\n||Data modellering: data vault||\n||Integratie met ML modellen||\n||Business Glossary||\n||Data lineage||\n||Bron voor BI tools||\n||Integratie met portals||\n||Self Service / Exploratie||\n||Data kwaliteitsmeting ||\n||Data kwaliteits dashboard||\n||Logging & Monitoring||\n||Data verrijking met UI||\n||Centrale definities ||\n||Centrale eenduidige naamgeving van entiteiten en attributen||\n||Certificering van datasets||\n||Audit trail||\n||Disaster Recovery||\n||Herstartbaarheid||\n||Data Classificatie||\n\n\n\n\n\n\n\n\n\n\n\n",
+      "format" : "Markdown",
+      "filename" : "0006_DataPlatform_Requirements.md",
+      "order" : 5
+    }, {
       "content" : "## Introduction\nThese pages comprise architecture documenation for the Inergy Data Platform Reference Architecture. \nThe purpose is to describe the standard architecture that Inergy will implement for any customer that needs a data platform. \n\nThe architecture is described using the C4 model to model the architecture:\n- Software System \n- Containers\n- Components \n- Code \n\nNext, any number of views (diagrams) can be created to communicate the architecture. \n\n\n\n",
       "format" : "Markdown",
       "filename" : "0001_Overview.md",
       "order" : 1
     }, {
-      "content" : "## Data Platform Requirements\n\nHieronder een lijst met requirements:\n\nPrio|Naam|Omschrijving|\n|--|--|--|\n|?| Historiseren | |\n||Time travel voor data, reports en data leveringen||\n|?| Data testen ||\n|?|Delta load||\n|?|Delete detectie||\n|?|Initial Load||\n|?|Schema drift||\n|?|Real time data in ||\n|?|Real time data out||\n|?|Row level security: AAD ||\n|?|Row level security: Data driven||\n|?|Data push from source (formats?)||\n|?|Data pull from source (formats? / technogie)||\n|?|Batch data processing||\n|?|Micro batch data processing||\n|?|Event based data processing||\n|?|CDC|\n||GDPR||\n||Ondersteuning FK en PK||\n||Orchestratie, met job afhankelijkheden||\n||Parellelle data processing||\n||Integratie met OpsGenie||\n||Column level security||\n||Data modellering: dimensioneel||\n||Data modellering: relationeel||\n||Data modellering: data vault||\n||Integratie met ML modellen||\n||Business Glossary||\n||Data lineage||\n||Bron voor BI tools||\n||Integratie met portals||\n||Self Service / Exploratie||\n||Data kwaliteitsmeting ||\n||Data kwaliteits dashboard||\n||Logging & Monitoring||\n||Data verrijking met UI||\n||Centrale definities ||\n||Centrale eenduidige naamgeving van entiteiten en attributen||\n||Certificering van datasets||\n||Audit trail||\n||Disaster Recovery||\n\n\n\n\n\n\n\n\n\n\n",
-      "format" : "Markdown",
-      "filename" : "0004_DataPlatform_Requirements.md",
-      "order" : 4
-    }, {
-      "content" : "## Data Platform Context \nThe diagram below reflects the system \"Data Platform\" in its context.\n\n![](embed:DataPlatform)\n\nThe data platform consists of the following data layers:\n1. Data Area\n1. Business Area\n1. Information Area\n1. Metadata Area \n",
-      "format" : "Markdown",
-      "filename" : "0003_DataPlatformContext.md",
-      "order" : 3
-    }, {
-      "content" : "## System Landscape\nThe diagram below reflects the system \"Data Platform\" in its context.\n![](embed:dataPlatformLandscape)",
+      "content" : "## System Landscape\nThe diagram below reflects the system \"Data Platform\" in its context.\n![](embed:dataPlatformLandscape)\n\n## Dataplatform System Context \n![](embed:SystemContext)\n",
       "format" : "Markdown",
       "filename" : "0002_SystemLandscape.md",
       "order" : 2
+    }, {
+      "content" : "## Metadata System Container Diagram\nThe diagram below reflects the system \"Metadata System\" in its context.\n\n![](embed:Metadata)\n\nThe metadata system is made up of the following components\n1. Business Glossary\n1. Data Catalog\n",
+      "format" : "Markdown",
+      "filename" : "0005_MetadataSystem.md",
+      "order" : 4
+    }, {
+      "content" : "## Data Platform Container Diagram \nThe diagram below reflects the system \"Data Platform\" in its context.\n\n![](embed:DataPlatform)\n\nThe data platform consists of the following data layers:\n1. Data Area\n1. Business Area\n1. Information Area\n1. Metadata Area \n",
+      "format" : "Markdown",
+      "filename" : "0003_DataPlatformContext.md",
+      "order" : 3
     } ],
     "decisions" : [ {
       "content" : "# 1. ADR Template\n\nDate: 2023-02-08\n\n## Status\n\nAccepted\n\nValues: Accepted, Rejected,Draft, Proposed, Deprecated.\n\n## Context\n\nSome context\n\n## Decision\n\nDecision info\n\n\n## Consequences\n\nConsequences",
@@ -677,11 +711,13 @@
       },
       "enterpriseBoundaryVisible" : true,
       "relationships" : [ {
+        "id" : "50"
+      }, {
+        "id" : "51"
+      }, {
         "id" : "40"
       }, {
         "id" : "41"
-      }, {
-        "id" : "53"
       }, {
         "id" : "42"
       }, {
@@ -699,13 +735,11 @@
       }, {
         "id" : "47"
       }, {
+        "id" : "59"
+      }, {
         "id" : "48"
       }, {
         "id" : "49"
-      }, {
-        "id" : "38"
-      }, {
-        "id" : "39"
       } ],
       "elements" : [ {
         "id" : "11",
@@ -720,15 +754,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "24",
+        "id" : "26",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "27",
+        "id" : "37",
         "x" : 0,
         "y" : 0
       }, {
@@ -772,6 +802,10 @@
         "x" : 0,
         "y" : 0
       }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      }, {
         "id" : "10",
         "x" : 0,
         "y" : 0
@@ -791,19 +825,19 @@
       },
       "enterpriseBoundaryVisible" : true,
       "relationships" : [ {
-        "id" : "53"
+        "id" : "50"
+      }, {
+        "id" : "51"
       }, {
         "id" : "55"
-      }, {
-        "id" : "45"
-      }, {
-        "id" : "46"
       }, {
         "id" : "57"
       }, {
         "id" : "47"
       }, {
         "id" : "48"
+      }, {
+        "id" : "59"
       }, {
         "id" : "49"
       } ],
@@ -816,15 +850,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "24",
+        "id" : "37",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "27",
+        "id" : "26",
         "x" : 0,
         "y" : 0
       }, {
@@ -839,9 +869,78 @@
         "id" : "8",
         "x" : 0,
         "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
       } ]
     } ],
     "containerViews" : [ {
+      "key" : "Metadata",
+      "order" : 5,
+      "softwareSystemId" : "26",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "28",
+        "x" : 0,
+        "y" : 0
+      } ]
+    }, {
+      "key" : "Reporting",
+      "order" : 4,
+      "softwareSystemId" : "31",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "76"
+      }, {
+        "id" : "75"
+      }, {
+        "id" : "78"
+      }, {
+        "id" : "77"
+      } ],
+      "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
+      } ]
+    }, {
       "key" : "DataPlatform",
       "order" : 3,
       "softwareSystemId" : "13",
@@ -857,39 +956,39 @@
       "relationships" : [ {
         "id" : "70"
       }, {
+        "id" : "72"
+      }, {
         "id" : "61"
       }, {
-        "id" : "72"
+        "id" : "60"
       }, {
         "id" : "71"
       }, {
-        "id" : "60"
+        "id" : "74"
       }, {
         "id" : "63"
       }, {
         "id" : "62"
       }, {
-        "id" : "52"
+        "id" : "73"
       }, {
         "id" : "65"
       }, {
-        "id" : "64"
-      }, {
         "id" : "54"
+      }, {
+        "id" : "64"
       }, {
         "id" : "67"
       }, {
-        "id" : "66"
-      }, {
         "id" : "56"
+      }, {
+        "id" : "66"
       }, {
         "id" : "69"
       }, {
-        "id" : "68"
-      }, {
         "id" : "58"
       }, {
-        "id" : "59"
+        "id" : "68"
       } ],
       "elements" : [ {
         "id" : "22",
@@ -900,7 +999,15 @@
         "x" : 0,
         "y" : 0
       }, {
+        "id" : "24",
+        "x" : 0,
+        "y" : 0
+      }, {
         "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
         "x" : 0,
         "y" : 0
       }, {
@@ -912,11 +1019,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "27",
+        "id" : "17",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "17",
+        "id" : "29",
         "x" : 0,
         "y" : 0
       }, {
@@ -935,55 +1042,27 @@
         "id" : "8",
         "x" : 0,
         "y" : 0
-      }, {
-        "id" : "20",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "21",
-        "x" : 0,
-        "y" : 0
       } ]
-    }, {
-      "key" : "Reporting",
-      "order" : 4,
-      "softwareSystemId" : "29",
+    } ],
+    "componentViews" : [ {
+      "key" : "baContainer",
+      "order" : 6,
       "automaticLayout" : {
         "implementation" : "Graphviz",
-        "rankDirection" : "LeftRight",
+        "rankDirection" : "TopBottom",
         "rankSeparation" : 300,
         "nodeSeparation" : 300,
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "externalSoftwareSystemBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "74"
-      }, {
-        "id" : "73"
-      }, {
-        "id" : "76"
-      }, {
-        "id" : "75"
-      } ],
+      "containerId" : "19",
+      "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "33",
+        "id" : "20",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "30",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "31",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "32",
+        "id" : "21",
         "x" : 0,
         "y" : 0
       } ]
@@ -1025,32 +1104,38 @@
           "tag" : "Mobile App",
           "shape" : "MobileDeviceLandscape"
         }, {
-          "tag" : "Database",
-          "shape" : "Cylinder"
-        }, {
-          "tag" : "Orchestration - ADF",
+          "tag" : "Microsoft Azure - Data Factories",
           "background" : "#ffffff",
           "stroke" : "#578bcf",
           "color" : "#578bcf",
           "shape" : "Component"
         }, {
-          "tag" : "Database - Snowflake",
+          "tag" : "Database",
           "background" : "#ffffff",
           "stroke" : "#578bcf",
           "color" : "#578bcf",
           "shape" : "Cylinder"
+        }, {
+          "tag" : "Database Schema - Snowflake",
+          "background" : "#ffffff",
+          "stroke" : "#578bcf",
+          "color" : "#578bcf",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Database SQL Script - Snowflake",
+          "background" : "#ffffff",
+          "stroke" : "#578bcf",
+          "color" : "#578bcf",
+          "shape" : "RoundedBox"
         }, {
           "tag" : "Component - Snowflake",
           "background" : "#ffffff",
           "stroke" : "#578bcf",
           "color" : "#578bcf",
           "shape" : "Component"
-        }, {
-          "tag" : "Failover",
-          "opacity" : 25
         } ]
       },
-      "themes" : [ "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/theme.json" ],
+      "themes" : [ "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/theme.json", "https://raw.githubusercontent.com/structurizr/themes/master/microsoft-azure-2023.01.24/theme.json" ],
       "terminology" : { },
       "lastSavedView" : "DataPlatform"
     }

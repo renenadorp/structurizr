@@ -13,7 +13,7 @@
             reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
 
 #*/
-        enterprise "Data Platform Reference Architecture " {
+        group "Data Platform Reference Architecture " {
 
             erpSystem           = softwaresystem "ERP System" "Enterprise Resource Planning" "System OutScope"
             crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope"
@@ -29,7 +29,17 @@
                 da2baContainer          = container "Business Area Transformation" "" "" "Component - Snowflake"
                 ba2iaContainer          = container "Information Area Transformation" "" "" "Component - Snowflake"
                 in2daContainer          = container "Data Area Transformation" "" "" "Component - Snowflake"
-                baContainer             = container "Business Area" "Business Area" "Snowflake" "Database - Snowflake"
+                baContainer             = container "Business Area" "Business Area" ".." "Database" {
+                    baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
+                        technology "Snowflake"
+                        tags "Database Schema - Snowflake"
+                    } 
+                    baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
+                        technology "Snowflake"
+                        tags "Database SQL Script - Snowflake"
+                    }
+
+                }
                 iaContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
                 dqContainer             = container "Data Quality Engine" "Data Quality Engine" "Snowflake" "Component - Snowflake"
                 maContainer             = container "Metadata Area" "Metadata" "" "Database - Snowflake"
@@ -113,8 +123,9 @@
         dqContainer -> maContainer "Store DQ data in "
 
         # relationships between components
-        biEnterpriseDataSet -> biDomainDataSet1 "Is a dataset for"
-        biEnterpriseDataSet -> biDomainDataSet2 "Is a dataset for"
+        biEnterpriseDataSet -> biDomainDataSet1 "Links selected datasets to"
+        biEnterpriseDataSet -> biDomainDataSet2 "Links selected datasets to"
+
         biDomainDataSet1 -> biReport1 "Is a datasource for"
         biDomainDataSet2 -> biReport2 "Is a datasource for"
         

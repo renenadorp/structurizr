@@ -33,20 +33,30 @@ styles {
             element "Mobile App" {
                 shape MobileDeviceLandscape
             }
-            element "Database" {
-                shape Cylinder
-            }
+
             element "Microsoft Azure - Data Factories"{
                 shape Component
                                 stroke #578BCF
                 color  #578BCF
                 background #ffffff
             }
-            element "Database - Snowflake" {
+            element "Database" {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF
                 shape Cylinder
+            }
+            element "Database Schema - Snowflake" {
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
+                shape RoundedBox
+            }
+            element "Database SQL Script - Snowflake" {
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
+                shape RoundedBox
             }
             element "Component - Snowflake" {
                 background #ffffff
@@ -54,7 +64,5 @@ styles {
                 color  #578BCF
                 shape Component
             }
-            element "Failover" {
-                opacity 25
-            }
+
         }
