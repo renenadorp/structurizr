@@ -2,7 +2,7 @@
   "name" : "Inergy",
   "description" : "Theme for conceptual architecture",
   "elements" : [ {
-    "tag" : "Database - Snowflake",
+    "tag" : "Database",
     "color" : "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
   },
@@ -13,7 +13,7 @@
   }
   ,
   {
-    "tag" : "Database Schema - Snowflake",
+    "tag" : "Database Schema",
     "color" : "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
 
@@ -21,20 +21,27 @@
 
   ,
   {
-    "tag" : "Database SQL Script - Snowflake",
+    "tag" : "Database SQL Script",
     "color" : "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
 
   }
 
-,
+  ,
+  {
+    "tag" : "Orchestration - ADF",
+    "color" : "#ffffff",
+    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+  
+  }
+  ,
 {
-  "tag" : "Orchestration - ADF",
+  "tag" : "Business Glossary",
   "color" : "#ffffff",
   "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
 
 }
-  
+    
 ]
 }
 

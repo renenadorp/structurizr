@@ -32,18 +32,17 @@
                 in2daContainer          = container "Data Area Transformation" "" "" "Component - Snowflake"
                 baContainer             = container "Business Area" "Business Area" ".." "Database" {
                     baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
-                        technology "Snowflake"
-                        tags "Database Schema - Snowflake"
+                        tags "Database Schema"
                     } 
                     baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
                         technology "Snowflake"
-                        tags "Database SQL Script - Snowflake"
+                        tags "Database SQL Script"
                     }
 
                 }
                 iaContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
                 dqContainer             = container "Data Quality Engine" "Data Quality Engine" "Snowflake" "Component - Snowflake"
-                maContainer             = container "Metadata Area" "Metadata" "" "Database - Snowflake"
+                maContainer             = container "Metadata Area" "Metadata" "" "Database"
 
                 orchestrationContainer  = container "Orchestration Engine" "Orchestration" "" "" {
                     orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
