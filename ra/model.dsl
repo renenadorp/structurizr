@@ -10,8 +10,9 @@
             dataOwner   = person "Data Owner" "CRM Staff" "Internal Staff"
             dataExpert  = person "Data Expert" "CRM Staff" "Internal Staff"
             dataSteward = person "Data Steward" "Data Steward" "Internal Staff"
-            reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
 
+            reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
+            dataScientist = person "Data Scientist" "Data Science Staff" "Internal Staff"
 #*/
         group "Data Platform Reference Architecture " {
 
@@ -24,7 +25,7 @@
 
 
             DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
-                ingestionContainer      = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
+                inContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
                 daContainer             = container "Data Area" "Staging" "Snowflake" "Database - Snowflake"
                 da2baContainer          = container "Business Area Transformation" "" "" "Component - Snowflake"
                 ba2iaContainer          = container "Information Area Transformation" "" "" "Component - Snowflake"
@@ -43,12 +44,17 @@
                 iaContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
                 dqContainer             = container "Data Quality Engine" "Data Quality Engine" "Snowflake" "Component - Snowflake"
                 maContainer             = container "Metadata Area" "Metadata" "" "Database - Snowflake"
-                orchestrationContainer  = container "Orchestration Engine" "Orchestration" "" "Microsoft Azure - Data Factories"
+
+                orchestrationContainer  = container "Orchestration Engine" "Orchestration" "" "" {
+                    orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
+                }
             }
             
             MetaDataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
                 businessGlossaryContainer = container "Business Glossary" "Glossary" "" "Glossary - Purview"
                 dataCatalogContainer = container "Data Catalog" "Catalog" "" "Catalog - Purview"
+                dataLineageContainer = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
+                dataModelContainer = container "Data Model" "Data Model" "" "Data Model Container"
 
 
             }
@@ -74,13 +80,18 @@
 
         # relationships between people and software systems
        
-        erpStaff    -> erpSystem "Uses"
-        crmStaff    -> crmSystem "Uses"
-        dataSteward -> MetaDataSystem "Uses"
-        dataSteward -> MasterDataSystem "Uses"
-        dataExpert  -> MetadataSystem "Data Expert"
-        dataOwner   -> MetadataSystem "Data Owner"
-        reportUser  -> EnterpriseReportingSystem
+        erpStaff        -> erpSystem "Uses"
+        crmStaff        -> crmSystem "Uses"
+        dataSteward     -> MetaDataSystem "Uses"
+        dataSteward     -> MasterDataSystem "Uses"
+        dataExpert      -> MetadataSystem "Data Expert"
+        dataOwner       -> MetadataSystem "Data Owner"
+        reportUser      -> EnterpriseReportingSystem
+        dataScientist   -> inContainer
+        dataScientist   -> daContainer
+        dataScientist   -> baContainer
+        dataScientist   -> iaContainer
+        
    
 
         # relationships between software systems and software systems
@@ -91,23 +102,24 @@
         MasterDataSystem             -> dataPlatformSystem           "Master Data"
         DataPlatformSystem           -> EnterpriseReportingSystem    "Is datasource for"
         DataPlatformMonitoringSystem -> DataPlatformSystem           "Monitors"
-        MetaDataSystem               -> DataPlatformSystem           "Describes"
-        MetaDataSystem               -> EnterpriseReportingSystem    "Describes"
+        // MetaDataSystem               -> DataPlatformSystem           "Describes"
+        // MetaDataSystem               -> EnterpriseReportingSystem    "Describes"
+        businessGlossaryContainer    -> baContainer                  "Describes"
 
 
         # relationships between containers
-        enrichmentApplication -> ingestionContainer "Is a datasource for"
-        erpSystem -> ingestionContainer "ERP Data"
-        crmSystem -> ingestionContainer "CRM Data"
+        enrichmentApplication -> inContainer "Is a datasource for"
+        erpSystem -> inContainer "ERP Data"
+        crmSystem -> inContainer "CRM Data"
 
-        ingestionContainer      -> in2daContainer "Is a datasource for"
+        inContainer      -> in2daContainer "Is a datasource for"
         in2daContainer          -> daContainer "Transforms data for"
 
-        daContainer             -> da2baContainer "Is input for"
-        da2baContainer          -> baContainer "Transforms data for"
+        daContainer             -> da2baContainer   "Is input for"
+        da2baContainer          -> baContainer      "Transforms data for"
 
-        baContainer             -> ba2iaContainer "Is a datasource for"
-        ba2iaContainer          -> iaContainer "Transforms data for"
+        baContainer             -> ba2iaContainer   "Is a datasource for"
+        ba2iaContainer          -> iaContainer      "Transforms data for"
 
         orchestrationContainer  -> in2daContainer "Orchestrates"
         orchestrationContainer  -> da2baContainer "Orchestrates"

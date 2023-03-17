@@ -10,7 +10,7 @@ views {
     }
 
     container dataPlatformSystem "DataPlatform" {
-        include * 
+        include businessGlossaryContainer daContainer baContainer iaContainer maContainer
 
         autoLayout lr
     }
@@ -28,6 +28,11 @@ views {
     }
 
     component baContainer "baContainer"    {
+        include *
+        autoLayout
+    }
+
+    component orchestrationContainer "Orchestration"    {
         include *
         autoLayout
     }
