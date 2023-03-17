@@ -50,8 +50,10 @@
             }
             
             MetaDataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
-                businessGlossaryContainer = container "Business Glossary" "Glossary" "" "Glossary - Purview"
-                dataCatalogContainer = container "Data Catalog" "Catalog" "" "Catalog - Purview"
+                businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
+                    tags "Business Glossary"
+                    }
+                dataCatalogContainer = container "Data Catalog" "Catalog" "" "Data Catalog"
                 dataLineageContainer = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
                 dataModelContainer = container "Data Model" "Data Model" "" "Data Model Container"
 
