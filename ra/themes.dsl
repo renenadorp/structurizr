@@ -1,1 +1,1 @@
-    themes https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/themeConceptual.json  https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/themeTechnologicalAzureAdfSnowflakePbi.json  
+    themes https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/themeConceptual.json  https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/themeTechnology_Blueprint_002.json  
