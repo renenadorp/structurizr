@@ -35,7 +35,6 @@
                         tags "Database Schema"
                     } 
                     baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
-                        technology "Snowflake"
                         tags "Database SQL Script"
                     }
 

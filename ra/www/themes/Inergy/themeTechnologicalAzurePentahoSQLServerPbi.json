@@ -31,14 +31,14 @@
   {
     "tag" : "Orchestration",
     "color" : "#ffffff",
-    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/person.png"
   
   }
   ,
 {
   "tag" : "Business Glossary",
   
-  "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+  "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/person.png"
 
 }
     

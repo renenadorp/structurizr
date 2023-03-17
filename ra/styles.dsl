@@ -46,19 +46,25 @@ styles {
                 color  #578BCF
                 shape Cylinder
             }
-            element "Database Schema - Snowflake" {
+            element "Database Schema" {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF
                 shape RoundedBox
             }
-            element "Database SQL Script - Snowflake" {
+            element "Database SQL Script" {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF
                 shape RoundedBox
             }
-            element "Component - Snowflake" {
+            element "Component" {
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
+                shape Component
+            }
+            element "Business Glossary" {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF
