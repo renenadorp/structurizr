@@ -1,0 +1,40 @@
+{
+  "name" : "Inergy",
+  "description" : "Theme for conceptual architecture",
+  "elements" : [ {
+    "tag" : "Database - Snowflake",
+    "color" : "#ffffff",
+    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+  },
+  {
+    "tag" : "Dataset - PowerBI",
+    "color" : "#ffffff",
+    "icon" : "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/f1d4dd6cd52338a186f58bc29c437f64cf6b327b/PNG/Dataset.png"
+  }
+  ,
+  {
+    "tag" : "Database Schema - Snowflake",
+    "color" : "#ffffff",
+    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+
+  }
+
+  ,
+  {
+    "tag" : "Database SQL Script - Snowflake",
+    "color" : "#ffffff",
+    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+
+  }
+
+,
+{
+  "tag" : "Orchestration - ADF",
+  "color" : "#ffffff",
+  "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
+
+}
+  
+]
+}
+
