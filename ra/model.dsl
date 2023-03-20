@@ -2,7 +2,8 @@
      model {
             
 
-#/*
+#/*     
+        group "People" {
             erpStaff    = person "ERP Staff" "ERP" "Internal Staff"
             crmStaff    = person "CRM Staff" "CRM Staff" "Internal Staff"
 
@@ -13,23 +14,28 @@
 
             reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
             dataScientist = person "Data Scientist" "Data Science Staff" "Internal Staff"
-#*/
-        group "Data Platform Reference Architecture " {
+#*/ 
+        }
+
+        group "Source Systems" {
+
+            srcSystem           = softwaresystem "Source System" "Some Source System" "System OutScope"
 
             erpSystem           = softwaresystem "ERP System" "Enterprise Resource Planning" "System OutScope"
             crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope"
             wmsSystem           = softwaresystem "WMS" "Warehouse Management System" "System OutScope"
             hrmSystem           = softwaresystem "HRM" "Human Resource Management System" "System OutScope"
             iamSystem           = softwaresystem "IAM" "Identity & Access Management System" "System InScope"
-            MasterDataSystem    = softwaresystem "Masterdata " "Masterdata " "System OutScope"
+            mdmSystem           = softwaresystem "Masterdata System" "Masterdata " "System OutScope"
 
-
+        }
+        group "Core Dataplatform Systems" {
             DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
                 inContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
-                daContainer             = container "Data Area" "Staging" "Snowflake" "Database - Snowflake"
-                da2baContainer          = container "Business Area Transformation" "" "" "Component - Snowflake"
-                ba2iaContainer          = container "Information Area Transformation" "" "" "Component - Snowflake"
-                in2daContainer          = container "Data Area Transformation" "" "" "Component - Snowflake"
+                daContainer             = container "Data Area" "Staging" ".." "Database"
+                da2baContainer          = container "Business Area Transformation" "" "" "Component"
+                ba2iaContainer          = container "Information Area Transformation" "" "" "Component"
+                in2daContainer          = container "Data Area Transformation" "" "" "Component"
                 baContainer             = container "Business Area" "Business Area" ".." "Database" {
                     baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
                         tags "Database Schema"
@@ -39,30 +45,33 @@
                     }
 
                 }
-                iaContainer             = container "Information Area" "Information Area" "Snowflake" "Database - Snowflake"
-                dqContainer             = container "Data Quality Engine" "Data Quality Engine" "Snowflake" "Component - Snowflake"
+                iaContainer             = container "Information Area" "Information Area" "" "Database"
                 maContainer             = container "Metadata Area" "Metadata" "" "Database"
 
-                orchestrationContainer  = container "Orchestration Engine" "Orchestration" "" "" {
+                orchContainer  = container "Orchestration Engine" "Orchestration" "" "" {
                     orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
                 }
             }
             
-            MetaDataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
+            metadataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
                 businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
                     tags "Business Glossary"
                     }
-                dataCatalogContainer = container "Data Catalog" "Catalog" "" "Data Catalog"
-                dataLineageContainer = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
-                dataModelContainer = container "Data Model" "Data Model" "" "Data Model Container"
+                dataCatalogContainer    = container "Data Catalog" "Catalog" "" "Data Catalog"
+                dataLineageContainer    = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
+                dataModelContainer      = container "Data Model" "Data Model" "" "Data Model Container"
+                dqContainer             = container "Data Quality Engine" "Data Quality Engine" "" "Component"
 
 
             }
             
-            DataEnrichtmentSystem = softwaresystem "Data Enrichment System" "Data Enrichment" "System InScope" {
+            enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "System InScope" {
                 enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
 
             }
+        }
+
+        group "Target Systems" {
             EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" {
                 biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
                 biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
@@ -70,77 +79,85 @@
                 biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
                 biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
             }
-            
-            DataPlatformMonitoringSystem = softwaresystem "DataPlatform Monitoring System" "Monitoring" "System InScope" {
+            EnterprisePortalSystem = softwaresystem "Enterprise Poral" "Enterprise Portl" "System OutScope" {
+
+            }
+            monitoringSystem = softwaresystem " Monitoring System" "Monitoring" "System InScope" {
                 dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring - "
                 dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
             }
 
         }
 
-        # relationships between people and software systems
-       
-        erpStaff        -> erpSystem "Uses"
-        crmStaff        -> crmSystem "Uses"
-        dataSteward     -> MetaDataSystem "Uses"
-        dataSteward     -> MasterDataSystem "Uses"
-        dataExpert      -> MetadataSystem "Data Expert"
-        dataOwner       -> MetadataSystem "Data Owner"
-        reportUser      -> EnterpriseReportingSystem
-        dataScientist   -> inContainer
-        dataScientist   -> daContainer
-        dataScientist   -> baContainer
-        dataScientist   -> iaContainer
+        group "Relations" {
+            # relationships between people and software systems
         
-   
+            erpStaff        -> erpSystem "Uses"
+            crmStaff        -> crmSystem "Uses"
+            dataSteward     -> metadataSystem "Uses"
+            dataSteward     -> mdmSystem "Uses"
+            dataExpert      -> metadataSystem "Data Expert"
+            dataOwner       -> metadataSystem "Data Owner"
+            reportUser      -> EnterpriseReportingSystem
+            dataScientist   -> inContainer
+            dataScientist   -> daContainer
+            dataScientist   -> baContainer
+            dataScientist   -> iaContainer
+            
+    
 
-        # relationships between software systems and software systems
-        #erpSystem -> dataPlatformSystem "ERP Data"
-        #crmSystem -> dataPlatformSystem "CRM Data"
+            # relationships between software systems and software systems
 
-        #DataEnrichtmentSystem -> dataPlatformSystem "Enrichment Data"
-        MasterDataSystem             -> dataPlatformSystem           "Master Data"
-        DataPlatformSystem           -> EnterpriseReportingSystem    "Is datasource for"
-        DataPlatformMonitoringSystem -> DataPlatformSystem           "Monitors"
-        // MetaDataSystem               -> DataPlatformSystem           "Describes"
-        // MetaDataSystem               -> EnterpriseReportingSystem    "Describes"
-        businessGlossaryContainer    -> baContainer                  "Describes"
+            mdmSystem                    -> dataPlatformSystem           "Master Data"
+            DataPlatformSystem           -> EnterpriseReportingSystem    "Is datasource for"
+            DataPlatformSystem           -> EnterprisePortalSystem    "Is datasource for"
+            srcSystem                    -> dataPlatformSystem           "Is a datasource for"
+            monitoringSystem             -> DataPlatformSystem           "Monitors"
+            // MetaDataSystem               -> DataPlatformSystem           "Describes"
+            // MetaDataSystem               -> EnterpriseReportingSystem    "Describes"
+            iamSystem -> dataPlatformSystem "Manages access to"
+            iamSystem -> EnterpriseReportingSystem "Manages access to"
+            iamSystem -> enrichtmentSystem "Manages access to"
 
 
-        # relationships between containers
-        enrichmentApplication -> inContainer "Is a datasource for"
-        erpSystem -> inContainer "ERP Data"
-        crmSystem -> inContainer "CRM Data"
+            # relationships between containers
+            enrichmentApplication -> inContainer "Is a datasource for"
+            erpSystem -> inContainer "ERP Data"
+            crmSystem -> inContainer "CRM Data"
 
-        inContainer      -> in2daContainer "Is a datasource for"
-        in2daContainer          -> daContainer "Transforms data for"
+            inContainer      -> in2daContainer "Is a datasource for"
+            in2daContainer          -> daContainer "Transforms data for"
 
-        daContainer             -> da2baContainer   "Is input for"
-        da2baContainer          -> baContainer      "Transforms data for"
+            daContainer             -> da2baContainer   "Is input for"
+            da2baContainer          -> baContainer      "Transforms data for"
 
-        baContainer             -> ba2iaContainer   "Is a datasource for"
-        ba2iaContainer          -> iaContainer      "Transforms data for"
+            baContainer             -> ba2iaContainer   "Is a datasource for"
+            ba2iaContainer          -> iaContainer      "Transforms data for"
 
-        orchestrationContainer  -> in2daContainer "Orchestrates"
-        orchestrationContainer  -> da2baContainer "Orchestrates"
-        orchestrationContainer  -> ba2iaContainer "Orchestrates"
-        
+            orchContainer  -> in2daContainer "Orchestrates"
+            orchContainer  -> da2baContainer "Orchestrates"
+            orchContainer  -> ba2iaContainer "Orchestrates"
 
-        maContainer -> daContainer "Describes"
-        maContainer -> baContainer "Describes"
-        maContainer -> iaContainer "Describes"
+            orchContainer  -> monitoringSystem "Sends status updates to "
+            
 
-        daContainer -> dqContainer "Is validated by"
-        baContainer -> dqContainer "Is validated by"
-        dqContainer -> maContainer "Store DQ data in "
+            maContainer -> daContainer "Describes"
+            maContainer -> baContainer "Describes"
+            maContainer -> iaContainer "Describes"
 
-        # relationships between components
-        biEnterpriseDataSet -> biDomainDataSet1 "Links selected datasets to"
-        biEnterpriseDataSet -> biDomainDataSet2 "Links selected datasets to"
+            daContainer -> dqContainer "Is validated by"
+            baContainer -> dqContainer "Is validated by"
+            dqContainer -> maContainer "Store data validation results data in "
 
-        biDomainDataSet1 -> biReport1 "Is a datasource for"
-        biDomainDataSet2 -> biReport2 "Is a datasource for"
-        
+            businessGlossaryContainer    -> baContainer                  "Describes"
+
+            # relationships between components
+            biEnterpriseDataSet -> biDomainDataSet1 "Links selected datasets to"
+            biEnterpriseDataSet -> biDomainDataSet2 "Links selected datasets to"
+
+            biDomainDataSet1 -> biReport1 "Is a datasource for"
+            biDomainDataSet2 -> biReport2 "Is a datasource for"
+        }
         
             
     }

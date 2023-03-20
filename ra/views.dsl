@@ -2,6 +2,10 @@ views {
     systemlandscape "dataPlatformLandscape" {
         include *
         autoLayout lr
+    }    
+    systemlandscape "dataPlatformLandscapeSimple" {
+        include monitoringSystem metadataSystem  srcSystem dataPlatformSystem  enterpriseReportingSystem   enrichtmentSystem mdmSystem EnterprisePortalSystem
+        autoLayout tb
     }
 
     systemcontext dataPlatformSystem "SystemContext" {
@@ -10,10 +14,11 @@ views {
     }
 
     container dataPlatformSystem "DataPlatform" {
-        include businessGlossaryContainer daContainer baContainer iaContainer maContainer
+        include *
 
         autoLayout lr
     }
+
 
     container EnterpriseReportingSystem "Reporting" {
         include *
@@ -21,7 +26,7 @@ views {
         autoLayout lr
     }
 
-    container MetadataSystem "Metadata" {
+    container metadataSystem "Metadata" {
         include *
 
         autoLayout lr
@@ -32,7 +37,7 @@ views {
         autoLayout
     }
 
-    component orchestrationContainer "Orchestration"    {
+    component orchContainer "Orchestration"    {
         include *
         autoLayout
     }

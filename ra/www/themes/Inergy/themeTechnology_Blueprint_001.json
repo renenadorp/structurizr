@@ -1,6 +1,6 @@
 {
   "name" : "Inergy",
-  "description" : "Theme for conceptual architecture",
+  "description" : "Theme for architecture blueprint: Snowflake, Pentaho, SQL, Power BI",
   "elements" : [ {
     "tag" : "Database",
     "color" : "#ffffff",
