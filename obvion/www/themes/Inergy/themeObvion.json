@@ -1,0 +1,16 @@
+{
+  "name" : "Inergy",
+  "description" : "Theme for conceptual architecture",
+  "elements" : [ {
+    "tag" : "Database ",
+    "color" : "#ffffff",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
+    
+  }
+  
+]
+
+
+}
+

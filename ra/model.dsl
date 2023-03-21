@@ -29,63 +29,62 @@
             mdmSystem           = softwaresystem "Masterdata System" "Masterdata " "System OutScope"
 
         }
-        group "Core Dataplatform Systems" {
-            DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
-                inContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
-                daContainer             = container "Data Area" "Staging" ".." "Database"
-                da2baContainer          = container "Business Area Transformation" "" "" "Component"
-                ba2iaContainer          = container "Information Area Transformation" "" "" "Component"
-                in2daContainer          = container "Data Area Transformation" "" "" "Component"
-                baContainer             = container "Business Area" "Business Area" ".." "Database" {
-                    baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
-                        tags "Database Schema"
-                    } 
-                    baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
-                        tags "Database SQL Script"
-                    }
 
+        DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
+            inContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
+            daContainer             = container "Data Area" "Staging" ".." "Database"
+            da2baContainer          = container "Business Area Transformation" "" "" "Component"
+            ba2iaContainer          = container "Information Area Transformation" "" "" "Component"
+            in2daContainer          = container "Data Area Transformation" "" "" "Component"
+            baContainer             = container "Business Area" "Business Area" ".." "Database" {
+                baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
+                    tags "Database Schema"
+                } 
+                baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
+                    tags "Database SQL Script"
                 }
-                iaContainer             = container "Information Area" "Information Area" "" "Database"
-                maContainer             = container "Metadata Area" "Metadata" "" "Database"
 
-                orchContainer  = container "Orchestration Engine" "Orchestration" "" "" {
-                    orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
+            }
+            iaContainer             = container "Information Area" "Information Area" "" "Database"
+            maContainer             = container "Metadata Area" "Metadata" "" "Database"
+
+            orchContainer  = container "Orchestration Engine" "Orchestration" "" "" {
+                orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
+            }
+        }
+        
+        metadataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
+            businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
+                tags "Business Glossary"
                 }
-            }
-            
-            metadataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
-                businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
-                    tags "Business Glossary"
-                    }
-                dataCatalogContainer    = container "Data Catalog" "Catalog" "" "Data Catalog"
-                dataLineageContainer    = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
-                dataModelContainer      = container "Data Model" "Data Model" "" "Data Model Container"
-                dqContainer             = container "Data Quality Engine" "Data Quality Engine" "" "Component"
+            dataCatalogContainer    = container "Data Catalog" "Catalog" "" "Data Catalog"
+            dataLineageContainer    = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
+            dataModelContainer      = container "Data Model" "Data Model" "" "Data Model Container"
+            dqContainer             = container "Data Quality Engine" "Data Quality Engine" "" "Component"
 
 
-            }
-            
-            enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "System InScope" {
-                enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
+        }
+        
+        enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "System InScope" {
+            enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
 
-            }
         }
 
         group "Target Systems" {
-            EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" {
-                biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
-                biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
-                biDomainDataSet2        = container "BI Domain Dataset 2" "BI Dataset" "Power BI" "Dataset - PowerBI"
-                biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
-                biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
-            }
-            EnterprisePortalSystem = softwaresystem "Enterprise Poral" "Enterprise Portl" "System OutScope" {
+        EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" {
+            biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biDomainDataSet2        = container "BI Domain Dataset 2" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
+            biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
+        }
+        EnterprisePortalSystem = softwaresystem "Enterprise Poral" "Enterprise Portl" "System OutScope" {
 
-            }
-            monitoringSystem = softwaresystem " Monitoring System" "Monitoring" "System InScope" {
-                dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring - "
-                dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
-            }
+        }
+        monitoringSystem = softwaresystem " Monitoring System" "Monitoring" "System InScope" {
+            dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring - "
+            dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
+        }
 
         }
 
