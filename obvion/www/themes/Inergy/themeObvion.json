@@ -3,7 +3,7 @@
   "description" : "Theme for conceptual architecture",
   "elements" : [ {
     "tag" : "Database - Netezza",
-    "color" : "#ffffff",
+    "color" : "red",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
     
