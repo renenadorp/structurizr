@@ -22,7 +22,7 @@
                 ingContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "FTP Server" {                
                 }
                 sdaContainer             = container "Staging Data Area" "Staging" ".." "" {
-                    tags "Database"
+                    tags "Database - Netezza"
                     technology "Netezza"
 
                 }
