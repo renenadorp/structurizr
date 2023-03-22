@@ -139,13 +139,11 @@
                         IngestInstance = containerInstance ingContainer
                         }
                     }
-                deploymentNode "Azure" {
-                    tags "Cloud - Azure"
+
                     deploymentNode "Power BI Service" {
                         tags "Reporting - Power BI"
                         cloudReportingInstance = containerInstance cloudBIEngine
                     }
-                }
                 deploymentNode "Data Center - Previder" {
 
                     deploymentNode "ETL Server" {
