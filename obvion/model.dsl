@@ -133,6 +133,7 @@
         group "DeploymentEnvironments" {
             deploymentEnvironment "Live" {
                 deploymentNode "Data Center - Centric" {
+                    tags "Data Center - Centric"
 
                     deploymentNode "FTP Server" {
                         IngestInstance = containerInstance ingContainer
