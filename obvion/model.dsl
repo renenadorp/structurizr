@@ -1,12 +1,11 @@
 
      model {
             
-
-#/*     
+     
         group "People" {
             #erpStaff    = person "ERP Staff" "ERP" "Internal Staff"
             
-#*/ 
+ 
         }
 
         group "Source Systems" {
@@ -18,41 +17,39 @@
         }
 
         group "Data & Analytics" {
-            FTPSystem = softwaresystem "FTP Server" {
+            FTPSystem               = softwaresystem "FTP Server" {
                 ingContainer = container "Ingest"  "" "" "File Server" 
-                   
-            }
+                }
 
-            DataPlatformSystem = softwaresystem "Data Platform System" "" {
-                    sdaContainer = container "SDA"  "" "Database - Netezza" "Database" {
+            DataPlatformSystem      = softwaresystem "Data Platform System" "" {
+                    sdaContainer = container "SDA"  "" "Database - Netezza" "Database - Netezza" {
                         digbdaComponent = component "DIG_BDA" "" "Stored Procedure - Netezza" "Stored Procedure"
                         sdaDataComponent = component "SDA Data" "" "Table - Netezza" ""
                     }
-                    bdaContainer = container "BDA" "" "Database - Netezza" "Database" {
+                    bdaContainer = container "BDA" "" "Database - Netezza" "Database - Netezza" {
                         digdwaComponent = component "DIG_DWA" "" "" "Stored Procedure"
                         bdaDataComponent = component "BDA Data" "" "" "" 
 
                     }
-                    dwaContainer = container "DWA" "" "Database - Netezza" "Database" {
+                    dwaContainer = container "DWA" "" "Netezza" "Database - Netezza" {
                         dwaDataComponent = component "DWA Data" "" "" "" 
                     }
-                    fraContainer = container "FRA" "" "Database - Netezza" "Database" {
+                    fraContainer = container "FRA" "" "Netezza" "Database - Netezza" {
                         digfraComponent = component "DIG_FRA" "" "" ""
                         fraDataComponent = component "FRA Data" "" ""
                     }
-                    edaContainer = container "EDP" "" "Database - Netezza" "Database - Virtual"
-                    ddaContainer = container "DDA" "" "Database - Netezza" "Database"
+                    edaContainer = container "EDP" "" "Database" "Database - Virtual"
+                    ddaContainer = container "DDA" "" "Database - Netezza" "Database - Netezza"
                      
-            }
+                }
             privateReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                privateBIEngine = container "Reporting Engine" "Reporting - Microstrategy" {
+                privateBIEngine = container "Reporting Engine" "Microstrategy" "Microstrategy" {
                     tags "Reporting - Microstrategy"
                     privateBIReport = component "Report" "Microstrategy Report"
 
                 }
-            }
-            
-            cloudReportingSystem  = softwaresystem "Power BI Service" "Power BI" "" {
+                }        
+            cloudReportingSystem    = softwaresystem "Power BI Service" "Power BI" "" {
                 cloudBIEngine = container "Reporting Engine" "Reporting - Power BI" {
                     tags "Reporting - Power BI"
                     cloudBIReport = component "Report" "Power BI Report"
@@ -61,7 +58,7 @@
             }
             
             
-            etlSystem        = softwaresystem "ETL System" "" "Data Processing" {
+            etlSystem               = softwaresystem "ETL System" "" "Data Processing" {
                 etlEngine  = container "ETL Engine" "Pentaho Server" "ETL - Pentaho Server" {
                     etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlsdaComponent    = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
@@ -70,14 +67,16 @@
                     etldwaComponent    = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
                     etlexpComponent    = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
                 }
-                scdContainer        = container "SCD" "" "ETL - Java"
-                islContainer        = container "ISL" "" "ETL - Java"
+                scdContainer        = container "SCD" "" "ETL - Java" {
+                    tags "Java - Jar"
+                }
+                islContainer        = container "ISL" "" "ETL - Java" {
+                                        tags "Java - Jar"
+                }
             
                 }
             }
                   
-        
-
         group "Relations" {
             # relationships between people and software systems        
             #dataSteward     -> metadataSystem "Uses"

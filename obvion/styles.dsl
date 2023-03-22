@@ -16,16 +16,22 @@ styles {
                 shape Person
             }
             element "System InScope" {
-                background #1168bd
-                color #ffffff
+                stroke grey
+                background white
+                color grey
+                shape RoundedBox
             }
             element "System OutScope" {
-                background #999999
-                color #ffffff
+                stroke grey
+                background white
+                color grey
+                shape RoundedBox
             }
             element "Container" {
-                background #438dd5
-                color #ffffff
+                stroke grey
+                background white
+                color grey
+                shape RoundedBox
             }
             element "Web Browser" {
                 shape WebBrowser
@@ -35,23 +41,19 @@ styles {
             }
 
             element "Database" {
-                stroke white
-
+                stroke grey
+                background white
+                color grey
                 shape Cylinder
             }
             element "Database - Virtual" {
                 stroke grey
                 border dashed
                 background lightgrey
-                color white
+                color grey
                 shape Cylinder
             }
-            element "Database SQL Script" {
-                background #ffffff
-                stroke #578BCF
-                color  #578BCF
-                shape RoundedBox
-            }
+            
             element "Component" {
                 background #ffffff
                 stroke #578BCF

@@ -2,9 +2,9 @@
   "id" : 1,
   "name" : "Inergy Data Platform Reference Architecture",
   "description" : "Inergy Data Platform Reference",
-  "lastModifiedDate" : "2023-03-22T17:05:09Z",
+  "lastModifiedDate" : "2023-03-22T17:32:47Z",
   "properties" : {
-    "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIgIkluZXJneSBEYXRhIFBsYXRmb3JtIFJlZmVyZW5jZSIgewogICAgCiAgICAhZG9jcyB3aWtpCiAgICAhYWRycyBhZHJzCiFjb25zdGFudCBPUkdBTklTQVRJT05fTkFNRSAiSW5lcmd5IgohY29uc3RhbnQgQVJDSElURUNUVVJFX05BTUUgIkRhdGFwbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlIgohY29uc3RhbnQgVEhFTUVfQVpVUkUgImh0dHBzOi8vbmFkb3JwLno2LndlYi5jb3JlLndpbmRvd3MubmV0L3N0cnVjdHVyaXpyL3RoZW1lcy90aGVtZV9zdGFuZGFyZC9BenVyZS90aGVtZS5qc29uIgohY29uc3RhbnQgVEhFTUVfU1RBTkRBUkQgImh0dHBzOi8vZ2lzdC5naXRodWJ1c2VyY29udGVudC5jb20vcmVuZW5hZG9ycC83OGU5NDA0MmJhMGMzYmJkZTViMzA2MGZmODM4ODgyYS9yYXcvYzIxYmM5NTdmODNhOGUyZWFhNzdlM2QwZTJiNjFjYzg3YjhmOTA4MC90aGVtZV9JbmVyZ3kiIAoKCgogICAgIG1vZGVsIHsKICAgICAgICAgICAgCgojLyogICAgIAogICAgICAgIGdyb3VwICJQZW9wbGUiIHsKICAgICAgICAgICAgI2VycFN0YWZmICAgID0gcGVyc29uICJFUlAgU3RhZmYiICJFUlAiICJJbnRlcm5hbCBTdGFmZiIKICAgICAgICAgICAgCiMqLyAKICAgICAgICB9CgogICAgICAgIGdyb3VwICJTb3VyY2UgU3lzdGVtcyIgewogICAgICAgICAgICBzaHNTeXN0ZW0gICAgICAgICAgID0gc29mdHdhcmVzeXN0ZW0gIlN0YXRlciBIeXBvdGhlZWsgU3lzdGVtIiAiU3RhdGVyIiAiU3lzdGVtIE91dFNjb3BlIiAKICAgICAgICAgICAgY3JtU3lzdGVtICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJDUk0gU3lzdGVtIiAiQ3VzdG9tZXIgUmVsYXRpb25zaGlwIE1hbmFnZW1lbnQgU3lzdGVtIiAiU3lzdGVtIE91dFNjb3BlIiB7CiAgICAgICAgICAgICAgICBjcm1WaWV3cyA9IGNvbnRhaW5lciAiQ1JNIFZpZXdzIgoKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZ3JvdXAgIkRhdGEgJiBBbmFseXRpY3MiIHsKICAgICAgICAgICAgRlRQU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkZUUCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgIGluZ0NvbnRhaW5lciA9IGNvbnRhaW5lciAiSW5nZXN0IiAgIiIgIiIgIkZpbGUgU2VydmVyIiAKICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CgogICAgICAgICAgICBEYXRhUGxhdGZvcm1TeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRGF0YSBQbGF0Zm9ybSBTeXN0ZW0iICIiIHsKICAgICAgICAgICAgICAgICAgICBzZGFDb250YWluZXIgPSBjb250YWluZXIgIlNEQSIgICIiICJEYXRhYmFzZSAtIE5ldGV6emEiICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICBkaWdiZGFDb21wb25lbnQgPSBjb21wb25lbnQgIkRJR19CREEiICIiICJTdG9yZWQgUHJvY2VkdXJlIC0gTmV0ZXp6YSIgIlN0b3JlZCBQcm9jZWR1cmUiCiAgICAgICAgICAgICAgICAgICAgICAgIHNkYURhdGFDb21wb25lbnQgPSBjb21wb25lbnQgIlNEQSBEYXRhIiAiIiAiVGFibGUgLSBOZXRlenphIiAiIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBiZGFDb250YWluZXIgPSBjb250YWluZXIgIkJEQSIgIiIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2R3YUNvbXBvbmVudCA9IGNvbXBvbmVudCAiRElHX0RXQSIgIiIgIiIgIlN0b3JlZCBQcm9jZWR1cmUiCiAgICAgICAgICAgICAgICAgICAgICAgIGJkYURhdGFDb21wb25lbnQgPSBjb21wb25lbnQgIkJEQSBEYXRhIiAiIiAiIiAiIiAKCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGR3YUNvbnRhaW5lciA9IGNvbnRhaW5lciAiRFdBIiAiIiAiRGF0YWJhc2UgLSBOZXRlenphIiAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZHdhRGF0YUNvbXBvbmVudCA9IGNvbXBvbmVudCAiRFdBIERhdGEiICIiICIiICIiIAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBmcmFDb250YWluZXIgPSBjb250YWluZXIgIkZSQSIgIiIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2ZyYUNvbXBvbmVudCA9IGNvbXBvbmVudCAiRElHX0ZSQSIgIiIgIiIgIiIKICAgICAgICAgICAgICAgICAgICAgICAgZnJhRGF0YUNvbXBvbmVudCA9IGNvbXBvbmVudCAiRlJBIERhdGEiICIiICIiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVkYUNvbnRhaW5lciA9IGNvbnRhaW5lciAiRURQIiAiIiAiRGF0YWJhc2UgLSBOZXRlenphIiAiRGF0YWJhc2UgLSBWaXJ0dWFsIgogICAgICAgICAgICAgICAgICAgIGRkYUNvbnRhaW5lciA9IGNvbnRhaW5lciAiRERBIiAiIiAiRGF0YWJhc2UgLSBOZXRlenphIiAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIHByaXZhdGVSZXBvcnRpbmdTeXN0ZW0gID0gc29mdHdhcmVzeXN0ZW0gIlJlcG9ydGluZyBTeXN0ZW0iICJNaWNyb3N0cmF0ZWd5IiAiIiB7CiAgICAgICAgICAgICAgICBwcml2YXRlQklFbmdpbmUgPSBjb250YWluZXIgIlJlcG9ydGluZyBFbmdpbmUiICJSZXBvcnRpbmcgLSBNaWNyb3N0cmF0ZWd5IiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiUmVwb3J0aW5nIC0gTWljcm9zdHJhdGVneSIKICAgICAgICAgICAgICAgICAgICBwcml2YXRlQklSZXBvcnQgPSBjb21wb25lbnQgIlJlcG9ydCIgIk1pY3Jvc3RyYXRlZ3kgUmVwb3J0IgoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgY2xvdWRSZXBvcnRpbmdTeXN0ZW0gID0gc29mdHdhcmVzeXN0ZW0gIlBvd2VyIEJJIFNlcnZpY2UiICJQb3dlciBCSSIgIiIgewogICAgICAgICAgICAgICAgY2xvdWRCSUVuZ2luZSA9IGNvbnRhaW5lciAiUmVwb3J0aW5nIEVuZ2luZSIgIlJlcG9ydGluZyAtIFBvd2VyIEJJIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiUmVwb3J0aW5nIC0gUG93ZXIgQkkiCiAgICAgICAgICAgICAgICAgICAgY2xvdWRCSVJlcG9ydCA9IGNvbXBvbmVudCAiUmVwb3J0IiAiUG93ZXIgQkkgUmVwb3J0IgoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIGV0bFN5c3RlbSAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiRVRMIFN5c3RlbSIgIiIgIkRhdGEgUHJvY2Vzc2luZyIgewogICAgICAgICAgICAgICAgZXRsRW5naW5lICA9IGNvbnRhaW5lciAiRVRMIEVuZ2luZSIgIlBlbnRhaG8gU2VydmVyIiAiRVRMIC0gUGVudGFobyBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAgPSBjb21wb25lbnQgIkRhaWx5IE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bHNkYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiU0RBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGJkYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiQkRBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGZyYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiRlJBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGR3YUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiRFdBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIiAKICAgICAgICAgICAgICAgICAgICBldGxleHBDb21wb25lbnQgICAgPSBjb21wb25lbnQgIkREQSBNYWluIiAiUGVudGFobyBKb2IiICJFVEwgLSBQZW50YWhvIEpvYiIgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzY2RDb250YWluZXIgICAgICAgID0gY29udGFpbmVyICJTQ0QiICIiICJFVEwgLSBKYXZhIgogICAgICAgICAgICAgICAgaXNsQ29udGFpbmVyICAgICAgICA9IGNvbnRhaW5lciAiSVNMIiAiIiAiRVRMIC0gSmF2YSIKICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgCiAgICAgICAgCgogICAgICAgIGdyb3VwICJSZWxhdGlvbnMiIHsKICAgICAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zICAgICAgICAKICAgICAgICAgICAgI2RhdGFTdGV3YXJkICAgICAtPiBtZXRhZGF0YVN5c3RlbSAiVXNlcyIKICAgICAgICAKICAgICAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gc29mdHdhcmUgc3lzdGVtcyBhbmQgc29mdHdhcmUgc3lzdGVtcwoKICAgICAgICAgICAgc2hzU3lzdGVtICAgICAgIC0+IGluZ0NvbnRhaW5lciAgICAgIlB1c2giCiAgICAgICAgICAgIGNybVZpZXdzICAgICAgICAtPiBpc2xDb250YWluZXIgICAgICJQdWxsIgoKICAgICAgICAgICAgIyBEQUlMWQogICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAtPiBldGxzZGFDb21wb25lbnQgIiIKICAgICAgICAgICAgZXRsRGFpbHlDb21wb25lbnQgLT4gZXRsZnJhQ29tcG9uZW50ICIiCiAgICAgICAgICAgIGV0bERhaWx5Q29tcG9uZW50IC0+IGV0bGJkYUNvbXBvbmVudCAiIgogICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAtPiBldGxkd2FDb21wb25lbnQgIiIKICAgICAgICAgICAgZXRsRGFpbHlDb21wb25lbnQgLT4gZXRsZXhwQ29tcG9uZW50ICIiCgoKICAgICAgICAgICAgIyBTREEKICAgICAgICAgICAgaW5nQ29udGFpbmVyICAgIC0+IGV0bHNkYUNvbXBvbmVudCAiRGF0YXNvdXJjZSBmb3IiCiAgICAgICAgICAgIGV0bHNkYUNvbXBvbmVudCAtPiBpc2xDb250YWluZXIgIiIKICAgICAgICAgICAgZXRsc2RhQ29tcG9uZW50IC0+IHNjZENvbnRhaW5lciAiIgogICAgICAgICAgICBzY2RDb250YWluZXIgICAgLT4gc2RhQ29udGFpbmVyICIiCiAgICAgICAgICAgIGlzbENvbnRhaW5lciAgICAtPiBzZGFDb250YWluZXIgIiIKCiAgICAgICAgICAgICMgQkRBCiAgICAgICAgICAgIGV0bGJkYUNvbXBvbmVudCAtPiBkaWdiZGFDb21wb25lbnQgICIiCiAgICAgICAgICAgIHNkYURhdGFDb21wb25lbnQgICAgLT4gZGlnYmRhQ29tcG9uZW50ICAiIgogICAgICAgICAgICBkaWdiZGFDb21wb25lbnQgLT4gYmRhQ29udGFpbmVyICAgICAiIgoKICAgICAgICAgICAgIyBEV0EKICAgICAgICAgICAgZXRsZHdhQ29tcG9uZW50IC0+IGRpZ2R3YUNvbXBvbmVudCAiIgogICAgICAgICAgICBiZGFEYXRhQ29tcG9uZW50ICAgLT4gZGlnZHdhQ29tcG9uZW50ICIiICAgICAgICAKICAgICAgICAgICAgZGlnZHdhQ29tcG9uZW50IC0+IGR3YUNvbnRhaW5lciAiIgoKICAgICAgICAgICAgIyBGUkEKICAgICAgICAgICAgZXRsZnJhQ29tcG9uZW50IC0+IGRpZ2ZyYUNvbXBvbmVudCAiIgogICAgICAgICAgICBiZGFEYXRhQ29tcG9uZW50ICAgLT4gZGlnZnJhQ29tcG9uZW50ICAiIgogICAgICAgICAgICBkaWdmcmFDb21wb25lbnQgLT4gZnJhRGF0YUNvbXBvbmVudCAiIgoKICAgICAgICAgICAgIyBFREEKICAgICAgICAgICAgc2RhQ29udGFpbmVyIC0+IGVkYUNvbnRhaW5lciAiUmVhZCBPbmx5IgogICAgICAgICAgICBiZGFDb250YWluZXIgLT4gZWRhQ29udGFpbmVyICJSZWFkIE9ubHkiCiAgICAgICAgICAgIGR3YUNvbnRhaW5lciAtPiBlZGFDb250YWluZXIgIlJlYWQgT25seSIKICAgICAgICAgICAgZnJhQ29udGFpbmVyIC0+IGVkYUNvbnRhaW5lciAiUmVhZCBPbmx5IgogICAgICAgICAgICAKICAgICAgICAgICAgIyBSRVBPUlRJTkcKICAgICAgICAgICAgZHdhQ29udGFpbmVyIC0+IHByaXZhdGVCSVJlcG9ydCAgICJQcm92aWRlcyBkYXRhIHRvIgogICAgICAgICAgICBkd2FDb250YWluZXIgLT4gY2xvdWRCSVJlcG9ydCAgICJQcm92aWRlcyBkYXRhIHRvIgoKCgogICAgICAgIH0KICAgICAgICAKICAgICAgICBncm91cCAiRGVwbG95bWVudEVudmlyb25tZW50cyIgewogICAgICAgICAgICBkZXBsb3ltZW50RW52aXJvbm1lbnQgIkxpdmUiIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJEYXRhIENlbnRlciAtIENlbnRyaWMiIHsKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkZUUCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgSW5nZXN0SW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBpbmdDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlBvd2VyIEJJIFNlcnZpY2UiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiUmVwb3J0aW5nIC0gUG93ZXIgQkkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNsb3VkUmVwb3J0aW5nSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBjbG91ZEJJRW5naW5lCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRhdGEgQ2VudGVyIC0gUHJldmlkZXIiIHsKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkVUTCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkphdmEgVk0iIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkphdmEgVk0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2RJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHNjZENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNsSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBpc2xDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiUGVudGFobyBEYXRhIEludGVncmF0aW9uIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJFVEwgLSBQZW50YWhvIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXRsRW5naW5lSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBldGxFbmdpbmUKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gICAgIAogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJMaW51eCIgeyAgIAogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTmV0ZXp6YSIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YXBsYXRmb3JtIC0gTmV0ZXp6YSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNkYUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugc2RhQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiZGFJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGJkYUNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZHdhSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkd2FDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZyYUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZnJhQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZGFJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRkYUNvbnRhaW5lcgoKICAgICAgICAgICAgICAgICAgICAgfSAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiV2luZG93cyIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTWljcm9zdHJhdGVneSBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkJJIC0gTWljcm9zdHJhdGVneSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9ydGluZ0luc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgcHJpdmF0ZUJJRW5naW5lCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgIH0KICAgICB9CnZpZXdzIHsKICAgIHN5c3RlbWxhbmRzY2FwZSAiZGF0YVBsYXRmb3JtTGFuZHNjYXBlIiB7CiAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfSAgICAKCiAgICBzeXN0ZW1jb250ZXh0IERhdGFQbGF0Zm9ybVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgIGluY2x1ZGUgKgogICAgICAgIAogICAgICAgIGF1dG9MYXlvdXQgCiAgICB9CgogICAgY29udGFpbmVyIERhdGFQbGF0Zm9ybVN5c3RlbSAiQ29udGFpbmVyIiB7CiAgICAgICAgaW5jbHVkZSBlbGVtZW50LnR5cGU9PWNvbnRhaW5lcgogICAgICAgIGF1dG9MYXlvdXQgdGIKICAgIH0KCgogICAgZGVwbG95bWVudCBEYXRhUGxhdGZvcm1TeXN0ZW0gIkxpdmUiICJMaXZlRGVwbG95bWVudCIgewogICAgICAgIGluY2x1ZGUgZWxlbWVudC50eXBlPT1jb250YWluZXJJbnN0YW5jZSBlbGVtZW50LnR5cGU9PWRlcGxveW1lbnROb2RlCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfSAgICAKCgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlN5c3RlbSBPdXRTY29wZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc3Ryb2tlIHdoaXRlCgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSAtIFZpcnR1YWwiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBncmV5CiAgICAgICAgICAgICAgICBib3JkZXIgZGFzaGVkCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIGxpZ2h0Z3JleQogICAgICAgICAgICAgICAgY29sb3Igd2hpdGUKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UgU1FMIFNjcmlwdCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2UgIzU3OEJDRgogICAgICAgICAgICAgICAgY29sb3IgICM1NzhCQ0YKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb21wb25lbnQiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlICM1NzhCQ0YKICAgICAgICAgICAgICAgIGNvbG9yICAjNTc4QkNGCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgfQoKCiAgICAgICAgfQoKICAgIHRoZW1lcyBodHRwczovL3JlbmVuYWRvcnAuZ2l0aHViLmlvL3N0cnVjdHVyaXpyL29idmlvbi93d3cvdGhlbWVzL0luZXJneS90aGVtZU9idmlvbi5qc29uCiAgICAKCn0KCn0KCgo="
+    "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiSW5lcmd5IERhdGEgUGxhdGZvcm0gUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSIgIkluZXJneSBEYXRhIFBsYXRmb3JtIFJlZmVyZW5jZSIgewogICAgCiAgICAhZG9jcyB3aWtpCiAgICAhYWRycyBhZHJzCiFjb25zdGFudCBPUkdBTklTQVRJT05fTkFNRSAiSW5lcmd5IgohY29uc3RhbnQgQVJDSElURUNUVVJFX05BTUUgIkRhdGFwbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlIgohY29uc3RhbnQgVEhFTUVfQVpVUkUgImh0dHBzOi8vbmFkb3JwLno2LndlYi5jb3JlLndpbmRvd3MubmV0L3N0cnVjdHVyaXpyL3RoZW1lcy90aGVtZV9zdGFuZGFyZC9BenVyZS90aGVtZS5qc29uIgohY29uc3RhbnQgVEhFTUVfU1RBTkRBUkQgImh0dHBzOi8vZ2lzdC5naXRodWJ1c2VyY29udGVudC5jb20vcmVuZW5hZG9ycC83OGU5NDA0MmJhMGMzYmJkZTViMzA2MGZmODM4ODgyYS9yYXcvYzIxYmM5NTdmODNhOGUyZWFhNzdlM2QwZTJiNjFjYzg3YjhmOTA4MC90aGVtZV9JbmVyZ3kiIAoKCgogICAgIG1vZGVsIHsKICAgICAgICAgICAgCiAgICAgCiAgICAgICAgZ3JvdXAgIlBlb3BsZSIgewogICAgICAgICAgICAjZXJwU3RhZmYgICAgPSBwZXJzb24gIkVSUCBTdGFmZiIgIkVSUCIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICAKIAogICAgICAgIH0KCiAgICAgICAgZ3JvdXAgIlNvdXJjZSBTeXN0ZW1zIiB7CiAgICAgICAgICAgIHNoc1N5c3RlbSAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiU3RhdGVyIEh5cG90aGVlayBTeXN0ZW0iICJTdGF0ZXIiICJTeXN0ZW0gT3V0U2NvcGUiIAogICAgICAgICAgICBjcm1TeXN0ZW0gICAgICAgICAgID0gc29mdHdhcmVzeXN0ZW0gIkNSTSBTeXN0ZW0iICJDdXN0b21lciBSZWxhdGlvbnNoaXAgTWFuYWdlbWVudCBTeXN0ZW0iICJTeXN0ZW0gT3V0U2NvcGUiIHsKICAgICAgICAgICAgICAgIGNybVZpZXdzID0gY29udGFpbmVyICJDUk0gVmlld3MiCgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBncm91cCAiRGF0YSAmIEFuYWx5dGljcyIgewogICAgICAgICAgICBGVFBTeXN0ZW0gICAgICAgICAgICAgICA9IHNvZnR3YXJlc3lzdGVtICJGVFAgU2VydmVyIiB7CiAgICAgICAgICAgICAgICBpbmdDb250YWluZXIgPSBjb250YWluZXIgIkluZ2VzdCIgICIiICIiICJGaWxlIFNlcnZlciIgCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICBEYXRhUGxhdGZvcm1TeXN0ZW0gICAgICA9IHNvZnR3YXJlc3lzdGVtICJEYXRhIFBsYXRmb3JtIFN5c3RlbSIgIiIgewogICAgICAgICAgICAgICAgICAgIHNkYUNvbnRhaW5lciA9IGNvbnRhaW5lciAiU0RBIiAgIiIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgewogICAgICAgICAgICAgICAgICAgICAgICBkaWdiZGFDb21wb25lbnQgPSBjb21wb25lbnQgIkRJR19CREEiICIiICJTdG9yZWQgUHJvY2VkdXJlIC0gTmV0ZXp6YSIgIlN0b3JlZCBQcm9jZWR1cmUiCiAgICAgICAgICAgICAgICAgICAgICAgIHNkYURhdGFDb21wb25lbnQgPSBjb21wb25lbnQgIlNEQSBEYXRhIiAiIiAiVGFibGUgLSBOZXRlenphIiAiIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBiZGFDb250YWluZXIgPSBjb250YWluZXIgIkJEQSIgIiIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgewogICAgICAgICAgICAgICAgICAgICAgICBkaWdkd2FDb21wb25lbnQgPSBjb21wb25lbnQgIkRJR19EV0EiICIiICIiICJTdG9yZWQgUHJvY2VkdXJlIgogICAgICAgICAgICAgICAgICAgICAgICBiZGFEYXRhQ29tcG9uZW50ID0gY29tcG9uZW50ICJCREEgRGF0YSIgIiIgIiIgIiIgCgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkd2FDb250YWluZXIgPSBjb250YWluZXIgIkRXQSIgIiIgIk5ldGV6emEiICJEYXRhYmFzZSAtIE5ldGV6emEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZHdhRGF0YUNvbXBvbmVudCA9IGNvbXBvbmVudCAiRFdBIERhdGEiICIiICIiICIiIAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBmcmFDb250YWluZXIgPSBjb250YWluZXIgIkZSQSIgIiIgIk5ldGV6emEiICJEYXRhYmFzZSAtIE5ldGV6emEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGlnZnJhQ29tcG9uZW50ID0gY29tcG9uZW50ICJESUdfRlJBIiAiIiAiIiAiIgogICAgICAgICAgICAgICAgICAgICAgICBmcmFEYXRhQ29tcG9uZW50ID0gY29tcG9uZW50ICJGUkEgRGF0YSIgIiIgIiIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWRhQ29udGFpbmVyID0gY29udGFpbmVyICJFRFAiICIiICJEYXRhYmFzZSIgIkRhdGFiYXNlIC0gVmlydHVhbCIKICAgICAgICAgICAgICAgICAgICBkZGFDb250YWluZXIgPSBjb250YWluZXIgIkREQSIgIiIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIgIkRhdGFiYXNlIC0gTmV0ZXp6YSIKICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHByaXZhdGVSZXBvcnRpbmdTeXN0ZW0gID0gc29mdHdhcmVzeXN0ZW0gIlJlcG9ydGluZyBTeXN0ZW0iICJNaWNyb3N0cmF0ZWd5IiAiIiB7CiAgICAgICAgICAgICAgICBwcml2YXRlQklFbmdpbmUgPSBjb250YWluZXIgIlJlcG9ydGluZyBFbmdpbmUiICJNaWNyb3N0cmF0ZWd5IiAiTWljcm9zdHJhdGVneSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIlJlcG9ydGluZyAtIE1pY3Jvc3RyYXRlZ3kiCiAgICAgICAgICAgICAgICAgICAgcHJpdmF0ZUJJUmVwb3J0ID0gY29tcG9uZW50ICJSZXBvcnQiICJNaWNyb3N0cmF0ZWd5IFJlcG9ydCIKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9ICAgICAgICAKICAgICAgICAgICAgY2xvdWRSZXBvcnRpbmdTeXN0ZW0gICAgPSBzb2Z0d2FyZXN5c3RlbSAiUG93ZXIgQkkgU2VydmljZSIgIlBvd2VyIEJJIiAiIiB7CiAgICAgICAgICAgICAgICBjbG91ZEJJRW5naW5lID0gY29udGFpbmVyICJSZXBvcnRpbmcgRW5naW5lIiAiUmVwb3J0aW5nIC0gUG93ZXIgQkkiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJSZXBvcnRpbmcgLSBQb3dlciBCSSIKICAgICAgICAgICAgICAgICAgICBjbG91ZEJJUmVwb3J0ID0gY29tcG9uZW50ICJSZXBvcnQiICJQb3dlciBCSSBSZXBvcnQiCgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgZXRsU3lzdGVtICAgICAgICAgICAgICAgPSBzb2Z0d2FyZXN5c3RlbSAiRVRMIFN5c3RlbSIgIiIgIkRhdGEgUHJvY2Vzc2luZyIgewogICAgICAgICAgICAgICAgZXRsRW5naW5lICA9IGNvbnRhaW5lciAiRVRMIEVuZ2luZSIgIlBlbnRhaG8gU2VydmVyIiAiRVRMIC0gUGVudGFobyBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAgPSBjb21wb25lbnQgIkRhaWx5IE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bHNkYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiU0RBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGJkYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiQkRBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGZyYUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiRlJBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIgogICAgICAgICAgICAgICAgICAgIGV0bGR3YUNvbXBvbmVudCAgICA9IGNvbXBvbmVudCAiRFdBIE1haW4iICJQZW50YWhvIEpvYiIgIkVUTCAtIFBlbnRhaG8gSm9iIiAKICAgICAgICAgICAgICAgICAgICBldGxleHBDb21wb25lbnQgICAgPSBjb21wb25lbnQgIkREQSBNYWluIiAiUGVudGFobyBKb2IiICJFVEwgLSBQZW50YWhvIEpvYiIgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzY2RDb250YWluZXIgICAgICAgID0gY29udGFpbmVyICJTQ0QiICIiICJFVEwgLSBKYXZhIgogICAgICAgICAgICAgICAgaXNsQ29udGFpbmVyICAgICAgICA9IGNvbnRhaW5lciAiSVNMIiAiIiAiRVRMIC0gSmF2YSIKICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgCiAgICAgICAgZ3JvdXAgIlJlbGF0aW9ucyIgewogICAgICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMgICAgICAgIAogICAgICAgICAgICAjZGF0YVN0ZXdhcmQgICAgIC0+IG1ldGFkYXRhU3lzdGVtICJVc2VzIgogICAgICAgIAogICAgICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBzb2Z0d2FyZSBzeXN0ZW1zIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCgogICAgICAgICAgICBzaHNTeXN0ZW0gICAgICAgLT4gaW5nQ29udGFpbmVyICAgICAiUHVzaCIKICAgICAgICAgICAgY3JtVmlld3MgICAgICAgIC0+IGlzbENvbnRhaW5lciAgICAgIlB1bGwiCgogICAgICAgICAgICAjIERBSUxZCiAgICAgICAgICAgIGV0bERhaWx5Q29tcG9uZW50IC0+IGV0bHNkYUNvbXBvbmVudCAiIgogICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAtPiBldGxmcmFDb21wb25lbnQgIiIKICAgICAgICAgICAgZXRsRGFpbHlDb21wb25lbnQgLT4gZXRsYmRhQ29tcG9uZW50ICIiCiAgICAgICAgICAgIGV0bERhaWx5Q29tcG9uZW50IC0+IGV0bGR3YUNvbXBvbmVudCAiIgogICAgICAgICAgICBldGxEYWlseUNvbXBvbmVudCAtPiBldGxleHBDb21wb25lbnQgIiIKCgogICAgICAgICAgICAjIFNEQQogICAgICAgICAgICBpbmdDb250YWluZXIgICAgLT4gZXRsc2RhQ29tcG9uZW50ICJEYXRhc291cmNlIGZvciIKICAgICAgICAgICAgZXRsc2RhQ29tcG9uZW50IC0+IGlzbENvbnRhaW5lciAiIgogICAgICAgICAgICBldGxzZGFDb21wb25lbnQgLT4gc2NkQ29udGFpbmVyICIiCiAgICAgICAgICAgIHNjZENvbnRhaW5lciAgICAtPiBzZGFDb250YWluZXIgIiIKICAgICAgICAgICAgaXNsQ29udGFpbmVyICAgIC0+IHNkYUNvbnRhaW5lciAiIgoKICAgICAgICAgICAgIyBCREEKICAgICAgICAgICAgZXRsYmRhQ29tcG9uZW50IC0+IGRpZ2JkYUNvbXBvbmVudCAgIiIKICAgICAgICAgICAgc2RhRGF0YUNvbXBvbmVudCAgICAtPiBkaWdiZGFDb21wb25lbnQgICIiCiAgICAgICAgICAgIGRpZ2JkYUNvbXBvbmVudCAtPiBiZGFDb250YWluZXIgICAgICIiCgogICAgICAgICAgICAjIERXQQogICAgICAgICAgICBldGxkd2FDb21wb25lbnQgLT4gZGlnZHdhQ29tcG9uZW50ICIiCiAgICAgICAgICAgIGJkYURhdGFDb21wb25lbnQgICAtPiBkaWdkd2FDb21wb25lbnQgIiIgICAgICAgIAogICAgICAgICAgICBkaWdkd2FDb21wb25lbnQgLT4gZHdhQ29udGFpbmVyICIiCgogICAgICAgICAgICAjIEZSQQogICAgICAgICAgICBldGxmcmFDb21wb25lbnQgLT4gZGlnZnJhQ29tcG9uZW50ICIiCiAgICAgICAgICAgIGJkYURhdGFDb21wb25lbnQgICAtPiBkaWdmcmFDb21wb25lbnQgICIiCiAgICAgICAgICAgIGRpZ2ZyYUNvbXBvbmVudCAtPiBmcmFEYXRhQ29tcG9uZW50ICIiCgogICAgICAgICAgICAjIEVEQQogICAgICAgICAgICBzZGFDb250YWluZXIgLT4gZWRhQ29udGFpbmVyICJSZWFkIE9ubHkiCiAgICAgICAgICAgIGJkYUNvbnRhaW5lciAtPiBlZGFDb250YWluZXIgIlJlYWQgT25seSIKICAgICAgICAgICAgZHdhQ29udGFpbmVyIC0+IGVkYUNvbnRhaW5lciAiUmVhZCBPbmx5IgogICAgICAgICAgICBmcmFDb250YWluZXIgLT4gZWRhQ29udGFpbmVyICJSZWFkIE9ubHkiCiAgICAgICAgICAgIAogICAgICAgICAgICAjIFJFUE9SVElORwogICAgICAgICAgICBkd2FDb250YWluZXIgLT4gcHJpdmF0ZUJJUmVwb3J0ICAgIlByb3ZpZGVzIGRhdGEgdG8iCiAgICAgICAgICAgIGR3YUNvbnRhaW5lciAtPiBjbG91ZEJJUmVwb3J0ICAgIlByb3ZpZGVzIGRhdGEgdG8iCgoKCiAgICAgICAgfQogICAgICAgIAogICAgICAgIGdyb3VwICJEZXBsb3ltZW50RW52aXJvbm1lbnRzIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnRFbnZpcm9ubWVudCAiTGl2ZSIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRhdGEgQ2VudGVyIC0gQ2VudHJpYyIgewoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRlRQIFNlcnZlciIgewogICAgICAgICAgICAgICAgICAgICAgICBJbmdlc3RJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGluZ0NvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiUG93ZXIgQkkgU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJSZXBvcnRpbmcgLSBQb3dlciBCSSIKICAgICAgICAgICAgICAgICAgICAgICAgY2xvdWRSZXBvcnRpbmdJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGNsb3VkQklFbmdpbmUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRGF0YSBDZW50ZXIgLSBQcmV2aWRlciIgewoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRVRMIFNlcnZlciIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiSmF2YSBWTSIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiSmF2YSBWTSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjZEluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugc2NkQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc2xJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGlzbENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJQZW50YWhvIERhdGEgSW50ZWdyYXRpb24iIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkVUTCAtIFBlbnRhaG8iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldGxFbmdpbmVJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGV0bEVuZ2luZQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSAgICAgCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkxpbnV4IiB7ICAgCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJOZXRlenphIFNlcnZlciIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YXBsYXRmb3JtIC0gTmV0ZXp6YSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNkYUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugc2RhQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiZGFJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGJkYUNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZHdhSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkd2FDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZyYUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZnJhQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZGFJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRkYUNvbnRhaW5lcgoKICAgICAgICAgICAgICAgICAgICAgfSAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiV2luZG93cyIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTWljcm9zdHJhdGVneSBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkJJIC0gTWljcm9zdHJhdGVneSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9ydGluZ0luc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgcHJpdmF0ZUJJRW5naW5lCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgIH0KICAgICB9CnZpZXdzIHsKICAgIHN5c3RlbWxhbmRzY2FwZSAiZGF0YVBsYXRmb3JtTGFuZHNjYXBlIiB7CiAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfSAgICAKCiAgICBzeXN0ZW1jb250ZXh0IERhdGFQbGF0Zm9ybVN5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgIGluY2x1ZGUgKgogICAgICAgIAogICAgICAgIGF1dG9MYXlvdXQgCiAgICB9CgogICAgY29udGFpbmVyIERhdGFQbGF0Zm9ybVN5c3RlbSAiQ29udGFpbmVyIiB7CiAgICAgICAgaW5jbHVkZSBlbGVtZW50LnR5cGU9PWNvbnRhaW5lcgogICAgICAgIGF1dG9MYXlvdXQgdGIKICAgIH0KCgogICAgZGVwbG95bWVudCBEYXRhUGxhdGZvcm1TeXN0ZW0gIkxpdmUiICJMaXZlRGVwbG95bWVudCIgewogICAgICAgIGluY2x1ZGUgZWxlbWVudC50eXBlPT1jb250YWluZXJJbnN0YW5jZSBlbGVtZW50LnR5cGU9PWRlcGxveW1lbnROb2RlCiAgICAgICAgYXV0b0xheW91dCBscgogICAgfSAgICAKCgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIEluU2NvcGUiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBncmV5CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHdoaXRlCiAgICAgICAgICAgICAgICBjb2xvciBncmV5CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3lzdGVtIE91dFNjb3BlIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgZ3JleQogICAgICAgICAgICAgICAgYmFja2dyb3VuZCB3aGl0ZQogICAgICAgICAgICAgICAgY29sb3IgZ3JleQogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgc3Ryb2tlIGdyZXkKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgd2hpdGUKICAgICAgICAgICAgICAgIGNvbG9yIGdyZXkKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc3Ryb2tlIGdyZXkKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgd2hpdGUKICAgICAgICAgICAgICAgIGNvbG9yIGdyZXkKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UgLSBWaXJ0dWFsIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgZ3JleQogICAgICAgICAgICAgICAgYm9yZGVyIGRhc2hlZAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBsaWdodGdyZXkKICAgICAgICAgICAgICAgIGNvbG9yIGdyZXkKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2UgIzU3OEJDRgogICAgICAgICAgICAgICAgY29sb3IgICM1NzhCQ0YKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICB9CgoKICAgICAgICB9CgogICAgdGhlbWVzIGh0dHBzOi8vcmVuZW5hZG9ycC5naXRodWIuaW8vc3RydWN0dXJpenIvb2J2aW9uL3d3dy90aGVtZXMvSW5lcmd5L3RoZW1lT2J2aW9uLmpzb24KICAgIAoKfQoKfQoKCg=="
   },
   "configuration" : { },
   "model" : {
@@ -182,69 +182,8 @@
       "group" : "Data & Analytics",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "13",
-        "tags" : "Element,Container,Database",
-        "properties" : {
-          "structurizr.dsl.identifier" : "dwacontainer"
-        },
-        "name" : "DWA",
-        "relationships" : [ {
-          "id" : "97",
-          "tags" : "Relationship",
-          "sourceId" : "13",
-          "destinationId" : "18",
-          "description" : "Read Only"
-        }, {
-          "id" : "99",
-          "tags" : "Relationship",
-          "sourceId" : "13",
-          "destinationId" : "22",
-          "description" : "Provides data to"
-        }, {
-          "id" : "100",
-          "sourceId" : "13",
-          "destinationId" : "21",
-          "description" : "Provides data to",
-          "linkedRelationshipId" : "99"
-        }, {
-          "id" : "101",
-          "sourceId" : "13",
-          "destinationId" : "20",
-          "description" : "Provides data to",
-          "linkedRelationshipId" : "99"
-        }, {
-          "id" : "105",
-          "tags" : "Relationship",
-          "sourceId" : "13",
-          "destinationId" : "25",
-          "description" : "Provides data to"
-        }, {
-          "id" : "106",
-          "sourceId" : "13",
-          "destinationId" : "24",
-          "description" : "Provides data to",
-          "linkedRelationshipId" : "105"
-        }, {
-          "id" : "107",
-          "sourceId" : "13",
-          "destinationId" : "23",
-          "description" : "Provides data to",
-          "linkedRelationshipId" : "105"
-        } ],
-        "technology" : "Database - Netezza",
-        "components" : [ {
-          "id" : "14",
-          "tags" : "Element,Component,",
-          "properties" : {
-            "structurizr.dsl.identifier" : "dwadatacomponent"
-          },
-          "name" : "DWA Data",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
         "id" : "19",
-        "tags" : "Element,Container,Database",
+        "tags" : "Element,Container,Database - Netezza",
         "properties" : {
           "structurizr.dsl.identifier" : "ddacontainer"
         },
@@ -253,7 +192,7 @@
         "documentation" : { }
       }, {
         "id" : "15",
-        "tags" : "Element,Container,Database",
+        "tags" : "Element,Container,Database - Netezza",
         "properties" : {
           "structurizr.dsl.identifier" : "fracontainer"
         },
@@ -265,16 +204,8 @@
           "destinationId" : "18",
           "description" : "Read Only"
         } ],
-        "technology" : "Database - Netezza",
+        "technology" : "Netezza",
         "components" : [ {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "fradatacomponent"
-          },
-          "name" : "FRA Data",
-          "documentation" : { }
-        }, {
           "id" : "16",
           "tags" : "Element,Component,",
           "properties" : {
@@ -288,75 +219,13 @@
             "destinationId" : "17"
           } ],
           "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "10",
-        "tags" : "Element,Container,Database",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bdacontainer"
-        },
-        "name" : "BDA",
-        "relationships" : [ {
-          "id" : "82",
-          "sourceId" : "10",
-          "destinationId" : "13",
-          "linkedRelationshipId" : "81"
         }, {
-          "id" : "92",
-          "sourceId" : "10",
-          "destinationId" : "16",
-          "linkedRelationshipId" : "90"
-        }, {
-          "id" : "93",
-          "sourceId" : "10",
-          "destinationId" : "15",
-          "linkedRelationshipId" : "90"
-        }, {
-          "id" : "96",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "18",
-          "description" : "Read Only"
-        } ],
-        "technology" : "Database - Netezza",
-        "components" : [ {
-          "id" : "12",
-          "tags" : "Element,Component,",
+          "id" : "17",
+          "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "bdadatacomponent"
+            "structurizr.dsl.identifier" : "fradatacomponent"
           },
-          "name" : "BDA Data",
-          "relationships" : [ {
-            "id" : "80",
-            "tags" : "Relationship",
-            "sourceId" : "12",
-            "destinationId" : "11"
-          }, {
-            "id" : "90",
-            "tags" : "Relationship",
-            "sourceId" : "12",
-            "destinationId" : "16"
-          }, {
-            "id" : "91",
-            "sourceId" : "12",
-            "destinationId" : "15",
-            "linkedRelationshipId" : "90"
-          } ],
-          "documentation" : { }
-        }, {
-          "id" : "11",
-          "tags" : "Element,Component,Stored Procedure",
-          "properties" : {
-            "structurizr.dsl.identifier" : "digdwacomponent"
-          },
-          "name" : "DIG_DWA",
-          "relationships" : [ {
-            "id" : "81",
-            "tags" : "Relationship",
-            "sourceId" : "11",
-            "destinationId" : "13"
-          } ],
+          "name" : "FRA Data",
           "documentation" : { }
         } ],
         "documentation" : { }
@@ -367,11 +236,11 @@
           "structurizr.dsl.identifier" : "edacontainer"
         },
         "name" : "EDP",
-        "technology" : "Database - Netezza",
+        "technology" : "Database",
         "documentation" : { }
       }, {
         "id" : "7",
-        "tags" : "Element,Container,Database",
+        "tags" : "Element,Container,Database - Netezza",
         "properties" : {
           "structurizr.dsl.identifier" : "sdacontainer"
         },
@@ -421,6 +290,137 @@
           "documentation" : { }
         } ],
         "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,Database - Netezza",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bdacontainer"
+        },
+        "name" : "BDA",
+        "relationships" : [ {
+          "id" : "82",
+          "sourceId" : "10",
+          "destinationId" : "13",
+          "linkedRelationshipId" : "81"
+        }, {
+          "id" : "92",
+          "sourceId" : "10",
+          "destinationId" : "16",
+          "linkedRelationshipId" : "90"
+        }, {
+          "id" : "93",
+          "sourceId" : "10",
+          "destinationId" : "15",
+          "linkedRelationshipId" : "90"
+        }, {
+          "id" : "96",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "18",
+          "description" : "Read Only"
+        } ],
+        "technology" : "Database - Netezza",
+        "components" : [ {
+          "id" : "11",
+          "tags" : "Element,Component,Stored Procedure",
+          "properties" : {
+            "structurizr.dsl.identifier" : "digdwacomponent"
+          },
+          "name" : "DIG_DWA",
+          "relationships" : [ {
+            "id" : "81",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "13"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "bdadatacomponent"
+          },
+          "name" : "BDA Data",
+          "relationships" : [ {
+            "id" : "80",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "11"
+          }, {
+            "id" : "90",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "16"
+          }, {
+            "id" : "91",
+            "sourceId" : "12",
+            "destinationId" : "15",
+            "linkedRelationshipId" : "90"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Database - Netezza",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dwacontainer"
+        },
+        "name" : "DWA",
+        "relationships" : [ {
+          "id" : "97",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "18",
+          "description" : "Read Only"
+        }, {
+          "id" : "99",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "22",
+          "description" : "Provides data to"
+        }, {
+          "id" : "100",
+          "sourceId" : "13",
+          "destinationId" : "21",
+          "description" : "Provides data to",
+          "linkedRelationshipId" : "99"
+        }, {
+          "id" : "101",
+          "sourceId" : "13",
+          "destinationId" : "20",
+          "description" : "Provides data to",
+          "linkedRelationshipId" : "99"
+        }, {
+          "id" : "105",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "25",
+          "description" : "Provides data to"
+        }, {
+          "id" : "106",
+          "sourceId" : "13",
+          "destinationId" : "24",
+          "description" : "Provides data to",
+          "linkedRelationshipId" : "105"
+        }, {
+          "id" : "107",
+          "sourceId" : "13",
+          "destinationId" : "23",
+          "description" : "Provides data to",
+          "linkedRelationshipId" : "105"
+        } ],
+        "technology" : "Netezza",
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "dwadatacomponent"
+          },
+          "name" : "DWA Data",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
       } ],
       "documentation" : { }
     }, {
@@ -440,7 +440,8 @@
           "structurizr.dsl.identifier" : "privatebiengine"
         },
         "name" : "Reporting Engine",
-        "description" : "Reporting - Microstrategy",
+        "description" : "Microstrategy",
+        "technology" : "Microstrategy",
         "components" : [ {
           "id" : "22",
           "tags" : "Element,Component",
@@ -531,6 +532,26 @@
       "group" : "Data & Analytics",
       "location" : "Unspecified",
       "containers" : [ {
+        "id" : "34",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "scdcontainer"
+        },
+        "name" : "SCD",
+        "relationships" : [ {
+          "id" : "57",
+          "tags" : "Relationship",
+          "sourceId" : "34",
+          "destinationId" : "7"
+        }, {
+          "id" : "58",
+          "sourceId" : "34",
+          "destinationId" : "6",
+          "linkedRelationshipId" : "57"
+        } ],
+        "technology" : "ETL - Java",
+        "documentation" : { }
+      }, {
         "id" : "27",
         "tags" : "Element,Container",
         "properties" : {
@@ -586,6 +607,68 @@
         } ],
         "technology" : "ETL - Pentaho Server",
         "components" : [ {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "etldwacomponent"
+          },
+          "name" : "DWA Main",
+          "description" : "Pentaho Job",
+          "relationships" : [ {
+            "id" : "73",
+            "tags" : "Relationship",
+            "sourceId" : "32",
+            "destinationId" : "11"
+          }, {
+            "id" : "74",
+            "sourceId" : "32",
+            "destinationId" : "10",
+            "linkedRelationshipId" : "73"
+          }, {
+            "id" : "75",
+            "sourceId" : "32",
+            "destinationId" : "6",
+            "linkedRelationshipId" : "73"
+          } ],
+          "technology" : "ETL - Pentaho Job",
+          "documentation" : { }
+        }, {
+          "id" : "33",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "etlexpcomponent"
+          },
+          "name" : "DDA Main",
+          "description" : "Pentaho Job",
+          "technology" : "ETL - Pentaho Job",
+          "documentation" : { }
+        }, {
+          "id" : "31",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "etlfracomponent"
+          },
+          "name" : "FRA Main",
+          "description" : "Pentaho Job",
+          "relationships" : [ {
+            "id" : "83",
+            "tags" : "Relationship",
+            "sourceId" : "31",
+            "destinationId" : "16"
+          }, {
+            "id" : "84",
+            "sourceId" : "31",
+            "destinationId" : "15",
+            "linkedRelationshipId" : "83"
+          }, {
+            "id" : "85",
+            "sourceId" : "31",
+            "destinationId" : "6",
+            "linkedRelationshipId" : "83"
+          } ],
+          "technology" : "ETL - Pentaho Job",
+          "documentation" : { }
+        }, {
           "id" : "29",
           "tags" : "Element,Component",
           "properties" : {
@@ -643,68 +726,6 @@
           "technology" : "ETL - Pentaho Job",
           "documentation" : { }
         }, {
-          "id" : "32",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "etldwacomponent"
-          },
-          "name" : "DWA Main",
-          "description" : "Pentaho Job",
-          "relationships" : [ {
-            "id" : "73",
-            "tags" : "Relationship",
-            "sourceId" : "32",
-            "destinationId" : "11"
-          }, {
-            "id" : "74",
-            "sourceId" : "32",
-            "destinationId" : "10",
-            "linkedRelationshipId" : "73"
-          }, {
-            "id" : "75",
-            "sourceId" : "32",
-            "destinationId" : "6",
-            "linkedRelationshipId" : "73"
-          } ],
-          "technology" : "ETL - Pentaho Job",
-          "documentation" : { }
-        }, {
-          "id" : "31",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "etlfracomponent"
-          },
-          "name" : "FRA Main",
-          "description" : "Pentaho Job",
-          "relationships" : [ {
-            "id" : "83",
-            "tags" : "Relationship",
-            "sourceId" : "31",
-            "destinationId" : "16"
-          }, {
-            "id" : "84",
-            "sourceId" : "31",
-            "destinationId" : "15",
-            "linkedRelationshipId" : "83"
-          }, {
-            "id" : "85",
-            "sourceId" : "31",
-            "destinationId" : "6",
-            "linkedRelationshipId" : "83"
-          } ],
-          "technology" : "ETL - Pentaho Job",
-          "documentation" : { }
-        }, {
-          "id" : "33",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "etlexpcomponent"
-          },
-          "name" : "DDA Main",
-          "description" : "Pentaho Job",
-          "technology" : "ETL - Pentaho Job",
-          "documentation" : { }
-        }, {
           "id" : "30",
           "tags" : "Element,Component",
           "properties" : {
@@ -752,26 +773,6 @@
         } ],
         "technology" : "ETL - Java",
         "documentation" : { }
-      }, {
-        "id" : "34",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "scdcontainer"
-        },
-        "name" : "SCD",
-        "relationships" : [ {
-          "id" : "57",
-          "tags" : "Relationship",
-          "sourceId" : "34",
-          "destinationId" : "7"
-        }, {
-          "id" : "58",
-          "sourceId" : "34",
-          "destinationId" : "6",
-          "linkedRelationshipId" : "57"
-        } ],
-        "technology" : "ETL - Java",
-        "documentation" : { }
       } ],
       "documentation" : { }
     } ],
@@ -794,7 +795,7 @@
             "structurizr.dsl.identifier" : "ingestinstance"
           },
           "relationships" : [ {
-            "id" : "125",
+            "id" : "124",
             "sourceId" : "113",
             "destinationId" : "122",
             "description" : "Datasource for",
@@ -830,6 +831,124 @@
       "environment" : "Live",
       "instances" : "1",
       "children" : [ {
+        "id" : "142",
+        "tags" : "Element,Deployment Node",
+        "name" : "Windows",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "143",
+          "tags" : "Element,Deployment Node,BI - Microstrategy",
+          "name" : "Microstrategy Server",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "144",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "reportinginstance"
+            },
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "21"
+          } ]
+        } ]
+      }, {
+        "id" : "126",
+        "tags" : "Element,Deployment Node",
+        "name" : "Linux",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "127",
+          "tags" : "Element,Deployment Node,Dataplatform - Netezza",
+          "name" : "Netezza Server",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "141",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "ddainstance"
+            },
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "19"
+          }, {
+            "id" : "128",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "sdainstance"
+            },
+            "relationships" : [ {
+              "id" : "134",
+              "sourceId" : "128",
+              "destinationId" : "132",
+              "linkedRelationshipId" : "72"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "7"
+          }, {
+            "id" : "132",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "bdainstance"
+            },
+            "relationships" : [ {
+              "id" : "136",
+              "sourceId" : "132",
+              "destinationId" : "135",
+              "linkedRelationshipId" : "82"
+            }, {
+              "id" : "140",
+              "sourceId" : "132",
+              "destinationId" : "138",
+              "linkedRelationshipId" : "93"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "10"
+          }, {
+            "id" : "135",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "dwainstance"
+            },
+            "relationships" : [ {
+              "id" : "137",
+              "sourceId" : "135",
+              "destinationId" : "115",
+              "description" : "Provides data to",
+              "linkedRelationshipId" : "106"
+            }, {
+              "id" : "145",
+              "sourceId" : "135",
+              "destinationId" : "144",
+              "description" : "Provides data to",
+              "linkedRelationshipId" : "100"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "13"
+          }, {
+            "id" : "138",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "frainstance"
+            },
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "15"
+          } ]
+        } ]
+      }, {
         "id" : "117",
         "tags" : "Element,Deployment Node",
         "name" : "ETL Server",
@@ -892,7 +1011,7 @@
               "destinationId" : "119",
               "linkedRelationshipId" : "56"
             }, {
-              "id" : "124",
+              "id" : "125",
               "sourceId" : "122",
               "destinationId" : "120",
               "linkedRelationshipId" : "54"
@@ -902,12 +1021,12 @@
               "destinationId" : "128",
               "linkedRelationshipId" : "67"
             }, {
-              "id" : "134",
+              "id" : "133",
               "sourceId" : "122",
               "destinationId" : "132",
               "linkedRelationshipId" : "77"
             }, {
-              "id" : "140",
+              "id" : "139",
               "sourceId" : "122",
               "destinationId" : "138",
               "linkedRelationshipId" : "87"
@@ -916,124 +1035,6 @@
             "deploymentGroups" : [ "Default" ],
             "instanceId" : 1,
             "containerId" : "27"
-          } ]
-        } ]
-      }, {
-        "id" : "126",
-        "tags" : "Element,Deployment Node",
-        "name" : "Linux",
-        "environment" : "Live",
-        "instances" : "1",
-        "children" : [ {
-          "id" : "127",
-          "tags" : "Element,Deployment Node,Dataplatform - Netezza",
-          "name" : "Netezza",
-          "environment" : "Live",
-          "instances" : "1",
-          "containerInstances" : [ {
-            "id" : "138",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "frainstance"
-            },
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "15"
-          }, {
-            "id" : "128",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "sdainstance"
-            },
-            "relationships" : [ {
-              "id" : "133",
-              "sourceId" : "128",
-              "destinationId" : "132",
-              "linkedRelationshipId" : "72"
-            } ],
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "7"
-          }, {
-            "id" : "132",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "bdainstance"
-            },
-            "relationships" : [ {
-              "id" : "136",
-              "sourceId" : "132",
-              "destinationId" : "135",
-              "linkedRelationshipId" : "82"
-            }, {
-              "id" : "139",
-              "sourceId" : "132",
-              "destinationId" : "138",
-              "linkedRelationshipId" : "93"
-            } ],
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "10"
-          }, {
-            "id" : "135",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "dwainstance"
-            },
-            "relationships" : [ {
-              "id" : "137",
-              "sourceId" : "135",
-              "destinationId" : "115",
-              "description" : "Provides data to",
-              "linkedRelationshipId" : "106"
-            }, {
-              "id" : "145",
-              "sourceId" : "135",
-              "destinationId" : "144",
-              "description" : "Provides data to",
-              "linkedRelationshipId" : "100"
-            } ],
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "13"
-          }, {
-            "id" : "141",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "ddainstance"
-            },
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "19"
-          } ]
-        } ]
-      }, {
-        "id" : "142",
-        "tags" : "Element,Deployment Node",
-        "name" : "Windows",
-        "environment" : "Live",
-        "instances" : "1",
-        "children" : [ {
-          "id" : "143",
-          "tags" : "Element,Deployment Node,BI - Microstrategy",
-          "name" : "Microstrategy Server",
-          "environment" : "Live",
-          "instances" : "1",
-          "containerInstances" : [ {
-            "id" : "144",
-            "tags" : "Container Instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "reportinginstance"
-            },
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "21"
           } ]
         } ]
       } ]
@@ -1093,9 +1094,9 @@
       }, {
         "id" : "60"
       }, {
-        "id" : "52"
-      }, {
         "id" : "41"
+      }, {
+        "id" : "52"
       }, {
         "id" : "110"
       }, {
@@ -1183,9 +1184,9 @@
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "82"
-      }, {
         "id" : "93"
+      }, {
+        "id" : "82"
       }, {
         "id" : "72"
       }, {
@@ -1199,17 +1200,17 @@
       }, {
         "id" : "95"
       }, {
-        "id" : "96"
-      }, {
         "id" : "54"
+      }, {
+        "id" : "96"
       }, {
         "id" : "67"
       }, {
         "id" : "100"
       }, {
-        "id" : "56"
-      }, {
         "id" : "77"
+      }, {
+        "id" : "56"
       }, {
         "id" : "57"
       }, {
@@ -1224,7 +1225,7 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "24",
+        "id" : "35",
         "x" : 0,
         "y" : 0
       }, {
@@ -1232,7 +1233,7 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "24",
         "x" : 0,
         "y" : 0
       }, {
@@ -1264,11 +1265,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "10",
+        "id" : "21",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "21",
+        "id" : "10",
         "x" : 0,
         "y" : 0
       } ]
@@ -1295,21 +1296,21 @@
       }, {
         "id" : "129"
       }, {
-        "id" : "134"
-      }, {
         "id" : "145"
+      }, {
+        "id" : "134"
       }, {
         "id" : "124"
       }, {
-        "id" : "133"
-      }, {
         "id" : "123"
+      }, {
+        "id" : "133"
       }, {
         "id" : "139"
       }, {
-        "id" : "125"
-      }, {
         "id" : "136"
+      }, {
+        "id" : "125"
       }, {
         "id" : "137"
       } ],
@@ -1318,19 +1319,19 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "142",
-        "x" : 0,
-        "y" : 0
-      }, {
         "id" : "120",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "143",
+        "id" : "142",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "132",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "143",
         "x" : 0,
         "y" : 0
       }, {
@@ -1342,11 +1343,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "122",
+        "id" : "111",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "111",
+        "id" : "122",
         "x" : 0,
         "y" : 0
       }, {
@@ -1354,11 +1355,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "113",
+        "id" : "135",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "135",
+        "id" : "113",
         "x" : 0,
         "y" : 0
       }, {
@@ -1386,11 +1387,11 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "128",
+        "id" : "117",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "117",
+        "id" : "128",
         "x" : 0,
         "y" : 0
       }, {
@@ -1423,16 +1424,22 @@
           "shape" : "Person"
         }, {
           "tag" : "System InScope",
-          "background" : "#1168bd",
-          "color" : "#ffffff"
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
         }, {
           "tag" : "System OutScope",
-          "background" : "#999999",
-          "color" : "#ffffff"
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
         }, {
           "tag" : "Container",
-          "background" : "#438dd5",
-          "color" : "#ffffff"
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
         }, {
           "tag" : "Web Browser",
           "shape" : "WebBrowser"
@@ -1441,21 +1448,17 @@
           "shape" : "MobileDeviceLandscape"
         }, {
           "tag" : "Database",
-          "stroke" : "#ffffff",
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
           "shape" : "Cylinder"
         }, {
           "tag" : "Database - Virtual",
           "background" : "#d3d3d3",
           "stroke" : "#808080",
-          "color" : "#ffffff",
+          "color" : "#808080",
           "shape" : "Cylinder",
           "border" : "Dashed"
-        }, {
-          "tag" : "Database SQL Script",
-          "background" : "#ffffff",
-          "stroke" : "#578bcf",
-          "color" : "#578bcf",
-          "shape" : "RoundedBox"
         }, {
           "tag" : "Component",
           "background" : "#ffffff",
