@@ -158,7 +158,7 @@
                         }
                     }     
                     deploymentNode "Linux" {   
-                        deploymentNode "Netezza" {
+                        deploymentNode "Netezza Server" {
                             tags "Dataplatform - Netezza"
                             sdaInstance = containerInstance sdaContainer
                             bdaInstance = containerInstance bdaContainer
@@ -166,7 +166,7 @@
                             fraInstance = containerInstance fraContainer
                             ddaInstance = containerInstance ddaContainer
 
-                    }                        
+                     }                        
                     }
                     deploymentNode "Windows" {
                         deploymentNode "Microstrategy Server" {

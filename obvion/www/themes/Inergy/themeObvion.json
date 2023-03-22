@@ -2,8 +2,15 @@
   "name" : "Inergy",
   "description" : "Theme for conceptual architecture",
   "elements" : [ {
+  "tag" : "Database - Netezza",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
+    
+  }
+  ,
+  {
     "tag" : "Dataplatform - Netezza",
-    "color" : "red",
+    "background" : "red",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
     
