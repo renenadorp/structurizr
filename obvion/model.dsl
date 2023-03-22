@@ -44,27 +44,36 @@
                     ddaContainer = container "DDA" "" "" "Database"
                      
             }
-            ReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                biReportingEngine = container "Reporting Engine" "Microstrategy"
-                biReport = container "Report" "Microstrategy Report"
+            privateReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
+                privateBIEngine = container "Reporting Engine" "Microstrategy" {
+                    privateBIReport = component "Report" "Microstrategy Report"
+
+                }
             }
             
+            cloudReportingSystem  = softwaresystem "Power BI Service" "Power BI" "" {
+                cloudBIEngine = container "Reporting Engine" "Power BI" {
+                    cloudBIReport = component "Report" "Power BI Report"
+
+                }
+            }
+            
+            
             etlSystem        = softwaresystem "ETL System" "" "Data Processing" {
-                etldailyContainer  = container "ETL Daily" "Pentaho Job" "ETL - Pentaho Job"
-                etlsdaContainer  = container "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
-                etlbdaContainer   = container "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
-                etlfraContainer  = container "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
-                etldwaContainer = container "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
-                etlexpContainer = container "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
-                
+                etlEngine  = container "ETL Engine" "Pentaho Server" "ETL - Pentaho Server" {
+                    etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlsdaComponent  = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlbdaComponent   = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlfraComponent  = component "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etldwaComponent = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                    etlexpComponent = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                }
                 scdContainer        = container "SCD" "" "ETL - Java"
                 islContainer        = container "ISL" "" "ETL - Java"
             
                 }
             }
-            
-
-            
+                  
         
 
         group "Relations" {
@@ -77,34 +86,34 @@
             crmViews        -> islContainer     "Pull"
 
             # DAILY
-            etldailyContainer -> etlsdaContainer "Triggers"
-            etldailyContainer -> etlfraContainer "Triggers"
-            etldailyContainer -> etlbdaContainer "Triggers"
-            etldailyContainer -> etldwaContainer "Triggers"
-            etldailyContainer -> etlexpContainer "Triggers"
+            etlDailyComponent -> etlsdaComponent ""
+            etlDailyComponent -> etlfraComponent ""
+            etlDailyComponent -> etlbdaComponent ""
+            etlDailyComponent -> etldwaComponent ""
+            etlDailyComponent -> etlexpComponent ""
 
 
             # SDA
-            ingContainer    -> etlsdaContainer "Datasource for"
-            etlsdaContainer -> islContainer "Triggers"
-            etlsdaContainer -> scdContainer "Triggers"
-            scdContainer    -> sdaContainer "Historize"
-            islContainer    -> sdaContainer "Load"
+            ingContainer    -> etlsdaComponent "Datasource for"
+            etlsdaComponent -> islContainer ""
+            etlsdaComponent -> scdContainer ""
+            scdContainer    -> sdaContainer ""
+            islContainer    -> sdaContainer ""
 
             # BDA
-            etlbdaContainer -> digbdaComponent  "Triggers"
-            sdaDataComponent    -> digbdaComponent  "Datasource for"
-            digbdaComponent -> bdaContainer     "Transform"
+            etlbdaComponent -> digbdaComponent  ""
+            sdaDataComponent    -> digbdaComponent  ""
+            digbdaComponent -> bdaContainer     ""
 
             # DWA
-            etldwaContainer -> digdwaComponent "Triggers"
-            bdaDataComponent   -> digdwaComponent "Datasource for"        
-            digdwaComponent -> dwaContainer "Transform"
+            etldwaComponent -> digdwaComponent ""
+            bdaDataComponent   -> digdwaComponent ""        
+            digdwaComponent -> dwaContainer ""
 
             # FRA
-            etlfraContainer -> digfraComponent "Triggers"
-            bdaDataComponent   -> digfraComponent  "Transform"
-            digfraComponent -> fraDataComponent "Transform"
+            etlfraComponent -> digfraComponent ""
+            bdaDataComponent   -> digfraComponent  ""
+            digfraComponent -> fraDataComponent ""
 
             # EDA
             sdaContainer -> edaContainer "Read Only"
@@ -113,7 +122,8 @@
             fraContainer -> edaContainer "Read Only"
             
             # REPORTING
-            dwaContainer -> biReport   "Provides data to"
+            dwaContainer -> privateBIReport   "Provides data to"
+            dwaContainer -> cloudBIReport   "Provides data to"
 
 
 
@@ -121,33 +131,47 @@
         
         group "DeploymentEnvironments" {
             deploymentEnvironment "Live" {
-                deploymentNode "Data Center - Previder" {
+                deploymentNode "Data Center - Centric" {
 
                     deploymentNode "FTP Server" {
                         IngestInstance = containerInstance ingContainer
                         }
+                    }
+                deploymentNode "Azure" {
+                    deploymentNode "Power BI Service" {
+                        tags "Reporting - Power BI"
+                        cloudReportingInstance = containerInstance cloudBIEngine
+                    }
+                }
+                deploymentNode "Data Center - Previder" {
+
                     deploymentNode "ETL Server" {
                         deploymentNode "Java VM" {
+                            tags "Java VM"
                             scdInstance = containerInstance scdContainer
                             islInstance = containerInstance islContainer
                         }
                         deploymentNode "Pentaho Data Integration" {
-                            etldailyInstance = containerInstance etldailyContainer
+                            tags "ETL - Pentaho"
+                            etlEngineInstance = containerInstance etlEngine
                         }
-                    }        
-                    deploymentNode "Netezza" {
-                        tags "Dataplatform - Netezza"
-                        sdaInstance = containerInstance sdaContainer
-                        bdaInstance = containerInstance bdaContainer
-                        dwaInstance = containerInstance dwaContainer
-                        fraInstance = containerInstance fraContainer
-                        ddaInstance = containerInstance ddaContainer
+                    }     
+                    deploymentNode "Linux" {   
+                        deploymentNode "Netezza" {
+                            tags "Dataplatform - Netezza"
+                            sdaInstance = containerInstance sdaContainer
+                            bdaInstance = containerInstance bdaContainer
+                            dwaInstance = containerInstance dwaContainer
+                            fraInstance = containerInstance fraContainer
+                            ddaInstance = containerInstance ddaContainer
 
-              
-                        
+                    }                        
                     }
                     deploymentNode "Windows" {
-                        ReportingInstance = containerInstance biReportingEngine
+                        deploymentNode "Microstrategy Server" {
+                            tags "BI - Microstrategy"
+                            ReportingInstance = containerInstance privateBIEngine
+                        }
                     }
             
                 }
