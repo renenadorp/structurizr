@@ -73,10 +73,6 @@ styles {
                 color  #578BCF
                 shape Component
             }
-            element "Dataplatform - Netezza" {
-                background black
-                stroke green
-                color  black
-            }
+
 
         }
