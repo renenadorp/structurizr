@@ -10,84 +10,148 @@
         }
 
         group "Source Systems" {
+            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" 
+            crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope" {
+                crmViews = container "CRM Views"
 
-            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope"
-
-            crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope"
-
-        }
-        group "Core Dataplatform" {
-            DataPlatformSystem = softwaresystem "Data Platform" "Netezza" {
-                tags  "Database"
-                ingContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "FTP Server" {                
-                }
-                sdaContainer             = container "Staging Data Area" "Staging" ".." "" {
-                    tags "Database - Netezza"
-                    technology "Netezza"
-
-                }
-
-                sda2bdaContainer         = container "Business Data Area Transformation" "" "" "Component"
-                ing2sdaContainer         = container "Staging Data Area Transformation" "" "" "Component"
-                bda2dwaContainer         = container "Datawarehouse Area Transformation" "" "" "Component"
-                dwa2sdaContainer         = container "Data Area Transformation" "" "" "Component"
-                bdaContainer             = container "Business Area" "Business Area" ".." "Database" 
-                dwaContainer             = container "Information Area" "Information Area" ".." "Database" 
-                fraContainer             = container "Finance & Risk Area" "FRA Area" "" "Database"
-                maContainer              = container "Metadata Area" "Metadata" "" "Database"
             }
-            OrchestrationSystem = softwaresystem "ETL Server" "ETL" "System InScope"
+        }
+
+        group "Data & Analytics" {
+            FTPSystem = softwaresystem "FTP Server" {
+                ingContainer = container "Ingest"  "" "" "File Server" 
+                   
+            }
+
+            DataPlatformSystem = softwaresystem "Data Platform System" "" {
+                    sdaContainer = container "SDA"  "" "" "Database" {
+                        digbdaComponent = component "DIG_BDA" "" "" "Stored Procedure"
+                        sdaDataComponent = component "SDA Data" "" "" ""
+                    }
+                    bdaContainer = container "BDA" "" "" "Database" {
+                        digdwaComponent = component "DIG_DWA" "" "" "Stored Procedure"
+                        bdaDataComponent = component "BDA Data" "" "" "" 
+
+                    }
+                    dwaContainer = container "DWA" "" "" "Database" {
+                        dwaDataComponent = component "DWA Data" "" "" "" 
+                    }
+                    fraContainer = container "FRA" "" "" "Database" {
+                        digfraComponent = component "DIG_FRA" "" "" ""
+                        fraDataComponent = component "FRA Data" "" ""
+                    }
+                    edaContainer = container "EDP" "" "" "Database - Virtual"
+                    ddaContainer = container "DDA" "" "" "Database"
+                     
+            }
+            ReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
+                biReportingEngine = container "Reporting Engine" "Microstrategy"
+                biReport = container "Report" "Microstrategy Report"
+            }
             
-        }
-
-        group "Target Systems" {
-            EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "System InScope" 
-            monitoringSystem = softwaresystem " Monitoring System" "Monitoring" "System InScope" {
-                dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring - "
-                dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
-                dqContainer  = container "Data Quality Service" "DQ" "DQ" "DQ"
+            etlSystem        = softwaresystem "ETL System" "" "Data Processing" {
+                etldailyContainer  = container "ETL Daily" "Pentaho Job" "ETL - Pentaho Job"
+                etlsdaContainer  = container "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                etlbdaContainer   = container "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                etlfraContainer  = container "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
+                etldwaContainer = container "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                etlexpContainer = container "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                
+                scdContainer        = container "SCD" "" "ETL - Java"
+                islContainer        = container "ISL" "" "ETL - Java"
+            
+                }
             }
+            
 
-        }
+            
+        
 
         group "Relations" {
-            # relationships between people and software systems
-        
-
+            # relationships between people and software systems        
             #dataSteward     -> metadataSystem "Uses"
         
-    
-
             # relationships between software systems and software systems
 
-            DataPlatformSystem           -> EnterpriseReportingSystem    "Is datasource for"
-            shsSystem                    -> dataPlatformSystem           "Is datasource for"
+            shsSystem       -> ingContainer     "Push"
+            crmViews        -> islContainer     "Pull"
+
+            # DAILY
+            etldailyContainer -> etlsdaContainer "Triggers"
+            etldailyContainer -> etlfraContainer "Triggers"
+            etldailyContainer -> etlbdaContainer "Triggers"
+            etldailyContainer -> etldwaContainer "Triggers"
+            etldailyContainer -> etlexpContainer "Triggers"
 
 
-            # relationships between containers
-            crmSystem -> ingContainer "CRM Data"
+            # SDA
+            ingContainer    -> etlsdaContainer "Datasource for"
+            etlsdaContainer -> islContainer "Triggers"
+            etlsdaContainer -> scdContainer "Triggers"
+            scdContainer    -> sdaContainer "Historize"
+            islContainer    -> sdaContainer "Load"
 
-            ingContainer      -> ing2sdaContainer "Is a datasource for"
-            ing2sdaContainer          -> sdaContainer "Transforms data for"
+            # BDA
+            etlbdaContainer -> digbdaComponent  "Triggers"
+            sdaDataComponent    -> digbdaComponent  "Datasource for"
+            digbdaComponent -> bdaContainer     "Transform"
 
-            sdaContainer             -> sda2bdaContainer   "Is input for"
-            sda2bdaContainer          -> bdaContainer      "Transforms data for"
+            # DWA
+            etldwaContainer -> digdwaComponent "Triggers"
+            bdaDataComponent   -> digdwaComponent "Datasource for"        
+            digdwaComponent -> dwaContainer "Transform"
 
-            bdaContainer             -> bda2dwaContainer   "Is a datasource for"
-            bda2dwaContainer          -> dwaContainer      "Transforms data for"
+            # FRA
+            etlfraContainer -> digfraComponent "Triggers"
+            bdaDataComponent   -> digfraComponent  "Transform"
+            digfraComponent -> fraDataComponent "Transform"
 
-            orchestrationSystem  -> ing2sdaContainer "Orchestrates"
-            orchestrationSystem  -> sda2bdaContainer "Orchestrates"
-            orchestrationSystem  -> bda2dwaContainer "Orchestrates"
-
-            orchestrationSystem  -> monitoringSystem "Sends status updates to "
+            # EDA
+            sdaContainer -> edaContainer "Read Only"
+            bdaContainer -> edaContainer "Read Only"
+            dwaContainer -> edaContainer "Read Only"
+            fraContainer -> edaContainer "Read Only"
             
+            # REPORTING
+            dwaContainer -> biReport   "Provides data to"
 
 
 
-            # relationships between components
-  
         }
         
+        group "DeploymentEnvironments" {
+            deploymentEnvironment "Live" {
+                deploymentNode "Data Center - Previder" {
+
+                    deploymentNode "FTP Server" {
+                        IngestInstance = containerInstance ingContainer
+                        }
+                    deploymentNode "ETL Server" {
+                        deploymentNode "Java VM" {
+                            scdInstance = containerInstance scdContainer
+                            islInstance = containerInstance islContainer
+                        }
+                        deploymentNode "Pentaho Data Integration" {
+                            etldailyInstance = containerInstance etldailyContainer
+                        }
+                    }        
+                    deploymentNode "Netezza" {
+                        tags "Dataplatform - Netezza"
+                        sdaInstance = containerInstance sdaContainer
+                        bdaInstance = containerInstance bdaContainer
+                        dwaInstance = containerInstance dwaContainer
+                        fraInstance = containerInstance fraContainer
+                        ddaInstance = containerInstance ddaContainer
+
+              
+                        
+                    }
+                    deploymentNode "Windows" {
+                        ReportingInstance = containerInstance biReportingEngine
+                    }
             
-    }
+                }
+            }
+            
+        }
+     }

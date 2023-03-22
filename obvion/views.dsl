@@ -4,23 +4,23 @@ views {
         autoLayout lr
     }    
 
-    systemcontext dataPlatformSystem "SystemContext" {
-        include * 
-        autoLayout lr
-    }
-
-    container dataPlatformSystem "DataPlatform" {
+    systemcontext DataPlatformSystem "SystemContext" {
         include *
+        
+        autoLayout 
+    }
 
-        autoLayout lr
+    container DataPlatformSystem "Container" {
+        include element.type==container
+        autoLayout tb
     }
 
 
-    container EnterpriseReportingSystem "Reporting" {
-        include *
-
+    deployment DataPlatformSystem "Live" "LiveDeployment" {
+        include element.type==containerInstance element.type==deploymentNode
         autoLayout lr
-    }
+    }    
+
 
     !include styles.dsl
 

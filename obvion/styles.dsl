@@ -40,17 +40,20 @@ styles {
                 color  #578BCF
                 background #ffffff
             }
+
             element "Database" {
                 background #ffffff
                 stroke #578BCF
+
                 color  #578BCF
                 shape Cylinder
             }
-            element "Database Schema" {
+            element "Database - Virtual" {
                 background #ffffff
                 stroke #578BCF
+                border dashed
                 color  #578BCF
-                shape RoundedBox
+                shape Cylinder
             }
             element "Database SQL Script" {
                 background #ffffff
@@ -69,6 +72,11 @@ styles {
                 stroke #578BCF
                 color  #578BCF
                 shape Component
+            }
+            element "Dataplatform - Netezza" {
+                background black
+                stroke green
+                color  black
             }
 
         }
