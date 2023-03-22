@@ -45,14 +45,16 @@
                      
             }
             privateReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                privateBIEngine = container "Reporting Engine" "Microstrategy" {
+                privateBIEngine = container "Reporting Engine" "Reporting - Microstrategy" {
+                    tags "Reporting - Microstrategy"
                     privateBIReport = component "Report" "Microstrategy Report"
 
                 }
             }
             
             cloudReportingSystem  = softwaresystem "Power BI Service" "Power BI" "" {
-                cloudBIEngine = container "Reporting Engine" "Power BI" {
+                cloudBIEngine = container "Reporting Engine" "Reporting - Power BI" {
+                    tags "Reporting - Power BI"
                     cloudBIReport = component "Report" "Power BI Report"
 
                 }
@@ -138,6 +140,7 @@
                         }
                     }
                 deploymentNode "Azure" {
+                    tags "Cloud - Azure"
                     deploymentNode "Power BI Service" {
                         tags "Reporting - Power BI"
                         cloudReportingInstance = containerInstance cloudBIEngine

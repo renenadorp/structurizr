@@ -8,6 +8,47 @@
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
     
   }
+  ,
+  {
+    "tag" : "Reporting - Power BI",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pbi.png"
+    
+  }
+  ,  {
+    "tag" : "Reporting - Microstrategy",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/mstr.png"
+    
+  }
+  ,
+  {
+    "tag" : "Cloud - Azure",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/azure.png"
+    
+  }
+  ,
+  {
+    "tag" : "Data Center - Centric",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/centric.svg"
+    
+  }
+  ,
+  {
+    "tag" : "ETL - Pentaho",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
+    
+  }
+  ,
+  {
+    "tag" : "Java VM",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java.png"
+    
+  }
   
 ]
 
