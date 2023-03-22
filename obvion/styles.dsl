@@ -34,25 +34,16 @@ styles {
                 shape MobileDeviceLandscape
             }
 
-            element "Microsoft Azure - Data Factories"{
-                shape Component
-                                stroke #578BCF
-                color  #578BCF
-                background #ffffff
-            }
-
             element "Database" {
-                background #ffffff
-                stroke #578BCF
+                stroke white
 
-                color  #578BCF
                 shape Cylinder
             }
             element "Database - Virtual" {
-                background #ffffff
-                stroke #578BCF
+                stroke grey
                 border dashed
-                color  #578BCF
+                background lightgrey
+                color white
                 shape Cylinder
             }
             element "Database SQL Script" {
@@ -62,12 +53,6 @@ styles {
                 shape RoundedBox
             }
             element "Component" {
-                background #ffffff
-                stroke #578BCF
-                color  #578BCF
-                shape Component
-            }
-            element "Business Glossary" {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF

@@ -24,24 +24,24 @@
             }
 
             DataPlatformSystem = softwaresystem "Data Platform System" "" {
-                    sdaContainer = container "SDA"  "" "" "Database" {
-                        digbdaComponent = component "DIG_BDA" "" "" "Stored Procedure"
-                        sdaDataComponent = component "SDA Data" "" "" ""
+                    sdaContainer = container "SDA"  "" "Database - Netezza" "Database" {
+                        digbdaComponent = component "DIG_BDA" "" "Stored Procedure - Netezza" "Stored Procedure"
+                        sdaDataComponent = component "SDA Data" "" "Table - Netezza" ""
                     }
-                    bdaContainer = container "BDA" "" "" "Database" {
+                    bdaContainer = container "BDA" "" "Database - Netezza" "Database" {
                         digdwaComponent = component "DIG_DWA" "" "" "Stored Procedure"
                         bdaDataComponent = component "BDA Data" "" "" "" 
 
                     }
-                    dwaContainer = container "DWA" "" "" "Database" {
+                    dwaContainer = container "DWA" "" "Database - Netezza" "Database" {
                         dwaDataComponent = component "DWA Data" "" "" "" 
                     }
-                    fraContainer = container "FRA" "" "" "Database" {
+                    fraContainer = container "FRA" "" "Database - Netezza" "Database" {
                         digfraComponent = component "DIG_FRA" "" "" ""
                         fraDataComponent = component "FRA Data" "" ""
                     }
-                    edaContainer = container "EDP" "" "" "Database - Virtual"
-                    ddaContainer = container "DDA" "" "" "Database"
+                    edaContainer = container "EDP" "" "Database - Netezza" "Database - Virtual"
+                    ddaContainer = container "DDA" "" "Database - Netezza" "Database"
                      
             }
             privateReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
@@ -64,11 +64,11 @@
             etlSystem        = softwaresystem "ETL System" "" "Data Processing" {
                 etlEngine  = container "ETL Engine" "Pentaho Server" "ETL - Pentaho Server" {
                     etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
-                    etlsdaComponent  = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
-                    etlbdaComponent   = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
-                    etlfraComponent  = component "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
-                    etldwaComponent = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
-                    etlexpComponent = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                    etlsdaComponent    = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlbdaComponent    = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlfraComponent    = component "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etldwaComponent    = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                    etlexpComponent    = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
                 }
                 scdContainer        = container "SCD" "" "ETL - Java"
                 islContainer        = container "ISL" "" "ETL - Java"
