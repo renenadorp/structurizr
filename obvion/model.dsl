@@ -9,7 +9,10 @@
         }
 
         group "Source Systems" {
-            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" 
+            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" {
+                shsContainer = container "SHS"
+                shsdwhContainer = container "SHSDWH"
+            }
             crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope" {
                 crmViews = container "CRM Views"
 
@@ -18,11 +21,13 @@
 
         group "Data & Analytics" {
             FTPSystem               = softwaresystem "FTP Server" {
-                ingContainer = container "Ingest"  "" "" "File Server" 
+                tags "FTP Server"
+                shsDataFull  = container "SHS Data Full"  "" "" "Zip" 
+                shsDataDelta = container "SHS Data Delta"  "" "" "Zip" 
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
-                    sdaContainer = container "SDA"  "" "Database - Netezza" "Database - Netezza" {
+                    sdaContainer = container "SDA"  "" "Netezza" "Database - Netezza" {
                         digbdaComponent = component "DIG_BDA" "" "Stored Procedure - Netezza" "Stored Procedure"
                         sdaDataComponent = component "SDA Data" "" "Table - Netezza" ""
                     }
@@ -38,28 +43,36 @@
                         digfraComponent = component "DIG_FRA" "" "" ""
                         fraDataComponent = component "FRA Data" "" ""
                     }
-                    edaContainer = container "EDP" "" "Database" "Database - Virtual"
-                    ddaContainer = container "DDA" "" "Database - Netezza" "Database - Netezza"
+                    edaContainer = container "EDP" "" "Database" "Database - Netezza"
+                    ddaContainer = container "DDA" "" "Database - Netezza" "Database - Netezza" {
+                        ddaDataComponent = component "DDA Data" "" ""
+
+                    }
                      
                 }
-            privateReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                privateBIEngine = container "Reporting Engine" "Microstrategy" "Microstrategy" {
+            MicrostrategyReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
+                dwaReportsMicrostrategy = container "DWA Reports - Microstrategy" "Microstrategy" "Microstrategy" {
                     tags "Reporting - Microstrategy"
+                    description "Microstrategy"
+                    properties {
+                        version "??.??"
+                    }
                     privateBIReport = component "Report" "Microstrategy Report"
 
                 }
                 }        
-            cloudReportingSystem    = softwaresystem "Power BI Service" "Power BI" "" {
-                cloudBIEngine = container "Reporting Engine" "Reporting - Power BI" {
+            PowerBIReportingSystem    = softwaresystem "Power BI Service" "Power BI" "" {
+                dwaReportsPowerBI = container "DWA Reports - Power BI" "Reporting - Power BI" {
                     tags "Reporting - Power BI"
-                    cloudBIReport = component "Report" "Power BI Report"
+                    PowerBIReport = component "Report" "Power BI Report"
 
                 }
             }
             
             
             etlSystem               = softwaresystem "ETL System" "" "Data Processing" {
-                etlEngine  = container "ETL Engine" "Pentaho Server" "ETL - Pentaho Server" {
+                etlEngine  = container "ETL Engine" "Pentaho Server" "" {
+                    tags "ETL - Pentaho"
                     etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlsdaComponent    = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlbdaComponent    = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
@@ -67,23 +80,27 @@
                     etldwaComponent    = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
                     etlexpComponent    = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
                 }
-                scdContainer        = container "SCD" "" "ETL - Java" {
+                scdContainer        = container "SCD" "" "Java - Jar" {
+                    description "Java component for historization (Slowly Changing Dimensions)"
                     tags "Java - Jar"
                 }
                 islContainer        = container "ISL" "" "ETL - Java" {
-                                        tags "Java - Jar"
+                    tags "Java - Jar"
+                    description "Java component ingesting data (Inergy Smart Loader)"
+
                 }
             
                 }
-            }
-                  
-        group "Relations" {
-            # relationships between people and software systems        
-            #dataSteward     -> metadataSystem "Uses"
+             }       
         
-            # relationships between software systems and software systems
+        #
+        # Relations
+        group "Relations" {
 
-            shsSystem       -> ingContainer     "Push"
+            # SHS
+            shsContainer -> shsdwhContainer     "Push"
+            shsdwhContainer -> shsDataFull      "Push"
+            shsdwhContainer -> shsDataDelta     "Push"
             crmViews        -> islContainer     "Pull"
 
             # DAILY
@@ -95,27 +112,31 @@
 
 
             # SDA
-            ingContainer    -> etlsdaComponent "Datasource for"
+            shsDataFull     -> etlsdaComponent "Datasource for"
+            shsDataDelta    -> etlsdaComponent "Datasource for"
             etlsdaComponent -> islContainer ""
             etlsdaComponent -> scdContainer ""
             scdContainer    -> sdaContainer ""
             islContainer    -> sdaContainer ""
 
             # BDA
-            etlbdaComponent -> digbdaComponent  ""
-            sdaDataComponent    -> digbdaComponent  ""
-            digbdaComponent -> bdaContainer     ""
+            etlbdaComponent  -> digbdaComponent  ""
+            sdaDataComponent -> digbdaComponent  ""
+            digbdaComponent  -> bdaContainer     ""
 
             # DWA
-            etldwaComponent -> digdwaComponent ""
-            bdaDataComponent   -> digdwaComponent ""        
-            digdwaComponent -> dwaContainer ""
+            etldwaComponent  -> digdwaComponent ""
+            bdaDataComponent -> digdwaComponent ""        
+            digdwaComponent  -> dwaContainer ""
 
             # FRA
-            etlfraComponent -> digfraComponent ""
-            bdaDataComponent   -> digfraComponent  ""
-            digfraComponent -> fraDataComponent ""
-
+            etlfraComponent  -> digfraComponent ""
+            bdaDataComponent -> digfraComponent  ""
+            digfraComponent  -> fraDataComponent ""
+ 
+            # DDA
+            bdaDataComponent -> ddaDataComponent "Data Delivery"
+    
             # EDA
             sdaContainer -> edaContainer "Read Only"
             bdaContainer -> edaContainer "Read Only"
@@ -124,7 +145,7 @@
             
             # REPORTING
             dwaContainer -> privateBIReport   "Provides data to"
-            dwaContainer -> cloudBIReport   "Provides data to"
+            dwaContainer -> PowerBIReport     "Provides data to"
 
 
 
@@ -132,34 +153,44 @@
         
         group "DeploymentEnvironments" {
             deploymentEnvironment "Live" {
+                deploymentNode "Data Center - Stater" {
+                    tags "Data Center"
+                    deploymentNode "SHS" {
+                        shsInstance = containerInstance shsContainer
+                        shsdwhInstance = containerInstance shsdwhContainer
+                        }
+                    }
                 deploymentNode "Data Center - Centric" {
-                    tags "Data Center - Centric"
+                    tags "Data Center - Centric" "Data Center"
 
-                    deploymentNode "FTP Server" {
-                        IngestInstance = containerInstance ingContainer
+                deploymentNode "FTP Server" {
+                        shsDataFullInstance = containerInstance shsDataFull
+                        shsDataDeltaInstance = containerInstance shsDataDelta
                         }
                     }
 
-                    deploymentNode "Power BI Service" {
-                        tags "Reporting - Power BI"
-                        cloudReportingInstance = containerInstance cloudBIEngine
+                deploymentNode "Power BI Service" {
+                        tags "Reporting - Power BI" "Data Center"
+                        dwaReportsPowerBIInstance = containerInstance dwaReportsPowerBI
                     }
                 deploymentNode "Data Center - Previder" {
+                    tags "Data Center"
 
-                    deploymentNode "ETL Server" {
+                    deploymentNode "Linux Server" {
+                        tags "Linux Server"
                         deploymentNode "Java VM" {
                             tags "Java VM"
                             scdInstance = containerInstance scdContainer
                             islInstance = containerInstance islContainer
                         }
                         deploymentNode "Pentaho Data Integration" {
-                            tags "ETL - Pentaho"
+                            tags  "ETL - Pentaho" 
                             etlEngineInstance = containerInstance etlEngine
                         }
-                    }     
-                    deploymentNode "Linux" {   
-                        deploymentNode "Netezza Server" {
-                            tags "Dataplatform - Netezza"
+                     }     
+                    deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: ???"{
+                            tags "Netezza Server" "Dataplatform - Netezza"
+
                             sdaInstance = containerInstance sdaContainer
                             bdaInstance = containerInstance bdaContainer
                             dwaInstance = containerInstance dwaContainer
@@ -167,13 +198,14 @@
                             ddaInstance = containerInstance ddaContainer
 
                      }                        
-                    }
-                    deploymentNode "Windows" {
+                    
+                    deploymentNode "Windows Server" {
+                        tags "Windows Server"
                         deploymentNode "Microstrategy Server" {
-                            tags "BI - Microstrategy"
-                            ReportingInstance = containerInstance privateBIEngine
+                            tags "BI - Microstrategy" 
+                            dwaReportsMicrostrategyInstance = containerInstance dwaReportsMicrostrategy
                         }
-                    }
+                     }
             
                 }
             }

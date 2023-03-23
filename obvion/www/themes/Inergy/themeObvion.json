@@ -10,7 +10,6 @@
   ,
   {
     "tag" : "Dataplatform - Netezza",
-    "background" : "red",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
     
@@ -40,6 +39,12 @@
     "tag" : "Data Center - Centric",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/centric.png"
+    
+  },
+  {
+    "tag" : "Data Center - Stater",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/stater.png"
     
   }
   ,

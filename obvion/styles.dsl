@@ -11,6 +11,10 @@ styles {
                 fontSize 22
                 shape Folder
             }
+
+            element "FTP Server" {
+                shape Folder 
+            }
             element "Customer" {
                 background #08427b
                 shape Person
@@ -40,7 +44,7 @@ styles {
                 shape MobileDeviceLandscape
             }
 
-            element "Database" {
+            element "Database - Netezza" {
                 stroke grey
                 background white
                 color grey
@@ -49,7 +53,7 @@ styles {
             element "Database - Virtual" {
                 stroke grey
                 border dashed
-                background lightgrey
+                background white
                 color grey
                 shape Cylinder
             }
@@ -60,6 +64,38 @@ styles {
                 color  #578BCF
                 shape Component
             }
+            element "Data Center" {
+                stroke grey
+                strokeWidth 20
+            }
 
+
+            element "Netezza Server" {
+                stroke "#B8BE3D"
+                strokeWidth 20
+            
+            }
+
+
+
+            element "Linux Server" {
+                stroke grey
+                strokeWidth 20
+
+            }
+
+            element "Windows Server" {
+                stroke "#4E71BF"
+                strokeWidth 20
+
+            }
+
+
+            
+
+
+
+
+            
 
         }
