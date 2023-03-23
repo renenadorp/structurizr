@@ -49,6 +49,20 @@
   }
   ,
   {
+    "tag" : "Data Center - Previder",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/Previder.png"
+    
+  }
+  ,
+  {
+    "tag" : "Data Center - CRM",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/person.png"
+    
+  }
+  ,
+  {
     "tag" : "ETL - Pentaho",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"

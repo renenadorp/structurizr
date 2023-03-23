@@ -10,10 +10,12 @@
 
         group "Source Systems" {
             shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" {
-                shsContainer = container "SHS"
+                shsContainer    = container "SHS"
                 shsdwhContainer = container "SHSDWH"
+                tmnContainer    = container "TMN"
             }
             crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System" "System OutScope" {
+                crmContainer = container "CRM"
                 crmViews = container "CRM Views"
 
             }
@@ -24,6 +26,7 @@
                 tags "FTP Server"
                 shsDataFull  = container "SHS Data Full"  "" "" "Zip" 
                 shsDataDelta = container "SHS Data Delta"  "" "" "Zip" 
+                tmnDataFull  = container "TMN Data Full" "" "" "Zip"
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
@@ -101,6 +104,11 @@
             shsContainer -> shsdwhContainer     "Push"
             shsdwhContainer -> shsDataFull      "Push"
             shsdwhContainer -> shsDataDelta     "Push"
+
+            tmnContainer -> tmnDataFull "Push"
+
+            # CRM
+            crmContainer -> crmViews "Read"
             crmViews        -> islContainer     "Pull"
 
             # DAILY
@@ -153,11 +161,19 @@
         
         group "DeploymentEnvironments" {
             deploymentEnvironment "Live" {
+                deploymentNode "Data Center - CRM" {
+                    tags "Data Center" "Data Center - CRM"
+                    deploymentNode "CRM" {
+                        crmInstance = containerInstance crmContainer
+                        crmViewsInstance = containerInstance crmViews
+                    }
+                }
                 deploymentNode "Data Center - Stater" {
-                    tags "Data Center"
+                    tags "Data Center - Stater" "Data Center"
                     deploymentNode "SHS" {
                         shsInstance = containerInstance shsContainer
                         shsdwhInstance = containerInstance shsdwhContainer
+                        tmnInstance = containerInstance tmnContainer
                         }
                     }
                 deploymentNode "Data Center - Centric" {
@@ -166,6 +182,7 @@
                 deploymentNode "FTP Server" {
                         shsDataFullInstance = containerInstance shsDataFull
                         shsDataDeltaInstance = containerInstance shsDataDelta
+                        tmnDataFullInstance = containerInstance tmnDataFull
                         }
                     }
 
@@ -174,7 +191,7 @@
                         dwaReportsPowerBIInstance = containerInstance dwaReportsPowerBI
                     }
                 deploymentNode "Data Center - Previder" {
-                    tags "Data Center"
+                    tags "Data Center" "Data Center - Previder"
 
                     deploymentNode "Linux Server" {
                         tags "Linux Server"
