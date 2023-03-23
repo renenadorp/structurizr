@@ -22,6 +22,16 @@
         }
 
         group "Data & Analytics" {
+
+            InergyDevelopmentSystem = softwaresystem "Inergy Development System" {
+                svnContainer = container "SVN"
+
+            }
+            InergyMonitoringSystem = softwaresystem "Inergy Monitoring" {
+                zoetesContainer = container "Zoetes Email Server"
+
+
+            }
             FTPSystem               = softwaresystem "FTP Server" {
                 tags "FTP Server"
                 shsDataFull  = container "SHS Data Full"  "" "" "Zip" 
@@ -30,43 +40,65 @@
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
-                    sdaContainer = container "SDA"  "" "Netezza" "Database - Netezza" {
+                    sdaContainer = container "SDA"  "" "Netezza" "" {
+                        tags "Netezza"
                         digbdaComponent = component "DIG_BDA" "" "Stored Procedure - Netezza" "Stored Procedure"
                         sdaDataComponent = component "SDA Data" "" "Table - Netezza" ""
                     }
-                    bdaContainer = container "BDA" "" "Database - Netezza" "Database - Netezza" {
+                    bdaContainer = container "BDA" "" "Database - Netezza" "" {
+                        tags "Netezza"
                         digdwaComponent = component "DIG_DWA" "" "" "Stored Procedure"
                         bdaDataComponent = component "BDA Data" "" "" "" 
 
                     }
-                    dwaContainer = container "DWA" "" "Netezza" "Database - Netezza" {
+                    dwaContainer = container "DWA" "" "Netezza" "" {
+                        tags "Netezza"
                         dwaDataComponent = component "DWA Data" "" "" "" 
                     }
-                    fraContainer = container "FRA" "" "Netezza" "Database - Netezza" {
+                    fraContainer = container "FRA" "" "Netezza" "" {
+                        tags "Netezza"
                         digfraComponent = component "DIG_FRA" "" "" ""
                         fraDataComponent = component "FRA Data" "" ""
                     }
-                    edaContainer = container "EDP" "" "Database" "Database - Netezza"
-                    ddaContainer = container "DDA" "" "Database - Netezza" "Database - Netezza" {
-                        ddaDataComponent = component "DDA Data" "" ""
+                    edaContainer = container "EDP" "" "Database" "Database - Netezza" {
+                        tags "Netezza"
+                    }
+                    ddaContainer = container "DDA" "" "Database - Netezza" "" {
+                        tags "Netezza"
+                        ddaDataIFRSComponent = component "DDA IFRS Data" "" ""
+                        ddaDataIRBComponent = component "DDA IRB Data" "" ""
+                        ddaDataMicrostrategyFRAComponent = component "Microstrategy Views - FRA" "" ""
+                        ddaDataMicrostrategyDWAComponent = component "Microstrategy Views - DWA" "" ""
 
                     }
                      
                 }
             MicrostrategyReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
+                dwaSemanticLayerMicrostrategy = container "DWA Semantic Layer Microstrategy"
+                fraSemanticLayerMicrostrategy = container "FRA Semantic Layer Microstrategy"
+                
                 dwaReportsMicrostrategy = container "DWA Reports - Microstrategy" "Microstrategy" "Microstrategy" {
-                    tags "Reporting - Microstrategy"
+                    tags "Microstrategy"
                     description "Microstrategy"
                     properties {
                         version "??.??"
                     }
-                    privateBIReport = component "Report" "Microstrategy Report"
+                    MicrostrategyReportDWA = component "Report" "Microstrategy Report"
+
+                }
+                fraReportsMicrostrategy = container "FRA Reports - Microstrategy" "Microstrategy" "Microstrategy" {
+                    tags "Microstrategy"
+                    description "Microstrategy"
+                    properties {
+                        version "??.??"
+                    }
+                    MicrostrategyReportFRA = component "Report" "Microstrategy Report"
 
                 }
                 }        
             PowerBIReportingSystem    = softwaresystem "Power BI Service" "Power BI" "" {
                 dwaReportsPowerBI = container "DWA Reports - Power BI" "Reporting - Power BI" {
-                    tags "Reporting - Power BI"
+                    tags "Power BI"
                     PowerBIReport = component "Report" "Power BI Report"
 
                 }
@@ -135,16 +167,17 @@
             # DWA
             etldwaComponent  -> digdwaComponent ""
             bdaDataComponent -> digdwaComponent ""        
-            digdwaComponent  -> dwaContainer ""
+            digdwaComponent  -> dwaContainer    ""
 
             # FRA
-            etlfraComponent  -> digfraComponent ""
+            etlfraComponent  -> digfraComponent  ""
             bdaDataComponent -> digfraComponent  ""
             digfraComponent  -> fraDataComponent ""
  
             # DDA
-            bdaDataComponent -> ddaDataComponent "Data Delivery"
-    
+            fraDataComponent -> ddaDataIFRSComponent "Data Delivery"
+            fraDataComponent -> ddaDataIRBComponent  "Data Delivery"
+            ddaDataMicrostrategyDWAComponent -> ddaDataMicrostrategyDWAComponent "DWA Views"
             # EDA
             sdaContainer -> edaContainer "Read Only"
             bdaContainer -> edaContainer "Read Only"
@@ -152,80 +185,18 @@
             fraContainer -> edaContainer "Read Only"
             
             # REPORTING
-            dwaContainer -> privateBIReport   "Provides data to"
-            dwaContainer -> PowerBIReport     "Provides data to"
+            ddaDataMicrostrategyFRAComponent -> fraSemanticLayerMicrostrategy
+            fraSemanticLayerMicrostrategy    -> fraReportsMicrostrategy    "Provides data to"
 
+            ddaDataMicrostrategyDWAComponent -> dwaSemanticLayerMicrostrategy
+            dwaSemanticLayerMicrostrategy    -> dwaReportsMicrostrategy    "Provides data to"
+
+            dwaDataComponent -> PowerBIReport
+            # MONITORING
+            etlEngine -> zoetesContainer   "Email"
 
 
         }
         
-        group "DeploymentEnvironments" {
-            deploymentEnvironment "Live" {
-                deploymentNode "Data Center - CRM" {
-                    tags "Data Center" "Data Center - CRM"
-                    deploymentNode "CRM" {
-                        crmInstance = containerInstance crmContainer
-                        crmViewsInstance = containerInstance crmViews
-                    }
-                }
-                deploymentNode "Data Center - Stater" {
-                    tags "Data Center - Stater" "Data Center"
-                    deploymentNode "SHS" {
-                        shsInstance = containerInstance shsContainer
-                        shsdwhInstance = containerInstance shsdwhContainer
-                        tmnInstance = containerInstance tmnContainer
-                        }
-                    }
-                deploymentNode "Data Center - Centric" {
-                    tags "Data Center - Centric" "Data Center"
-
-                deploymentNode "FTP Server" {
-                        shsDataFullInstance = containerInstance shsDataFull
-                        shsDataDeltaInstance = containerInstance shsDataDelta
-                        tmnDataFullInstance = containerInstance tmnDataFull
-                        }
-                    }
-
-                deploymentNode "Power BI Service" {
-                        tags "Reporting - Power BI" "Data Center"
-                        dwaReportsPowerBIInstance = containerInstance dwaReportsPowerBI
-                    }
-                deploymentNode "Data Center - Previder" {
-                    tags "Data Center" "Data Center - Previder"
-
-                    deploymentNode "Linux Server" {
-                        tags "Linux Server"
-                        deploymentNode "Java VM" {
-                            tags "Java VM"
-                            scdInstance = containerInstance scdContainer
-                            islInstance = containerInstance islContainer
-                        }
-                        deploymentNode "Pentaho Data Integration" {
-                            tags  "ETL - Pentaho" 
-                            etlEngineInstance = containerInstance etlEngine
-                        }
-                     }     
-                    deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: ???"{
-                            tags "Netezza Server" "Dataplatform - Netezza"
-
-                            sdaInstance = containerInstance sdaContainer
-                            bdaInstance = containerInstance bdaContainer
-                            dwaInstance = containerInstance dwaContainer
-                            fraInstance = containerInstance fraContainer
-                            ddaInstance = containerInstance ddaContainer
-
-                     }                        
-                    
-                    deploymentNode "Windows Server" {
-                        tags "Windows Server"
-                        deploymentNode "Microstrategy Server" {
-                            tags "BI - Microstrategy" 
-                            dwaReportsMicrostrategyInstance = containerInstance dwaReportsMicrostrategy
-                        }
-                     }
-            
-                }
-            }
-            
-        }
+        !include deploymentEnvironments.dsl
      }

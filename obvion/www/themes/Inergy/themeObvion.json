@@ -1,15 +1,9 @@
 {
   "name" : "Inergy",
   "description" : "Theme for conceptual architecture",
-  "elements" : [ {
-  "tag" : "Database - Netezza",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
-    
-  }
-  ,
+  "elements" : [ 
   {
-    "tag" : "Dataplatform - Netezza",
+    "tag" : "Netezza",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
     
@@ -22,7 +16,7 @@
     
   }
   ,  {
-    "tag" : "Reporting - Microstrategy",
+    "tag" : "Microstrategy",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/mstr.png"
     
@@ -63,7 +57,7 @@
   }
   ,
   {
-    "tag" : "ETL - Pentaho",
+    "tag" : "Pentaho",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
     

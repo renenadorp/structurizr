@@ -70,32 +70,11 @@ styles {
             }
 
 
-            element "Netezza Server" {
-                stroke "#B8BE3D"
-                strokeWidth 20
-            
-            }
-
-
-
-            element "Linux Server" {
-                stroke grey
+            element "Server" {
+                stroke "#820003"
                 strokeWidth 20
 
             }
 
-            element "Windows Server" {
-                stroke "#4E71BF"
-                strokeWidth 20
-
-            }
-
-
-            
-
-
-
-
-            
-
+        
         }

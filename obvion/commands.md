@@ -5,9 +5,13 @@ docker build -f Dockerfile.struct -t struct .
 docker build -f Dockerfile.nginx -t nginx .
 docker build -f Dockerfile.ping -t ping .
 `
-## Start Structurizr
+## Start Structurizr - RA
 >`
 docker run -it --rm  -p 8080:8080 -v /Users/rnadorp/Documents/Internal/Structurizr/ra/:/usr/local/structurizr structurizr/lite
+`
+## Start Structurizr - Obvion
+>`
+docker run -it --rm  -p 8080:8080 -v /Users/rnadorp/Documents/Internal/Structurizr/obvion/:/usr/local/structurizr structurizr/lite
 `
 
 ## Start Nginx
