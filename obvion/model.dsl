@@ -74,8 +74,16 @@
                      
                 }
             MicrostrategyReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                dwaSemanticLayerMicrostrategy = container "DWA Semantic Layer Microstrategy"
-                fraSemanticLayerMicrostrategy = container "FRA Semantic Layer Microstrategy"
+                tags "Microstrategy"
+
+                dwaSemanticLayerMicrostrategy = container "DWA Semantic Layer Microstrategy" {
+                    tags "Microstrategy"
+
+                }
+                fraSemanticLayerMicrostrategy = container "FRA Semantic Layer Microstrategy" {
+                    tags "Microstrategy"
+
+                }
                 
                 dwaReportsMicrostrategy = container "DWA Reports - Microstrategy" "Microstrategy" "Microstrategy" {
                     tags "Microstrategy"

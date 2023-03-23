@@ -52,7 +52,7 @@ group "DeploymentEnvironments" {
                         }
                      }     
                     deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: ???"{
-                            tags "Server" "Dataplatform - Netezza" "Netezza"
+                            tags "Server" "Netezza"
 
                             sdaInstance = containerInstance sdaContainer
                             bdaInstance = containerInstance bdaContainer
