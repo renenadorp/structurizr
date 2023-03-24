@@ -1,5 +1,11 @@
 group "DeploymentEnvironments" {
             deploymentEnvironment "Production" {
+                deploymentNode "AdviseursPortal" {
+                    tags "Data Center"
+                    deploymentNode "AP" {
+                        advInstance = containerInstance advContainer 
+                    }
+                }
                 deploymentNode "Data Center - CRM" {
                     tags "Data Center" "Data Center - CRM"
                     deploymentNode "CRM" {
@@ -23,8 +29,16 @@ group "DeploymentEnvironments" {
                         shsDataFullInstance = containerInstance shsDataFull
                         shsDataDeltaInstance = containerInstance shsDataDelta
                         tmnDataFullInstance = containerInstance tmnDataFull
+                        bagDataFullInstance = containerInstance bagDataFull
                         }
-                    }
+                deploymentNode "FTP Server Rabo" {
+                        tags "Server"                    
+                    expDataIRBInstance   = containerInstance expDataIRB
+                    expDataIFRSInstance  = containerInstance expDataIFRS
+
+                    }                    
+                 }
+
 
                 deploymentNode "Power BI Service" {
                         tags "Reporting - Power BI" "Data Center"
@@ -33,23 +47,21 @@ group "DeploymentEnvironments" {
                 deploymentNode "Data Center - Previder" {
                     tags "Data Center" "Data Center - Previder"
 
-                    deploymentNode "Linux Server Monitoring (???)" {
-                        deploymentNode "Zoetes Email Server" {
-                            tags "Server"
+                    deploymentNode "Monitoring Server (???)" {
+                        tags "Server"
+                            
                             zoetesInstance = containerInstance zoetesContainer
-                        }
                     }
-                    deploymentNode "Linux Server" {
+                    deploymentNode "ETL Server" {
                         tags "Server"
                         deploymentNode "Java VM" {
                             tags "Java VM"
                             scdInstance = containerInstance scdContainer
                             islInstance = containerInstance islContainer
                         }
-                        deploymentNode "Pentaho Data Integration" {
-                            tags  "Pentaho" "Server" 
+                            tags  "" "Server" 
                             etlEngineInstance = containerInstance etlEngine
-                        }
+                        
                      }     
                     deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: ???"{
                             tags "Server" "Netezza"

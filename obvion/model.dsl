@@ -21,15 +21,20 @@
             }
         }
 
+        group "Target Systems" {
+            advSystem           = softwaresystem "AdviseursPortal" "" "System OutScope" {
+                advContainer    = container "AP"
+            }
+        }
+
         group "Data & Analytics" {
 
             InergyDevelopmentSystem = softwaresystem "Inergy Development System" {
                 svnContainer = container "SVN"
 
             }
-            InergyMonitoringSystem = softwaresystem "Inergy Monitoring" {
+            InergyMonitoringSystem = softwaresystem "Inergy Monitoring System" {
                 zoetesContainer = container "Zoetes Email Server"
-
 
             }
             FTPSystem               = softwaresystem "FTP Server" {
@@ -37,6 +42,7 @@
                 shsDataFull  = container "SHS Data Full"  "" "" "Zip" 
                 shsDataDelta = container "SHS Data Delta"  "" "" "Zip" 
                 tmnDataFull  = container "TMN Data Full" "" "" "Zip"
+                bagDataFull  = container "BAG Data Full" "Zipped XML" "" "Zip" 
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
@@ -67,6 +73,8 @@
                         tags "Netezza"
                         ddaDataIFRSComponent = component "DDA IFRS Data" "" ""
                         ddaDataIRBComponent = component "DDA IRB Data" "" ""
+                        ddaAdviseursPortalComponent = component "AdviseursPortal" "" ""
+                        ddaDataMicrostrategyCRMComponent = component "CRM Views" "" ""
                         ddaDataMicrostrategyFRAComponent = component "Microstrategy Views - FRA" "" ""
                         ddaDataMicrostrategyDWAComponent = component "Microstrategy Views - DWA" "" ""
 
@@ -111,17 +119,25 @@
 
                 }
             }
+            FTPRaboSystem = softwaresystem "FTP Rabo Server" {
+                tags "FTP Server"
+                expDataIRB   = container "IRB Data Full"  "" "" "Zip" 
+                expDataIFRS  = container "IFRS Data Full"  "" "" "Zip" 
+            }
             
             
-            etlSystem               = softwaresystem "ETL System" "" "Data Processing" {
-                etlEngine  = container "ETL Engine" "Pentaho Server" "" {
-                    tags "ETL - Pentaho"
+            
+            
+            etlSystem               = softwaresystem "Pentaho ETL System" "" "Data Processing" {
+                etlEngine  = container "Pentaho Data Integration" "Pentaho Server" "" {
+                    tags "Pentaho"
                     etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlsdaComponent    = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlbdaComponent    = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlfraComponent    = component "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etldwaComponent    = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
-                    etlexpComponent    = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                    etlddaComponent    = component "DDA Main" "Pentaho Job" "ETL - Pentaho Job" 
+                    etlexpComponent    = component "EXP Main" "Pentaho Job" "ETL - Pentaho Job" 
                 }
                 scdContainer        = container "SCD" "" "Java - Jar" {
                     description "Java component for historization (Slowly Changing Dimensions)"
@@ -129,26 +145,31 @@
                 }
                 islContainer        = container "ISL" "" "ETL - Java" {
                     tags "Java - Jar"
-                    description "Java component ingesting data (Inergy Smart Loader)"
+                    description "Java component for data ingestion (Inergy Smart Loader)"
+
+                }
+                dctContainer        = container "DCT" "" "ETL - Java" {
+                    tags "Java - Jar"
+                    description "Java component for data comparison (Data Compare Tool)"
 
                 }
             
                 }
              }       
         
-        #
+        ###########
         # Relations
         group "Relations" {
 
             # SHS
-            shsContainer -> shsdwhContainer     "Push"
+            shsContainer    -> shsdwhContainer     "Push"
             shsdwhContainer -> shsDataFull      "Push"
             shsdwhContainer -> shsDataDelta     "Push"
 
-            tmnContainer -> tmnDataFull "Push"
+            tmnContainer    -> tmnDataFull "Push"
 
             # CRM
-            crmContainer -> crmViews "Read"
+            crmContainer    -> crmViews "Read"
             crmViews        -> islContainer     "Pull"
 
             # DAILY
@@ -156,12 +177,16 @@
             etlDailyComponent -> etlfraComponent ""
             etlDailyComponent -> etlbdaComponent ""
             etlDailyComponent -> etldwaComponent ""
-            etlDailyComponent -> etlexpComponent ""
+            etlDailyComponent -> etlddaComponent ""
 
 
             # SDA
             shsDataFull     -> etlsdaComponent "Datasource for"
             shsDataDelta    -> etlsdaComponent "Datasource for"
+            tmnDataFull     -> etlsdaComponent "Datasource for"
+
+            bagDataFull     -> etlsdaComponent "Datasource for"
+
             etlsdaComponent -> islContainer ""
             etlsdaComponent -> scdContainer ""
             scdContainer    -> sdaContainer ""
@@ -185,21 +210,39 @@
             # DDA
             fraDataComponent -> ddaDataIFRSComponent "Data Delivery"
             fraDataComponent -> ddaDataIRBComponent  "Data Delivery"
+
             ddaDataMicrostrategyDWAComponent -> ddaDataMicrostrategyDWAComponent "DWA Views"
+
+            # DELIVERY: RABO
+            ddaDataIRBComponent  -> etlexpComponent ""
+            ddaDataIFRSComponent -> etlexpComponent ""
+
+
+            etlexpComponent      -> expDataIRB   "IRB to Rabo"
+            etlexpComponent      -> expDataIFRS   "IFRS to Rabo"
+
+
             # EDA
             sdaContainer -> edaContainer "Read Only"
             bdaContainer -> edaContainer "Read Only"
             dwaContainer -> edaContainer "Read Only"
             fraContainer -> edaContainer "Read Only"
             
-            # REPORTING
+            # REPORTING - MICROSTRATEGY
             ddaDataMicrostrategyFRAComponent -> fraSemanticLayerMicrostrategy
             fraSemanticLayerMicrostrategy    -> fraReportsMicrostrategy    "Provides data to"
 
             ddaDataMicrostrategyDWAComponent -> dwaSemanticLayerMicrostrategy
             dwaSemanticLayerMicrostrategy    -> dwaReportsMicrostrategy    "Provides data to"
+        
+            # REPORTING - POWER BI
+            dwaDataComponent -> PowerBIReport "DWA or DDA as a source??"
 
-            dwaDataComponent -> PowerBIReport
+            # ADVISEURS PORTAL\
+            ddaAdviseursPortalComponent -> advContainer
+
+
+
             # MONITORING
             etlEngine -> zoetesContainer   "Email"
 
