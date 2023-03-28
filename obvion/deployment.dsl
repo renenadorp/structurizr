@@ -21,7 +21,6 @@ group "DeploymentEnvironments" {
                     deploymentNode "FTP Server (InFlow)" {
                             tags "Server"
                             shsDataFullInstance = containerInstance shsDataFull
-                            shsDataDeltaInstance = containerInstance shsDataDelta
                             tmnDataFullInstance = containerInstance tmnDataFull
                             bagDataFullInstance = containerInstance bagDataFull
                             }

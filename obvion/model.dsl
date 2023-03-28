@@ -60,10 +60,9 @@
 
             FTPSystem               = softwaresystem "FTP Server" {
                 tags "FTP Server"
-                shsDataFull  = container "SHS Data Full"  "" "" "Zip" 
-                shsDataDelta = container "SHS Data Delta"  "" "" "Zip" 
-                tmnDataFull  = container "TMN Data Full"  "" "" "Zip"
-                bagDataFull  = container "BAG Data Full" "Zipped XML" "" "Zip" 
+                shsDataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
+                tmnDataFull  = container "TMN Data"  "" "Full Only" "Zip"
+                bagDataFull  = container "BAG Data" "Zipped XML" "Full Only" "Zip" 
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
@@ -176,7 +175,6 @@
             # SHS
             shsContainer    -> shsdwhContainer     "" "Push"
             shsdwhContainer -> shsDataFull      "DDS1" "Push" "Daily"
-            shsdwhContainer -> shsDataDelta     "DDS1" "Push"
 
             tmnContainer    -> tmnDataFull "" "Push"
 
@@ -192,7 +190,6 @@
 
             # SDA
             shsDataFull     -> etlsdaComponent ""
-            shsDataDelta    -> etlsdaComponent ""
             tmnDataFull     -> etlsdaComponent ""
             crmViews        -> etlsdaComponent "" "Pull"
 
