@@ -103,6 +103,14 @@
     
   }
   
+  ,
+  {
+    "tag" : "Fitnesse",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/fitnesse.png"
+    
+  }
+  
   
 ]
 
