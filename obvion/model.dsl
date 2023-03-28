@@ -40,6 +40,10 @@
                 pwdContainer = container "PowerDesigner" "Data Modeling" {
                     tags "PowerDesigner"
                     }
+                fitContainer = container "FitNesse" "Testing Software" {
+                    tags "Fitnesse"
+                }
+
 
             }
             InergyMonitoringSystem = softwaresystem "Inergy Monitoring System" {

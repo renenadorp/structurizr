@@ -95,6 +95,13 @@
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/rdk.png"
     
   }
+  ,
+  {
+    "tag" : "OpsGenie",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/opgenie.png"
+    
+  }
   
   
 ]

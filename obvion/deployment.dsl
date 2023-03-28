@@ -63,10 +63,11 @@ group "DeploymentEnvironments" {
                         svnInstance = containerInstance svnContainer
                         pwdInstance = containerInstance pwdContainer
                         rdkInstance = containerInstance rdkContainer
+                        fitInstance = containerInstance fitContainer
                         
                     }
                     deploymentNode "Microstrategy Server"  ""  "Linux" {
-                        tags "Microstrategy" 
+                        tags "Microstrategy" "Server"
                         MicrostrategyReportsInstance = containerInstance MicrostrategyReports
                         MicrostrategySemanticLayerInstance = containerInstance MicrostrategySemanticLayer
                     }
