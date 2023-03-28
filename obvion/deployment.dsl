@@ -49,7 +49,7 @@ group "DeploymentEnvironments" {
                         PowerBIReportsInstance  = containerInstance PowerBIReports
                     }
                 deploymentNode "Data Center - OpsGenie" "" "SaaS"{
-                    tags "OpsGenie"
+                    tags "OpsGenie" "Server"
                     opsGenieInstance = containerInstance opsGenieContainer
 
                     }
