@@ -24,7 +24,8 @@
   ,
   {
     "tag" : "Cloud - Azure",
-    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/azure.png"
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/azure.png"
     
   }
   ,
@@ -49,8 +50,9 @@
   }
   ,
   {
-    "tag" : "Obvion CRM",
-    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/crm.png"
+    "tag" : "CRM",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/crm.png"
     
   }
   ,
@@ -74,28 +76,6 @@
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java-jar.png"
     
   }
-  ,
-  {
-    "tag" : "PowerDesigner",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pwd.png"
-    
-  }
-  ,
-  {
-    "tag" : "SVN",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/svn.png"
-    
-  }
-  ,
-  {
-    "tag" : "Rundeck",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/rdk.png"
-    
-  }
-  
   
 ]
 

@@ -25,9 +25,9 @@ views {
         exclude "etlEngine -> bdaContainer" 
         exclude "etlEngine -> dwaContainer" 
         exclude "etlEngine -> fraContainer" 
+        exclude "rdkContainer -> *"
 
         
-        autoLayout lr
     }    
 
     #filtered "DataPlatformContainer" exclude "Relationship" "FilteredDeploymentLive" "descr"

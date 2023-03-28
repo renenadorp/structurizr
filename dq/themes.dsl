@@ -1,0 +1,1 @@
+    themes https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/themeObvion.json

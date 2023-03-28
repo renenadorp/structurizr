@@ -98,11 +98,13 @@
             dataExpert      -> metadataSystem "Data Expert"
             dataOwner       -> metadataSystem "Data Owner"
             reportUser      -> EnterpriseReportingSystem
+            
+            /*
             dataScientist   -> inContainer
             dataScientist   -> daContainer
             dataScientist   -> baContainer
             dataScientist   -> iaContainer
-            
+            */
     
 
             # relationships between software systems and software systems

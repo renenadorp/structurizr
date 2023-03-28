@@ -44,7 +44,7 @@ styles {
                 shape MobileDeviceLandscape
             }
 
-            element "Database" {
+            element "Netezza" {
                 stroke grey
                 background white
                 color grey

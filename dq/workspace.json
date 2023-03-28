@@ -1,0 +1,311 @@
+{
+  "id" : 1,
+  "name" : "DQ",
+  "description" : "DQ",
+  "lastModifiedDate" : "2023-03-27T09:59:16Z",
+  "properties" : {
+    "structurizr.dsl" : "LyoKd29ya3NwYWNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7QVJDSElURUNUVVJFX05BTUV9IiB7CiovCndvcmtzcGFjZSAiRFEiICJEUSIgewogICAgCiAgICAhZG9jcyB3aWtpCiAgICAhYWRycyBhZHJzCiFjb25zdGFudCBPUkdBTklTQVRJT05fTkFNRSAiSW5lcmd5IgohY29uc3RhbnQgQVJDSElURUNUVVJFX05BTUUgIkRhdGFwbGF0Zm9ybSBSZWZlcmVuY2UgQXJjaGl0ZWN0dXJlIgohY29uc3RhbnQgVEhFTUVfQVpVUkUgImh0dHBzOi8vbmFkb3JwLno2LndlYi5jb3JlLndpbmRvd3MubmV0L3N0cnVjdHVyaXpyL3RoZW1lcy90aGVtZV9zdGFuZGFyZC9BenVyZS90aGVtZS5qc29uIgohY29uc3RhbnQgVEhFTUVfU1RBTkRBUkQgImh0dHBzOi8vZ2lzdC5naXRodWJ1c2VyY29udGVudC5jb20vcmVuZW5hZG9ycC83OGU5NDA0MmJhMGMzYmJkZTViMzA2MGZmODM4ODgyYS9yYXcvYzIxYmM5NTdmODNhOGUyZWFhNzdlM2QwZTJiNjFjYzg3YjhmOTA4MC90aGVtZV9JbmVyZ3kiIAoKCgogICAgIG1vZGVsIHsKICAgICAgICAgICAgCiAgICAgCiAgICAgICAgZ3JvdXAgIlBlb3BsZSIgewogICAgICAgICAgICAjZXJwU3RhZmYgICAgPSBwZXJzb24gIkVSUCBTdGFmZiIgIkVSUCIgIkludGVybmFsIFN0YWZmIgogICAgICAgICAgICAKIAogICAgICAgIH0KCiAgICAgICAgZ3JvdXAgIlN5c3RlbXMiIHsKICAgICAgICAgICAgYnVzaW5lc3NSZXN1bHRzU3lzdGVtID0gc29mdHdhcmVzeXN0ZW0gIkJ1c2luZXNzIFJlc3VsdHMgU3lzdGVtIiAiIiAgewogICAgICAgICAgICAgICAgYnVzaW5lc3NJbnRlcm5hbENvbnRhaW5lciA9IGNvbnRhaW5lciAiQnVzaW5lc3MgSW50ZXJuYWwgRmFjdG9ycyIgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBjdXN0b21lclNhdGlzZmFjdGlvbkNvbXBvbmVudCA9IGNvbXBvbmVudCAiQ3VzdG9tZXIgU2F0aXNmYWN0aW9uIgogICAgICAgICAgICAgICAgICAgIGNvbXBldGl0aXZlbmVzc0NvbXBvbmVudCA9IGNvbXBvbmVudCAiQ29tcGV0aXRpZSBLcmFjaHQiCiAgICAgICAgICAgICAgICAgICAgCgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYnVzaW5lc3NDb3N0c0NvbnRhaW5lciA9IGNvbnRhaW5lciAiQnVzaW5lc3MgRXh0ZXJuYWwgRmFjdG9ycyIgewogICAgICAgICAgICAgICAgICAgIGZhaWxpbmdQcm9qZWN0c0NvbXBvbmVudCA9IGNvbXBvbmVudCAiRmFpbGluZyBQcm9qZWN0cyIKICAgICAgICAgICAgICAgICAgICBwcm9kdWN0aXZpdHlDb21wb25lbnQgPSBjb21wb25lbnQgIlByb2R1Y3Rpdml0ZWl0IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkcVJlc3VsdHNTeXN0ZW0gICAgICAgICAgID0gc29mdHdhcmVzeXN0ZW0gIkRRIEJlbmVmaXQgU3lzdGVtIiAiRFEgQmVuZWZpdCIgIlN5c3RlbSBJblNjb3BlIiB7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGRxQmVuZWZpdHNDb250YWluZXIgPSBjb250YWluZXIgIkRRIEJlbmVmaXRzIiB7CiAgICAgICAgICAgICAgICAgICAgZGF0YUludGVncmF0aW9uQ2FwYWJpbGl0eSA9IGNvbXBvbmVudCAiRGF0YSBJbnRlZ3JhdGlvbiIKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkcUNvc3RzQ29udGFpbmVyID0gY29udGFpbmVyICJEUSBDb3N0cyIgewogICAgICAgICAgICAgICAgICAgIGRhdGFTdGFuZGFyZGl6YXRpb24gPSBjb21wb25lbnQgIkRhdGEgU3RhbmRhcmRpemF0aW9uIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgfQoKICAgICAgICB9CiAjIyMjIyMjIyMjIwogICAgICAgICMgUmVsYXRpb25zCiAgICAgICAgZ3JvdXAgIlJlbGF0aW9ucyIgewogICAgICAgICAgICBkYXRhSW50ZWdyYXRpb25DYXBhYmlsaXR5IC0+IHByb2R1Y3Rpdml0eUNvbXBvbmVudCAiKyIKCgoKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgfQp2aWV3cyB7CiAgICAvLyBpbWFnZSAqICJpbWFnZSIgewogICAgLy8gICAgICAgICBpbWFnZSB3d3cvdGhlbWVzL0luZXJneS9pbWFnZXMvbmV0ZXp6YS5qcGVnCiAgICAvLyAgICAgfQogICAgc3lzdGVtbGFuZHNjYXBlICJkYXRhUGxhdGZvcm1MYW5kc2NhcGUiIHsKICAgICAgICBpbmNsdWRlICoKICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICB9ICAgIAoKCgpzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJJbnRlcm5hbCBTdGFmZiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM1YjQzCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWxha2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkZUUCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEZvbGRlciAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDdXN0b21lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTeXN0ZW0gSW5TY29wZSIgewogICAgICAgICAgICAgICAgc3Ryb2tlIGdyZXkKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgd2hpdGUKICAgICAgICAgICAgICAgIGNvbG9yIGdyZXkKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTeXN0ZW0gT3V0U2NvcGUiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBncmV5CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHdoaXRlCiAgICAgICAgICAgICAgICBjb2xvciBncmV5CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgZ3JleQogICAgICAgICAgICAgICAgYmFja2dyb3VuZCB3aGl0ZQogICAgICAgICAgICAgICAgY29sb3IgZ3JleQogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIk5ldGV6emEiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBncmV5CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHdoaXRlCiAgICAgICAgICAgICAgICBjb2xvciBncmV5CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAKICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNmZmZmZmYKICAgICAgICAgICAgICAgIHN0cm9rZSAjNTc4QkNGCiAgICAgICAgICAgICAgICBjb2xvciAgIzU3OEJDRgogICAgICAgICAgICAgICAgc2hhcGUgQ29tcG9uZW50CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YSBDZW50ZXIiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBncmV5CiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCAyMAogICAgICAgICAgICB9CgoKICAgICAgICAgICAgZWxlbWVudCAiU2VydmVyIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgIiM4MjAwMDMiCiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCAyMAoKICAgICAgICAgICAgfQoKICAKICAgICAgICAKICAgICAgICB9CgogICAgdGhlbWVzIGh0dHBzOi8vcmVuZW5hZG9ycC5naXRodWIuaW8vc3RydWN0dXJpenIvb2J2aW9uL3d3dy90aGVtZXMvSW5lcmd5L3RoZW1lT2J2aW9uLmpzb24KICAgIAoKfQoKfQoKCg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "businessresultssystem"
+      },
+      "name" : "Business Results System",
+      "group" : "Systems",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "2",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "businessinternalcontainer"
+        },
+        "name" : "Business Internal Factors",
+        "components" : [ {
+          "id" : "3",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "customersatisfactioncomponent"
+          },
+          "name" : "Customer Satisfaction",
+          "documentation" : { }
+        }, {
+          "id" : "4",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "competitivenesscomponent"
+          },
+          "name" : "Competitie Kracht",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "businesscostscontainer"
+        },
+        "name" : "Business External Factors",
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "failingprojectscomponent"
+          },
+          "name" : "Failing Projects",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "productivitycomponent"
+          },
+          "name" : "Productiviteit",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,System InScope",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dqresultssystem"
+      },
+      "name" : "DQ Benefit System",
+      "description" : "DQ Benefit",
+      "relationships" : [ {
+        "id" : "19",
+        "sourceId" : "8",
+        "destinationId" : "7",
+        "description" : "+",
+        "linkedRelationshipId" : "13"
+      }, {
+        "id" : "20",
+        "sourceId" : "8",
+        "destinationId" : "5",
+        "description" : "+",
+        "linkedRelationshipId" : "13"
+      }, {
+        "id" : "21",
+        "sourceId" : "8",
+        "destinationId" : "1",
+        "description" : "+",
+        "linkedRelationshipId" : "13"
+      } ],
+      "group" : "Systems",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dqbenefitscontainer"
+        },
+        "name" : "DQ Benefits",
+        "relationships" : [ {
+          "id" : "16",
+          "sourceId" : "9",
+          "destinationId" : "7",
+          "description" : "+",
+          "linkedRelationshipId" : "13"
+        }, {
+          "id" : "17",
+          "sourceId" : "9",
+          "destinationId" : "5",
+          "description" : "+",
+          "linkedRelationshipId" : "13"
+        }, {
+          "id" : "18",
+          "sourceId" : "9",
+          "destinationId" : "1",
+          "description" : "+",
+          "linkedRelationshipId" : "13"
+        } ],
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "dataintegrationcapability"
+          },
+          "name" : "Data Integration",
+          "relationships" : [ {
+            "id" : "13",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "7",
+            "description" : "+"
+          }, {
+            "id" : "14",
+            "sourceId" : "10",
+            "destinationId" : "5",
+            "description" : "+",
+            "linkedRelationshipId" : "13"
+          }, {
+            "id" : "15",
+            "sourceId" : "10",
+            "destinationId" : "1",
+            "description" : "+",
+            "linkedRelationshipId" : "13"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dqcostscontainer"
+        },
+        "name" : "DQ Costs",
+        "components" : [ {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "datastandardization"
+          },
+          "name" : "Data Standardization",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "content" : "## Data Platform Requirements\n\nHieronder een lijst met requirements:\n\nPrio|Naam|Omschrijving|\n|--|--|--|\n|?| Historiseren | |\n||Time travel voor data, reports en data leveringen||\n|?| Data testen ||\n|?|Delta load||\n|?|Delete detectie||\n|?|Initial Load||\n|?|Schema drift||\n|?|Real time data in ||\n|?|Real time data out||\n|?|Row level security: AAD ||\n|?|Row level security: Data driven||\n|?|Data push from source (formats?)||\n|?|Data pull from source (formats? / technogie)||\n|?|Batch data processing||\n|?|Micro batch data processing||\n|?|Event based data processing||\n|?|CDC|\n||GDPR||\n||Ondersteuning FK en PK||\n||Orchestratie, met job afhankelijkheden||\n||Parellelle data processing||\n||Integratie met OpsGenie||\n||Column level security||\n||Data modellering: dimensioneel||\n||Data modellering: relationeel||\n||Data modellering: data vault||\n||Integratie met ML modellen||\n||Business Glossary||\n||Data lineage||\n||Bron voor BI tools||\n||Integratie met portals||\n||Self Service / Exploratie||\n||Data kwaliteitsmeting ||\n||Data kwaliteits dashboard||\n||Logging & Monitoring||\n||Data verrijking met UI||\n||Centrale definities ||\n||Centrale eenduidige naamgeving van entiteiten en attributen||\n||Certificering van datasets||\n||Audit trail||\n||Disaster Recovery||\n||Herstartbaarheid||\n||Data Classificatie||\n\n\n\n\n\n\n\n\n\n\n\n",
+      "format" : "Markdown",
+      "filename" : "0006_DataPlatform_Requirements.md",
+      "order" : 5
+    }, {
+      "content" : "## Introduction\nThese pages comprise architecture documenation for the Inergy Data Platform Reference Architecture. \nThe purpose is to describe the standard architecture that Inergy will implement for any customer that needs a data platform. \n\nThe architecture is described using the C4 model to model the architecture:\n- Software System \n- Containers\n- Components \n- Code \n\nNext, any number of views (diagrams) can be created to communicate the architecture. \n\n\n\n",
+      "format" : "Markdown",
+      "filename" : "0001_Overview.md",
+      "order" : 1
+    }, {
+      "content" : "## System Landscape\nThe diagram below reflects the system \"Data Platform\" in its context.\n![](embed:dataPlatformLandscape)\n\n## Dataplatform System Context \n![](embed:SystemContext)\n",
+      "format" : "Markdown",
+      "filename" : "0002_SystemLandscape.md",
+      "order" : 2
+    }, {
+      "content" : "## Metadata System Container Diagram\nThe diagram below reflects the system \"Metadata System\" in its context.\n\n![](embed:Metadata)\n\nThe metadata system is made up of the following components\n1. Business Glossary\n1. Data Catalog\n",
+      "format" : "Markdown",
+      "filename" : "0005_MetadataSystem.md",
+      "order" : 4
+    }, {
+      "content" : "## Data Platform Container Diagram \nThe diagram below reflects the system \"Data Platform\" in its context.\n\n![](embed:DataPlatform)\n\nThe data platform consists of the following data layers:\n1. Data Area\n1. Business Area\n1. Information Area\n1. Metadata Area \n",
+      "format" : "Markdown",
+      "filename" : "0003_DataPlatformContext.md",
+      "order" : 3
+    } ],
+    "decisions" : [ {
+      "content" : "# 1. ADR Template\n\nDate: 2023-02-08\n\n## Status\n\nAccepted\n\nValues: Accepted, Rejected,Draft, Proposed, Deprecated.\n\n## Context\n\nSome context\n\n## Decision\n\nDecision info\n\n\n## Consequences\n\nConsequences",
+      "format" : "Markdown",
+      "id" : "1",
+      "title" : "ADR Template",
+      "date" : "2023-02-08T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "dataPlatformLandscape",
+      "order" : 1,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "21"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Internal Staff",
+          "background" : "#335b43",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Datalake",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Folder"
+        }, {
+          "tag" : "FTP Server",
+          "shape" : "Folder"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b",
+          "shape" : "Person"
+        }, {
+          "tag" : "System InScope",
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "System OutScope",
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Container",
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Netezza",
+          "background" : "#ffffff",
+          "stroke" : "#808080",
+          "color" : "#808080",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#ffffff",
+          "stroke" : "#578bcf",
+          "color" : "#578bcf",
+          "shape" : "Component"
+        }, {
+          "tag" : "Data Center",
+          "stroke" : "#808080",
+          "strokeWidth" : 10
+        }, {
+          "tag" : "Server",
+          "stroke" : "#820003",
+          "strokeWidth" : 10
+        } ]
+      },
+      "themes" : [ "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/themeObvion.json" ],
+      "terminology" : { },
+      "lastSavedView" : "LiveDeployment"
+    }
+  }
+}
