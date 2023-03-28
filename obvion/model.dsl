@@ -54,7 +54,9 @@
                     tags "Database" "Postgress"
                 }             
 
-                opsGenieContainer = container "OpsGenie"
+                opsGenieContainer = container "OpsGenie" {
+                    tags "OpsGenie"
+                }
 
             }
 
