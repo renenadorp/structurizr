@@ -16,7 +16,7 @@
     
   }
   ,  {
-    "tag" : "Microstrategy",
+    "tag" : "MicroStrategy",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/mstr.png"
     
@@ -32,6 +32,12 @@
     "tag" : "Data Center - Centric",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/centric.png"
+    
+  },
+  {
+    "tag" : "Data Center - Itility",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/itility.jpeg"
     
   },
   {
@@ -56,16 +62,13 @@
   ,
   {
     "tag" : "Pentaho",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
+   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
     
   }
   ,
   {
     "tag" : "Java VM",
-
-  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java.png"
-    
+   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java.png" 
   }
   ,
   {
@@ -111,9 +114,42 @@
     
   }
   
+  ,
+  {
+    "tag" : "Oracle",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/oracle.png"
+    
+  }
+  
+  ,
+  {
+    "tag" : "Postgress",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/postgress.png"
+    
+  }
+  ,
+  {
+    "tag" : "Perl",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/perl.png"
+    
+  }
+  ,
+  {
+    "tag" : "Obvion",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/obvion.png"
+  }
+  
+  ,
+  {
+    "tag" : "Liquibase",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/liquibase.png"
+  }
+  
   
 ]
 
 
 }
-

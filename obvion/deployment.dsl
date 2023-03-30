@@ -1,10 +1,5 @@
 group "DeploymentEnvironments" {
             deploymentEnvironment "Production" {
-                deploymentNode "AdviseursPortaal" {
-                    tags "Data Center"
-                        advInstance = containerInstance advContainer 
-                    
-                 }
 
                 deploymentNode "Data Center - Stater" {
                     tags "Data Center - Stater" "Data Center"
@@ -12,15 +7,27 @@ group "DeploymentEnvironments" {
                         shsInstance = containerInstance shsContainer
                         shsdwhInstance = containerInstance shsdwhContainer
                         tmnInstance = containerInstance tmnContainer
+                        pccInstance = containerInstance pccContainer
                         }
-                    }
+                    }                
+                deploymentNode "Data Center - Kadaster" {
+                    tags "Data Center - Kadaster" "Data Center"
+                deploymentNode "BAG" {
+                    kstBAGDatasetInstance = containerInstance kstBAGDatasetContainer
 
-                deploymentNode "Data Center - Centric" {
-                    tags "Data Center - Centric" "Data Center"
+                    }
+                 }
+
+                deploymentNode "Data Center - Itility" {
+                    tags "Data Center - Itility" "Data Center"
+                    #NetworkControllerObvionInstance = containerInstance NetworkControllerObvion
+                    NetworkControllerObvion = infrastructureNode "Network Controller Obvion" {
+                        #-> NetworkControllerPrevider "Network Link"
+                    }
 
                     deploymentNode "FTP Server (InFlow)" {
                             tags "Server"
-                            shsDataFullInstance = containerInstance shsDataFull
+                            shhdataFullInstance = containerInstance shhdataFull
                             tmnDataFullInstance = containerInstance tmnDataFull
                             bagDataFullInstance = containerInstance bagDataFull
                             }
@@ -29,10 +36,10 @@ group "DeploymentEnvironments" {
                             tags "Server"                    
                         expDataIRBInstance   = containerInstance expDataIRB
                         expDataIFRSInstance  = containerInstance expDataIFRS
+                        expDataPCCInstance   = containerInstance expDataPCC
 
                         }                    
                          
-                
                 
                     deploymentNode "CRM" {
                         tags  "Obvion CRM" "Server"
@@ -40,6 +47,10 @@ group "DeploymentEnvironments" {
                         crmInstance = containerInstance crmContainer
                         crmViewsInstance = containerInstance crmViews
                     
+                 }
+                 deploymentNode "Adviseurs Portaal" {
+                    tags "Obvion" "Server"
+                    advInstance = containerInstance advContainer 
                  }
                  }
 
@@ -53,60 +64,75 @@ group "DeploymentEnvironments" {
                     opsGenieInstance = containerInstance opsGenieContainer
 
                     }
-                
-                
-                
+
                 deploymentNode "Data Center - Previder" {
+                    #NetworkControllerPreviderInstance = containerInstance NetworkControllerPrevider
                     tags "Data Center" "Data Center - Previder"
-                    deploymentNode "SystemDevelopment" "" "Linux" {
-                        tags "Server" "SVN"
-                        svnInstance = containerInstance svnContainer
-                        pwdInstance = containerInstance pwdContainer
-                        rdkInstance = containerInstance rdkContainer
-                        fitInstance = containerInstance fitContainer
+                    NetworkControllerPrevider = infrastructureNode "Network Controller Previder" {
+                        -> NetworkControllerObvion "Network Link 1"
+                        -> NetworkControllerObvion "Network Link 2"
                         
                     }
-                    deploymentNode "Microstrategy Server"  ""  "Linux" {
-                        tags "Microstrategy" "Server"
-                        MicrostrategyReportsInstance = containerInstance MicrostrategyReports
-                        MicrostrategySemanticLayerInstance = containerInstance MicrostrategySemanticLayer
-                    }
-            
-                    deploymentNode "Monitoring Server" "" "Linux"{
-                        tags "Server"
-                        zoetesEmailServerInstance   = containerInstance zoetesEmailServerContainer
-                        zenossEventInstance         = containerInstance zenossEventContainer 
+                    deploymentNode "VMWare" {
+
+                        deploymentNode "SystemDevelopment" "" "Linux" {
+                            tags "Server" "SVN"
+                            svnInstance = containerInstance svnContainer
+                            pwdInstance = containerInstance pwdContainer
+                            rdkInstance = containerInstance rdkContainer
+                            fitInstance = containerInstance fitContainer
+                            lqbInstance = containerInstance lqbContainer
+
+                            
+                            }
+                        deploymentNode "MicroStrategy Server"  ""  "Linux" {
+                            tags "MicroStrategy" "Server"
+                            MicroStrategyReportsInstance = containerInstance MicroStrategyReports
+                            MicroStrategySemanticLayersInstance = containerInstance MicroStrategySemanticLayers
                         }
+                
+                        deploymentNode "Monitoring Server" "" "Linux"{
+                            tags "Server"
+                            zoetesEmailServerInstance   = containerInstance zoetesEmailServerContainer
+                            zenossEventInstance         = containerInstance zenossEventContainer 
+                            }
 
-                    deploymentNode "Repository Server" "" "Linux"{
-                            tags "Server" 
-                            idqDatabaseInstance = containerInstance idqDatabaseContainer 
-                            MicrostrategyRepositoryInstance = containerInstance MicrostrategyRepositoryComponent
+                        deploymentNode "Repository Server" "" "Linux"{
+                                tags "Server" 
+                                idqDatabaseInstance = containerInstance idqDatabaseContainer  {
+                                    tags "Postgress"
+                                }
+                                MicroStrategyRepositoryInstance = containerInstance MicroStrategyRepositoryComponent {
+                                    tags "Oracle"
+                                }
 
-                     }    
-                    deploymentNode "ETL Server" "" "Linux"{
-                        tags "Server"
-                        deploymentNode "Java VM" {
-                            tags "Java VM"
-                            scdInstance = containerInstance scdContainer
-                            islInstance = containerInstance islContainer
-                            dctInstance = containerInstance dctContainer
-                            damInstance = containerInstance damContainer
-                            etlEngineInstance = containerInstance etlEngine
+                        }    
+                        deploymentNode "ETL Server" "" "Linux"{
+                            tags "Server"
+                            deploymentNode "Java VM" {
+                                tags "Java VM"
+                                scdInstance = containerInstance scdContainer
+                                islInstance = containerInstance islContainer
+                                dctInstance = containerInstance dctContainer
+                                damInstance = containerInstance damContainer
+                                etlEngineInstance = containerInstance etlEngine
+                                hitInstance = containerInstance hitContainer
+                                
 
-                        }
-                    }                   
-                    deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: ???" {
+                            }
+                        }                   
+                        deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: 7.2.1.5-P1" {
                             tags "Server" "Netezza"
 
-                            sdaInstance = containerInstance sdaContainer
+                            hdaInstance = containerInstance hdaContainer
                             bdaInstance = containerInstance bdaContainer
                             dwaInstance = containerInstance dwaContainer
                             fraInstance = containerInstance fraContainer
                             ddaInstance = containerInstance ddaContainer
-                            edaInstance = containerInstance edaContainer
+                            expInstance = containerInstance expContainer
 
-                     }                        
+                     }     
+                    }                   
                     
                     
         

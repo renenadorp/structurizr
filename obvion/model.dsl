@@ -8,11 +8,13 @@
  
         }
 
-        group "Source Systems" {
+        group "Systems" {
             shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" {
-                shsContainer    = container "SHS"
+                shsContainer    = container "Stater Hypotheek Systeem"
                 shsdwhContainer = container "SHSDWH"
-                tmnContainer    = container "TMN"
+                tmnContainer    = container "Tallyman"
+                pccContainer    = container "PowerCurve" "" 
+
             }
             crmSystem           = softwaresystem "CRM System" "Customer Relationship Management System"  {
                 tags ""
@@ -20,15 +22,34 @@
                 crmViews = container "CRM Views"
 
             }
-        }
+            kstSystem           = softwaresystem "Kadaster" "Kadaster"  {
+                tags ""
+                kstBAGDatasetContainer = container "BAG"
 
-        group "Target Systems" {
-            advSystem           = softwaresystem "AdviseursPortaal" "" "System OutScope" {
+            }
+            
+            bkrSystem           = softwaresystem "BKR" "BKR"  {
+                tags ""
+                bkrBKRDatasetContainer = container "BKR"
+
+            }
+           mvwSystem           = softwaresystem "MoneyView" "MoneyView"  {
+                tags ""
+                mvwMVWDatasetContainer = container "MoneyView"
+
+            }
+
+            advSystem           = softwaresystem "AdviseursPortaal" "" "System" {
                 advContainer    = container "AdviseursPortaal" "" 
             }
+          
+            
         }
 
         group "Data & Analytics" {
+            #NetworkingSystemPrevider = softwareSystem "Network Previder" {
+            #    NetworkControllerPrevider = container "Network Controller Previder"
+            #}
 
             InergyDevelopmentSystem = softwaresystem "Inergy Development System" {
                 svnContainer = container "SVN" "Version Control" {
@@ -43,6 +64,10 @@
                 fitContainer = container "FitNesse" "Testing Software" {
                     tags "Fitnesse"
                 }
+                 idsContainer = container "IDS" "Inergy Deployment System" {
+                    tags "Perl"
+                    technology "perl"
+                 }
 
 
             }
@@ -50,7 +75,7 @@
                 zoetesEmailServerContainer = container "Zoetes Email Server"
                 zenossEventContainer = container "Zenoss Events Server"
 
-                idqDatabaseContainer = container "IDQ" {
+                idqDatabaseContainer = container "IDQ" "" "PostgreSQL" {
                     tags "Database" "Postgress"
                 }             
 
@@ -62,16 +87,17 @@
 
             FTPSystem               = softwaresystem "FTP Server" {
                 tags "FTP Server"
-                shsDataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
+                shhdataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
                 tmnDataFull  = container "TMN Data"  "" "Full Only" "Zip"
                 bagDataFull  = container "BAG Data" "Zipped XML" "Full Only" "Zip" 
+                pccDataFull  = container "PCC Data" "" "" "" 
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
-                    sdaContainer = container "SDA"  "" "Netezza" "" {
+                    hdaContainer = container "HDA"  "" "Netezza" "" {
                         tags "Netezza" "Database"
                         digbdaComponent = component "DIG_BDA" "" "Stored Procedure - Netezza" "Stored Procedure"
-                        sdaDataComponent = component "SDA Data" "" "Table - Netezza" ""
+                        hdaDataComponent = component "HDA Data" "" "Table - Netezza" ""
                     }
                     bdaContainer = container "BDA" "" "Database - Netezza" "" {
                         tags "Netezza" "Database"
@@ -88,39 +114,48 @@
                         digfraComponent = component "DIG_FRA" "" "" ""
                         fraDataComponent = component "FRA Data" "" ""
                     }
-                    edaContainer = container "EDA" "" "Database" "Database - Netezza" {
-                        tags "Netezza" "EDA"  "Database"
+                    expContainer = container "Exploration" "" "Database" "Database - Netezza" {
+                        tags "Netezza" "Exploration"  "Database"
                     }
                     ddaContainer = container "DDA" "" "Database - Netezza" "" {
                         tags "Netezza" "Database"
                         ddaDataIFRSComponent = component "DDA IFRS Data" "" ""
-                        ddaDataIRBComponent = component "DDA IRB Data" "" ""
-                        ddaAdviseursPortalComponent = component "AdviseursPortaal" "" ""
-                        ddaDataMicrostrategyCRMComponent = component "CRM Views" "" ""
-                        ddaDataMicrostrategyFRAComponent = component "Microstrategy Views - FRA" "" ""
-                        ddaDataMicrostrategyDWAComponent = component "Microstrategy Views - DWA" "" ""
+                        ddaDataIRBComponent  = component "DDA IRB Data" "" ""
+                        ddaAdviseursPortalComponent = component "AdviseursPortaal Data" "" ""
+                        ddaDataPCCComponent = component "PowerCurve Data" "" ""
+                        ddaDataCRMComponent = component "CRM Views" "" ""
+                        ddaDataMicroStrategyCRMComponent = component "MicroStrategy Views - CRM" "" ""
+                        ddaDataMicroStrategyFRAComponent = component "MicroStrategy Views - FRA" "" ""
+                        ddaDataMicroStrategyDWAComponent = component "MicroStrategy Views - DWA" "" ""
 
                     }
                      
                 }
-            MicrostrategyReportingSystem  = softwaresystem "Reporting System" "Microstrategy" "" {
-                tags "Microstrategy"
+            MicroStrategyReportingSystem  = softwaresystem "Reporting System" "MicroStrategy" "" {
+                tags "MicroStrategy"
+                properties {
+                    version "??.??"
+                }
 
-                MicrostrategyRepositoryComponent = container "Microstrategy Repository" {
+                MicroStrategyRepositoryComponent = container "MicroStrategy Repository" "" "Oracle" {
                         tags "Database" "Oracle"
                  }
 
-                MicrostrategySemanticLayer = container " Semantic Layer Microstrategy" {
-                    tags "Microstrategy"
+                MicroStrategySemanticLayers = container "MicroStrategy - Semantic Layers " {
+                    tags "MicroStrategy"
+                    MicroStrategySemanticLayerDWA = component " Semantic Layer MicroStrategy DWA" {
+                        tags "MicroStrategy" 
+                        }
+                    MicroStrategySemanticLayerFRA = component " Semantic Layer MicroStrategy FRA" {
+                        tags "MicroStrategy"
                  }           
+                }
+                MicroStrategyReports  = container "MicroStrategy - Reports" "MicroStrategy" "MicroStrategy" {
+                    tags "MicroStrategy"
+                    description "MicroStrategy"
 
-                MicrostrategyReports  = container "Reports - Microstrategy" "Microstrategy" "Microstrategy" {
-                    tags "Microstrategy"
-                    description "Microstrategy"
-                    properties {
-                        version "??.??"
-                    }
-                    MicrostrategyReport = component "Report" "Microstrategy Report"
+                    MicroStrategyReportFRA = component "FRA Reports" "MicroStrategy Report"
+                    MicroStrategyReportDWA = component "DWA Reports" "MicroStrategy Report"
 
                  }
                
@@ -132,6 +167,7 @@
                 tags "FTP Server"
                 expDataIRB   = container "IRB Data Full"  "" "" "Zip" 
                 expDataIFRS  = container "IFRS Data Full"  "" "" "Zip" 
+                expDataPCC   = container "PCC Data "  "" "" "" 
              }
             
             
@@ -139,7 +175,7 @@
                 etlEngine  = container "Pentaho Data Integration" "Pentaho Server" "" {
                     tags "Pentaho"
                     etlDailyComponent  = component "Daily Main" "Pentaho Job" "ETL - Pentaho Job"
-                    etlsdaComponent    = component "SDA Main" "Pentaho Job" "ETL - Pentaho Job"
+                    etlhdaComponent    = component "hda Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlbdaComponent    = component "BDA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etlfraComponent    = component "FRA Main" "Pentaho Job" "ETL - Pentaho Job"
                     etldwaComponent    = component "DWA Main" "Pentaho Job" "ETL - Pentaho Job" 
@@ -165,7 +201,19 @@
                     description "Java component for data profiling"
 
                 }
-
+                
+                lqbContainer        = container "Liquibase" "Liquibase" "" {
+                    tags "Liquibase"
+                    description "Database management"
+                }
+                
+                            
+                hitContainer        = container "HIT" "Hit Ratio" "R" {
+                    tags "R"
+                    technology "R"
+                    description "Kans op conversie voor hypotheek-aanvragen"
+                }
+                
             
                 }
              }       
@@ -176,35 +224,38 @@
 
             # SHS
             shsContainer    -> shsdwhContainer     "" "Push"
-            shsdwhContainer -> shsDataFull      "DDS1" "Push" "Daily"
+            shsdwhContainer -> shhdataFull      "DDS1" "Push" "Daily"
 
             tmnContainer    -> tmnDataFull "" "Push"
-
             # CRM
             crmContainer    -> crmViews "Read"
-
+            
+            # KADASTER
+            kstBAGDatasetContainer -> bagDataFull
+         
             # DAILY
-            etlDailyComponent -> etlsdaComponent ""
+            etlDailyComponent -> etlhdaComponent ""
             etlDailyComponent -> etlfraComponent ""
             etlDailyComponent -> etlbdaComponent ""
             etlDailyComponent -> etldwaComponent ""
             etlDailyComponent -> etlddaComponent ""
 
-            # SDA
-            shsDataFull     -> etlsdaComponent ""
-            tmnDataFull     -> etlsdaComponent ""
-            crmViews        -> etlsdaComponent "" "Pull"
+            # hda
+            shhdataFull     -> etlhdaComponent ""
+            tmnDataFull     -> etlhdaComponent ""
 
-            bagDataFull     -> etlsdaComponent ""
+            crmViews        -> etlhdaComponent "" "Pull"
 
-            etlsdaComponent -> islContainer ""
-            etlsdaComponent -> scdContainer ""
-            scdContainer    -> sdaContainer ""
-            islContainer    -> sdaContainer ""
+            bagDataFull     -> etlhdaComponent ""
+
+            etlhdaComponent -> islContainer ""
+            etlhdaComponent -> scdContainer ""
+            scdContainer    -> hdaContainer ""
+            islContainer    -> hdaContainer ""
 
             # BDA
             etlbdaComponent  -> digbdaComponent  ""
-            sdaDataComponent -> digbdaComponent  ""
+            hdaDataComponent -> digbdaComponent  ""
             digbdaComponent  -> bdaContainer     ""
 
             # DWA
@@ -218,37 +269,43 @@
             digfraComponent  -> fraDataComponent ""
  
             # DDA
-           
-            dwaDataComponent -> ddaDataMicrostrategyDWAComponent  "DWA"
-            fraDataComponent -> ddaDataMicrostrategyFRAComponent  "FRA"
+            dwaDataComponent -> ddaDataCRMComponent "CRM data from DWA"
+            dwaDataComponent -> ddaDataMicroStrategyDWAComponent  "DWA"
+            fraDataComponent -> ddaDataMicroStrategyFRAComponent  "FRA"
             fraDataComponent -> ddaDataIFRSComponent 
             fraDataComponent -> ddaDataIRBComponent   
+            fraDataComponent -> ddaDataPCCComponent
+
 
             # DELIVERY: RABO
-            ddaDataIRBComponent  -> etlexpComponent ""
+            ddaDataIRBComponent  -> etlexpComponent "Dataset Delivery"
             ddaDataIFRSComponent -> etlexpComponent ""
-
+            ddaDataPCCComponent  -> etlexpComponent ""
+            ddaDataCRMComponent  -> crmContainer "CRM reads data from DDA"
 
             etlexpComponent      -> expDataIRB    "IRB to Rabo"
             etlexpComponent      -> expDataIFRS   "IFRS to Rabo"
+            etlexpComponent      -> expDataPCC   "PCC to Rabo"
 
 
-            # EDA
-            sdaContainer -> edaContainer "Read Only"
-            bdaContainer -> edaContainer "Read Only"
-            dwaContainer -> edaContainer "Read Only"
-            fraContainer -> edaContainer "Read Only"
+            # EXPLORATION 
+            hdaContainer -> expContainer "Read Only"
+            bdaContainer -> expContainer "Read Only"
+            dwaContainer -> expContainer "Read Only"
+            fraContainer -> expContainer "Read Only"
             
-            # REPORTING - MICROSTRATEGY
-            MicrostrategyRepositoryComponent   -> MicrostrategyReport
+            # REPORTING - MicroStrategy
+            MicroStrategyRepositoryComponent   -> MicroStrategyReports
              
 
-            ddaDataMicrostrategyDWAComponent -> MicrostrategySemanticLayer 
-            MicrostrategySemanticLayer    -> MicrostrategyReports  
-            MicrostrategyRepositoryComponent -> MicrostrategyReports 
+            ddaDataMicroStrategyDWAComponent -> MicroStrategySemanticLayerDWA "DWA & FRA"
+            ddaDataMicroStrategyFRAComponent -> MicroStrategySemanticLayerFRA "FRA"
+            MicroStrategySemanticLayerFRA    -> MicroStrategyReportFRA  "DWA & FRA"
+            MicroStrategySemanticLayerDWA    -> MicroStrategyReportDWA  "DWA"
+            MicroStrategyRepositoryComponent -> MicroStrategyReports 
         
             # REPORTING - POWER BI
-            sdaDataComponent -> PowerBIReports ""
+            hdaDataComponent -> PowerBIReports ""
             bdaDataComponent -> PowerBIReports ""
             fraDataComponent -> PowerBIReports ""
 
@@ -257,20 +314,22 @@
  
             # MONITORING
             etlEngine -> zoetesEmailServerContainer
-            zoetesEmailServerContainer -> zenossEventContainer "Events" "API"
-            zoetesEmailServerContainer ->  opsGenieContainer "Events" "API"
+            zoetesEmailServerContainer -> zenossEventContainer  "Events" "API"
+            zoetesEmailServerContainer -> opsGenieContainer     "Events" "API"
             
             zenossEventContainer -> idqDatabaseContainer "ETL Logging"
 
             # DEVELOPMENT
             rdkContainer -> etlDailyComponent "Deploy"
-            rdkContainer -> sdaContainer "Deploy" 
+            rdkContainer -> hdaContainer "Deploy" 
             rdkContainer -> bdaContainer "Deploy"
             rdkContainer -> dwaContainer "Deploy"
             rdkContainer -> fraContainer "Deploy"
             rdkContainer -> ddaContainer "Deploy"
-            rdkContainer -> edaContainer "Deploy"
+            rdkContainer -> expContainer "Deploy"
 
+            # NETWORKING
+            #NetworkControllerObvion -> NetworkControllerPrevider "Network Link (2x)"
         }
         
         !include deployment.dsl

@@ -21,7 +21,7 @@ views {
 
     deployment DataPlatformSystem "Production" "LiveDeployment" {
         include element.type==containerInstance element.type==deploymentNode
-        exclude "etlEngine -> sdaContainer" 
+        exclude "etlEngine -> hdaContainer" 
         exclude "etlEngine -> bdaContainer" 
         exclude "etlEngine -> dwaContainer" 
         exclude "etlEngine -> fraContainer" 
