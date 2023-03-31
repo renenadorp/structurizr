@@ -69,13 +69,13 @@
             #}
 
             InergyDevelopmentSystem = softwaresystem "Inergy Development System" {
-                                tags "System"
+                                tags "System" "Inergy"
 
                 svnContainer = container "SVN" "Version Control" {
-                    tags "SVN"
+                    tags "SVN" "Inergy"
                     }
                 rdkContainer = container "Rundeck" {
-                    tags "Rundeck"
+                    tags "Rundeck" 
                     }
                 pwdContainer = container "PowerDesigner" "Data Modeling" {
                     tags "PowerDesigner"
@@ -91,7 +91,7 @@
 
             }
             InergyMonitoringSystem = softwaresystem "Inergy Monitoring System" {
-                tags "System"
+                tags "System" "Inergy"
 
                 zoetesEmailServerContainer = container "Zoetes Email Server"
                 zenossEventContainer = container "Zenoss Events Server"
@@ -107,7 +107,7 @@
             }
 
             FTPSystem               = softwaresystem "Datasets (InFlow)" {
-                tags "FTP Server" "System"
+                tags "FTP Server" "System" "Obvion"
 
                 shhdataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
                 tmnDataFull  = container "TMN Data"  "" "Full Only" "Zip"
@@ -120,7 +120,7 @@
                 }
 
             DataPlatformSystem      = softwaresystem "Data Platform System" "" {
-                                tags "System"
+                                tags "System" "Inergy"
 
                     hdaContainer = container "HDA"  "" "Netezza" "" {
                         tags "Netezza" "Database"
@@ -167,7 +167,7 @@
                      
                 }
             MicroStrategyReportingSystem  = softwaresystem "MicroStrategy" "MicroStrategy" "" {
-                tags "System" "Reporting"
+                tags "System" "Reporting" "Inergy"
                 properties {
                     version "??.??"
                 }
@@ -200,7 +200,7 @@
                 PowerBIReports = container "Power BI Reports" "Reporting - Power BI" 
              }
             FTPRaboSystem             = softwaresystem "Datasets (OutFlow)" {
-                tags "FTP Server"   "System"
+                tags "FTP Server"   "System" "Obvion"
 
                 expDataIRB      = container "IRB Data Full"  "" "" "Zip" 
                 expDataIFRS     = container "IFRS Data Full"  "" "" "Zip" 
@@ -212,7 +212,7 @@
             
             
             etlSystem                 = softwaresystem "Pentaho ETL System" "" "Data Processing" {
-                                tags "System"
+                                tags "System" "Inergy"
 
                 sqlScriptsContainer   = container "SQL Scripts" "" "" {
                     description "SQL Script files"
@@ -361,8 +361,8 @@
             etlexpComponent      -> expDataCAL   "Calcasa"
 
             expContainer        -> sqlScriptsContainer
-            sqlScriptsContainer -> expDataCOREP
-            sqlScriptsContainer -> expDataFINREP
+            etlexpComponent -> expDataCOREP
+            etlexpComponent -> expDataFINREP
 
             expDataCOREP        -> raboContainer
             expDataFINREP        -> raboContainer
