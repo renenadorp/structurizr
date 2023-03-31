@@ -159,6 +159,13 @@
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/r.png"
   }
   
+  ,
+  
+  {
+    "tag" : "Rabo",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/rabo.png"
+  }
+  
   
 ]
 

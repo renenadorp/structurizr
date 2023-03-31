@@ -7,7 +7,7 @@ Onderstaand het diagram van het Systeem landschap van het Obvion data platform, 
 
 
 
-## Systeem Implementatie
+## Data Platform Implementatie
 ### Diagram
 Onderstaand diagram geeft een gedetailleerd beeld van de geimplementeerde architectuur. 
 De belangrijkste systemen zijn opgenomen, een aantal kleinere systemen / componenten zijn omwille van leesbaarheid weggelaten. Om dezelfde reden zijn niet alle data stromen in het diagram weergegeven.

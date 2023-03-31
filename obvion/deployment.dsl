@@ -1,5 +1,9 @@
 group "DeploymentEnvironments" {
             deploymentEnvironment "Production" {
+                deploymentNode "Rabo" {
+                 tags "Data Center" "Rabo"
+                    raboInstance = containerInstance raboContainer
+                    }
 
                 deploymentNode "Data Center - Stater" {
                     tags "Data Center - Stater" "Data Center"
@@ -12,31 +16,34 @@ group "DeploymentEnvironments" {
                     }                
                 deploymentNode "Data Center - Kadaster" {
                     tags "Data Center - Kadaster" "Data Center" "Kadaster"
-                deploymentNode "BAG" {
+                    deploymentNode "BAG" {
                     kstBAGDatasetInstance = containerInstance kstBAGDatasetContainer
 
                     }
                  }
+
+
+
             deploymentNode "BKR" {
                 tags "Data Center"
                     bkrBKRDatasetInstance = containerInstance bkrBKRDatasetContainer
-
                     }
+
             deploymentNode "Calcasa" {
                 tags "Data Center"
                 calCALDatasetInstance = containerInstance calCALDatasetContainer
 
-             }
+              }
                  
-                deploymentNode "Data Center - MoneyView" {
+            deploymentNode "Data Center - MoneyView" {
                     tags "Data Center - MoneyView" "Data Center" "MoneyView"
                 deploymentNode "MVW" {
                     mvwMVWDatasetInstance = containerInstance mvwMVWDatasetContainer
 
                     }
-                 }
+             }
 
-                deploymentNode "Data Center - Itility" {
+            deploymentNode "Data Center - Itility" {
                     tags "Data Center - Itility" "Data Center"
                     #NetworkControllerObvionInstance = containerInstance NetworkControllerObvion
                     NetworkControllerObvion = infrastructureNode "Network Controller Obvion" {

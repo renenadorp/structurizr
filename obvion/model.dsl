@@ -9,11 +9,24 @@
         }
 
         group "Systems" {
-            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System OutScope" {
+            raboSystem = softwareSystem "Rabo Bank" {
+                tags "System"
+                raboContainer    = container "Rabo"
+            }
+            shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System" {
                 tags "System"
                 shsContainer    = container "Stater Hypotheek Systeem"
                 shsdwhContainer = container "SHSDWH"
+
+
+            }            
+            tmnSystem           = softwaresystem "Tallyman System" "Stater" "System" {
+                tags "System"
                 tmnContainer    = container "Tallyman"
+            }
+            pccSystem           = softwaresystem "Power Curve System" "Stater" "System " {
+                tags "System"
+
                 pccContainer    = container "PowerCurve" "" 
 
             }
@@ -93,7 +106,7 @@
 
             }
 
-            FTPSystem               = softwaresystem "Data InFlow" {
+            FTPSystem               = softwaresystem "Datasets (InFlow)" {
                 tags "FTP Server" "System"
 
                 shhdataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
@@ -137,6 +150,9 @@
                     }
                     ddaContainer = container "DDA" "" "Database - Netezza" "" {
                         tags "Netezza" "Database"
+                        ddaDataCOREPComponent = component "COREP Data" "" ""
+                        ddaDataFINREPComponent = component "FINREP Data" "" ""
+                        
                         ddaDataIFRSComponent = component "DDA IFRS Data" "" ""
                         ddaDataIRBComponent  = component "DDA IRB Data" "" ""
                         ddaDataCALComponent  = component "DDA Calcasa Data" "" ""
@@ -179,12 +195,11 @@
                  }
                
                 }        
-            PowerBIReportingSystem    = softwaresystem "Power BI Service" "Power BI" "" {
+            PowerBIReportingSystem    = softwaresystem "Power BI" "Power BI" "" {
                                 tags "System"
-
                 PowerBIReports = container "Power BI Reports" "Reporting - Power BI" 
              }
-            FTPRaboSystem             = softwaresystem "Data OutFlow" {
+            FTPRaboSystem             = softwaresystem "Datasets (OutFlow)" {
                 tags "FTP Server"   "System"
 
                 expDataIRB      = container "IRB Data Full"  "" "" "Zip" 
@@ -332,9 +347,12 @@
             ddaDataCALComponent  -> etlexpComponent ""
          
             # DELIVERY: RABO
-            ddaDataIRBComponent  -> etlexpComponent ""
-            ddaDataIFRSComponent -> etlexpComponent ""
-            ddaDataPCCComponent  -> etlexpComponent ""
+            ddaDataIRBComponent    -> etlexpComponent ""
+            ddaDataIFRSComponent   -> etlexpComponent ""
+            ddaDataPCCComponent    -> etlexpComponent ""
+            ddaDataFINREPComponent -> etlexpComponent ""
+            ddaDataCOREPComponent  -> etlexpComponent ""
+            
             ddaDataCRMComponent  -> crmContainer "CRM reads data from DDA"
 
             etlexpComponent      -> expDataIRB    "IRB "
@@ -345,6 +363,10 @@
             expContainer        -> sqlScriptsContainer
             sqlScriptsContainer -> expDataCOREP
             sqlScriptsContainer -> expDataFINREP
+
+            expDataCOREP        -> raboContainer
+            expDataFINREP        -> raboContainer
+            
 
             # EXPLORATION 
             hdaContainer -> expContainer "Read Only"
