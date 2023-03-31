@@ -107,7 +107,7 @@
             }
 
             FTPSystem               = softwaresystem "Datasets (InFlow)" {
-                tags "FTP Server" "System" "Obvion"
+                tags "FTP Server" "System" 
 
                 shhdataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
                 tmnDataFull  = container "TMN Data"  "" "Full Only" "Zip"
@@ -200,7 +200,7 @@
                 PowerBIReports = container "Power BI Reports" "Reporting - Power BI" 
              }
             FTPRaboSystem             = softwaresystem "Datasets (OutFlow)" {
-                tags "FTP Server"   "System" "Obvion"
+                tags "FTP Server"   "System" ""
 
                 expDataIRB      = container "IRB Data Full"  "" "" "Zip" 
                 expDataIFRS     = container "IFRS Data Full"  "" "" "Zip" 
