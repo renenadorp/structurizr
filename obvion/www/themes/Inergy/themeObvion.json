@@ -132,7 +132,6 @@
   ,
   {
     "tag" : "Perl",
-
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/perl.png"
     
   }
@@ -141,11 +140,23 @@
     "tag" : "Obvion",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/obvion.png"
   }
-  
+
   ,
   {
     "tag" : "Liquibase",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/liquibase.png"
+  }
+  
+  ,
+  {
+    "tag" : "Kadaster",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/kadaster.png"
+  }
+  ,
+  
+  {
+    "tag" : "R",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/r.png"
   }
   
   

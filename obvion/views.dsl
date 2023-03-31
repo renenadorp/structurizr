@@ -4,7 +4,7 @@ views {
     //     }
     systemlandscape "dataPlatformLandscape" {
         include *
-        autoLayout lr
+        #autoLayout lr
     }    
 
     systemcontext DataPlatformSystem "SystemContext" {
@@ -26,6 +26,9 @@ views {
         exclude "etlEngine -> dwaContainer" 
         exclude "etlEngine -> fraContainer" 
         exclude "rdkContainer -> *"
+        exclude "ddaDataMicroStrategyDWAComponent -> MicroStrategySemanticLayerDWA"
+        exclude "ddaDataMicroStrategyFRAComponent -> MicroStrategySemanticLayerFRA"
+        
 
         
     }    

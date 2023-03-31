@@ -11,9 +11,27 @@ group "DeploymentEnvironments" {
                         }
                     }                
                 deploymentNode "Data Center - Kadaster" {
-                    tags "Data Center - Kadaster" "Data Center"
+                    tags "Data Center - Kadaster" "Data Center" "Kadaster"
                 deploymentNode "BAG" {
                     kstBAGDatasetInstance = containerInstance kstBAGDatasetContainer
+
+                    }
+                 }
+            deploymentNode "BKR" {
+                tags "Data Center"
+                    bkrBKRDatasetInstance = containerInstance bkrBKRDatasetContainer
+
+                    }
+            deploymentNode "Calcasa" {
+                tags "Data Center"
+                calCALDatasetInstance = containerInstance calCALDatasetContainer
+
+             }
+                 
+                deploymentNode "Data Center - MoneyView" {
+                    tags "Data Center - MoneyView" "Data Center" "MoneyView"
+                deploymentNode "MVW" {
+                    mvwMVWDatasetInstance = containerInstance mvwMVWDatasetContainer
 
                     }
                  }
@@ -30,6 +48,9 @@ group "DeploymentEnvironments" {
                             shhdataFullInstance = containerInstance shhdataFull
                             tmnDataFullInstance = containerInstance tmnDataFull
                             bagDataFullInstance = containerInstance bagDataFull
+                            bkrDataFullInstance = containerInstance bkrDataFull
+                            calDataInInstance = containerInstance calDataIn
+                            mvwDataFullInstance = containerInstance mvwDataFull
                             }
                     
                     deploymentNode "FTP Server (OutFlow)" {
@@ -37,7 +58,9 @@ group "DeploymentEnvironments" {
                         expDataIRBInstance   = containerInstance expDataIRB
                         expDataIFRSInstance  = containerInstance expDataIFRS
                         expDataPCCInstance   = containerInstance expDataPCC
-
+                        expDataCALInstance    = containerInstance expDataCAL
+                        expDataFINREPInstance    = containerInstance expDataFINREP
+                        expDataCOREPInstance    = containerInstance expDataCOREP
                         }                    
                          
                 
@@ -76,17 +99,18 @@ group "DeploymentEnvironments" {
                     deploymentNode "VMWare" {
 
                         deploymentNode "SystemDevelopment" "" "Linux" {
-                            tags "Server" "SVN"
+                            tags "Server" 
                             svnInstance = containerInstance svnContainer
                             pwdInstance = containerInstance pwdContainer
                             rdkInstance = containerInstance rdkContainer
                             fitInstance = containerInstance fitContainer
                             lqbInstance = containerInstance lqbContainer
+                            idsInstance = containerInstance idsContainer
 
                             
                             }
                         deploymentNode "MicroStrategy Server"  ""  "Linux" {
-                            tags "MicroStrategy" "Server"
+                            tags "" "Server"
                             MicroStrategyReportsInstance = containerInstance MicroStrategyReports
                             MicroStrategySemanticLayersInstance = containerInstance MicroStrategySemanticLayers
                         }
@@ -102,10 +126,14 @@ group "DeploymentEnvironments" {
                                 idqDatabaseInstance = containerInstance idqDatabaseContainer  {
                                     tags "Postgress"
                                 }
+                                
+                        }
+                        deploymentNode "Oracle Server" "" "Linux"{
+                                tags "Server" 
+ 
                                 MicroStrategyRepositoryInstance = containerInstance MicroStrategyRepositoryComponent {
                                     tags "Oracle"
                                 }
-
                         }    
                         deploymentNode "ETL Server" "" "Linux"{
                             tags "Server"
@@ -120,6 +148,9 @@ group "DeploymentEnvironments" {
                                 
 
                             }
+                            deploymentNode "File System" {
+                                sqlScriptsInstance = containerInstance sqlScriptsContainer
+                            }
                         }                   
                         deploymentNode "Netezza Datawarehouse Appliance" "Netezza" "version: 7.2.1.5-P1" {
                             tags "Server" "Netezza"
@@ -129,7 +160,9 @@ group "DeploymentEnvironments" {
                             dwaInstance = containerInstance dwaContainer
                             fraInstance = containerInstance fraContainer
                             ddaInstance = containerInstance ddaContainer
-                            expInstance = containerInstance expContainer
+                            expInstance = containerInstance expContainer 
+          
+                            
 
                      }     
                     }                   

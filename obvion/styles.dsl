@@ -19,18 +19,13 @@ styles {
                 background #08427b
                 shape Person
             }
-            element "System InScope" {
+            element "System" {
                 stroke grey
                 background white
                 color grey
                 shape RoundedBox
             }
-            element "System OutScope" {
-                stroke grey
-                background white
-                color grey
-                shape RoundedBox
-            }
+
             element "Container" {
                 stroke grey
                 background white
