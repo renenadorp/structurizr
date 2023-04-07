@@ -4,8 +4,8 @@ views {
         autoLayout lr
     }    
     systemlandscape "dataPlatformLandscapeSimple" {
-        include monitoringSystem metadataSystem  srcSystem dataPlatformSystem  enterpriseReportingSystem   enrichtmentSystem mdmSystem EnterprisePortalSystem
-        autoLayout tb
+        include erpSystem dataScienceSystem   crmSystem wmsSystem monitoringSystem metadataSystem  srcSystem dataPlatformSystem  enterpriseReportingSystem   enrichtmentSystem mdmSystem EnterprisePortalSystem DataSharingSystem iamSystem
+        #autoLayout tb
     }
 
     systemcontext dataPlatformSystem "SystemContext" {

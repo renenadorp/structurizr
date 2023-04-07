@@ -6,7 +6,6 @@ Onderstaand het diagram van het Systeem landschap van het Obvion data platform, 
 ![](embed:dataPlatformLandscape)
 
 
-
 ## Data Platform Implementatie
 ### Diagram
 Onderstaand diagram geeft een gedetailleerd beeld van de geimplementeerde architectuur. 
@@ -50,12 +49,12 @@ De belangrijkste systemen zijn opgenomen, een aantal kleinere systemen / compone
 | Monitoring          | Repository Server                |                          |                                                                                                                                                                    |         |            | Postgress     |
 | Monitoring          | Zenoss Events Server             | Zenoss                   | Alerting                                                                                                                                                           |         |            |               |
 | Monitoring          | Zoetes Email Server              | Zoetes                   | Zoetes interpreteert mailtjes en stuurt naar Zenoss<br>Zenoss centrale monitoring (private cloud, alle alerts komen hier binnen, alle klanten)                     |         |            |               |
-| Reporting           | DWA Reports - Microstrategy      | Microstrategy            | Reporting                                                                                                                                                          |         | Reporting  | Microstrategy |
+| Reporting           | DWA Reports - MicroStrategy      | MicroStrategy            | Reporting                                                                                                                                                          |         | Reporting  | MicroStrategy |
 | Reporting           | DWA Reports - Power BI           | Power BI                 | Reporting                                                                                                                                                          |         | Reporting  | Power BI      |
-| Reporting           | DWA Semantic Layer Microstrategy | Microstrategy            | Reporting                                                                                                                                                          |         | Reporting  | Microstrategy |
-| Reporting           | FRA Reports - Microstrategy      | Microstrategy            | Reporting                                                                                                                                                          |         | Reporting  | Microstrategy |
-| Reporting           | FRA Semantic Layer Microstrategy | Microstrategy            | Reporting                                                                                                                                                          |         | Reporting  | Microstrategy |
-| Reporting           | MicroStrategy Repository         | Microstrategy            | Reporting                                                                                                                                                          |         | Reporting  | Oracle XE     |
+| Reporting           | DWA Semantic Layer MicroStrategy | MicroStrategy            | Reporting                                                                                                                                                          |         | Reporting  | MicroStrategy |
+| Reporting           | FRA Reports - MicroStrategy      | MicroStrategy            | Reporting                                                                                                                                                          |         | Reporting  | MicroStrategy |
+| Reporting           | FRA Semantic Layer MicroStrategy | MicroStrategy            | Reporting                                                                                                                                                          |         | Reporting  | MicroStrategy |
+| Reporting           | MicroStrategy Repository         | MicroStrategy            | Reporting                                                                                                                                                          |         | Reporting  | Oracle XE     |
 | Systeemontwikkeling | Fitnesse                         | Fitnesse                 | Testing                                                                                                                                                            |         |            |               |
 | Systeemontwikkeling | SVN                              | SVN                      | Version Control                                                                                                                                                    |         |            |               |
 

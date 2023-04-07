@@ -11,15 +11,21 @@ styles {
                 fontSize 22
                 shape Folder
             }
+            element "System" {
+                color #ffffff
+
+                fontSize 22
+                shape RoundedBox
+            }
             element "Customer" {
                 background #08427b
                 shape Person
             }
-            element "System InScope" {
+            element "InScope" {
                 background #1168bd
                 color #ffffff
             }
-            element "System OutScope" {
+            element "OutScope" {
                 background #999999
                 color #ffffff
             }

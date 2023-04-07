@@ -10,7 +10,7 @@
 
         group "Systems" {
             raboSystem = softwareSystem "Rabo Bank" {
-                tags "System"
+                tags "System" ""
                 raboContainer    = container "Rabo"
             }
             shsSystem           = softwaresystem "Stater Hypotheek System" "Stater" "System" {
@@ -72,7 +72,7 @@
                                 tags "System" "Inergy"
 
                 svnContainer = container "SVN" "Version Control" {
-                    tags "SVN" "Inergy"
+                    tags "SVN" 
                     }
                 rdkContainer = container "Rundeck" {
                     tags "Rundeck" 
@@ -107,7 +107,7 @@
             }
 
             FTPSystem               = softwaresystem "Datasets (InFlow)" {
-                tags "FTP Server" "System" 
+                tags "FTP Server" "System" "Inergy"
 
                 shhdataFull  = container "SHS Data"  "" "Full/Delta" "Zip" 
                 tmnDataFull  = container "TMN Data"  "" "Full Only" "Zip"
@@ -200,7 +200,7 @@
                 PowerBIReports = container "Power BI Reports" "Reporting - Power BI" 
              }
             FTPRaboSystem             = softwaresystem "Datasets (OutFlow)" {
-                tags "FTP Server"   "System" ""
+                tags "FTP Server"   "System" "Inergy"
 
                 expDataIRB      = container "IRB Data Full"  "" "" "Zip" 
                 expDataIFRS     = container "IFRS Data Full"  "" "" "Zip" 
