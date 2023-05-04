@@ -1,0 +1,181 @@
+{
+  "name" : "Inergy",
+  "description" : "Theme for conceptual architecture",
+  "elements" : [ 
+  {
+    "tag" : "Netezza",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/netezza.jpeg"
+    
+  }
+  ,
+  {
+    "tag" : "Reporting - Power BI",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pbi.png"
+    
+  }
+  ,  {
+    "tag" : "MicroStrategy",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/mstr.png"
+    
+  }
+  ,
+  {
+    "tag" : "Cloud - Azure",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/azure.png"
+    
+  }
+  ,
+  {
+    "tag" : "Data Center - Centric",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/centric.png"
+    
+  },
+  {
+    "tag" : "Data Center - Itility",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/itility.jpeg"
+    
+  },
+  {
+    "tag" : "Data Center - Stater",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/stater.png"
+    
+  }
+  ,
+  {
+    "tag" : "Data Center - Previder",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/Previder.png"
+    
+  }
+  ,
+  {
+    "tag" : "Obvion CRM",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/crm.png"
+    
+  }
+  ,
+  {
+    "tag" : "Pentaho",
+   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
+    
+  }
+  ,
+  {
+    "tag" : "Java VM",
+   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java.png" 
+  }
+  ,
+  {
+    "tag" : "Java - Jar",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/java-jar.png"
+    
+  }
+  ,
+  {
+    "tag" : "PowerDesigner",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pwd.png"
+    
+  }
+  ,
+  {
+    "tag" : "SVN",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/svn.png"
+    
+  }
+  ,
+  {
+    "tag" : "Rundeck",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/rdk.png"
+    
+  }
+  ,
+  {
+    "tag" : "OpsGenie",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/opsgenie.png"
+    
+  }
+  
+  ,
+  {
+    "tag" : "Fitnesse",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/fitnesse.png"
+    
+  }
+  
+  ,
+  {
+    "tag" : "Oracle",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/oracle.png"
+    
+  }
+  
+  ,
+  {
+    "tag" : "Postgress",
+
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/postgress.png"
+    
+  }
+  ,
+  {
+    "tag" : "Perl",
+  "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/perl.png"
+    
+  }
+  ,
+  {
+    "tag" : "Obvion",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/obvion.png"
+  }
+
+  ,
+  {
+    "tag" : "Liquibase",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/liquibase.png"
+  }
+  
+  ,
+  {
+    "tag" : "Kadaster",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/kadaster.png"
+  }
+  ,
+  
+  {
+    "tag" : "R",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/r.png"
+  }
+  
+  ,
+  
+  {
+    "tag" : "Rabo",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/rabo.png"
+  }
+  
+  
+  ,
+  
+  {
+    "tag" : "Inergy",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/inergy.png"
+  }
+  
+  
+]
+
+
+}

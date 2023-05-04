@@ -2,45 +2,15 @@
   "name" : "Inergy",
   "description" : "Theme for architecture blueprint: Snowflake, Pentaho, SQL, Power BI",
   "elements" : [ {
-    "tag" : "Database",
+    "tag" : "Snowflake",
     "color" : "#ffffff",
     "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
   },
   {
-    "tag" : "Dataset - PowerBI",
+    "tag" : "PowerBI",
     "color" : "#ffffff",
     "icon" : "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/f1d4dd6cd52338a186f58bc29c437f64cf6b327b/PNG/Dataset.png"
   }
-  ,
-  {
-    "tag" : "Database Schema",
-    "color" : "#ffffff",
-    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-
-  }
-
-  ,
-  {
-    "tag" : "Database SQL Script",
-    "color" : "#ffffff",
-    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-
-  }
-
-  ,
-  {
-    "tag" : "Orchestration",
-    "color" : "#ffffff",
-    "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-  
-  }
-  ,
-{
-  "tag" : "Business Glossary",
-  
-  "icon" : "https://renenadorp.github.io/structurizr/ra/www/themes/Inergy/images/SNOW.png"
-
-}
     
 ]
 }

@@ -5,22 +5,25 @@ styles {
                 fontSize 22
                 shape Person
             }
-            element "Datalake" {
+            element "External Staff" {
                 color #ffffff
+                background #820003
 
                 fontSize 22
+                shape Person
+            }
+            element "Datalake" {
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
                 shape Folder
             }
             element "System" {
                 color #ffffff
-
                 fontSize 22
                 shape RoundedBox
             }
-            element "Customer" {
-                background #08427b
-                shape Person
-            }
+            
             element "InScope" {
                 background #1168bd
                 color #ffffff
@@ -40,6 +43,13 @@ styles {
                 shape MobileDeviceLandscape
             }
 
+            element "Module"{
+                background #ffffff
+                stroke #578BCF
+                color  #578BCF
+                shape Component
+            }
+          
             element "Microsoft Azure - Data Factories"{
                 shape Component
                                 stroke #578BCF
@@ -56,7 +66,7 @@ styles {
                 background #ffffff
                 stroke #578BCF
                 color  #578BCF
-                shape RoundedBox
+                shape Cylinder
             }
             element "Database SQL Script" {
                 background #ffffff

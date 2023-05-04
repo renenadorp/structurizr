@@ -1,10 +1,113 @@
 
      model {
             
+     
+        group "Data Platform" {
+            enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "" {
+             
+                tags "System" "InScope"
+                enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
 
-#/*     
-        group "People" {
-            erpStaff    = person "ERP Staff" "ERP" "Internal Staff"
+                }
+            DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
+             
+                tags "System" "InScope"
+            
+                laContainer             = container "Lake Area" "Ingest" "" "Datalake"
+                daContainer             = container "Data Area" "Staging" "" "Database"
+                da2baContainer          = container "Business Area Transformation" "" "" "Module"
+                ba2iaContainer          = container "Information Area Transformation" "" "" "Module"
+                in2daContainer          = container "Data Area Transformation" "" "" "Module"
+                baContainer             = container "Business Area" "Business Area" "" "Database" {
+                    baSchemaComponent           = component "Business Area Schema" "Business Area" "" "" {
+                        tags  "Database Schema"
+                    } 
+                    baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "" {
+                        tags "Script"
+                    }
+
+                }
+                iaContainer             = container "Information Area" "Information Area" "" "Database Schema" {
+                    iaSchemaComponent   = component "Information Area Object" {
+                        tags "Script"
+                    }
+                    iaObjectScriptComponent = component "Information Area Object Script" {
+                        tags "Database Schema"
+                    }
+                }
+                xaContainer             = container "Exploration Area" "Exploration" "" "Database" {
+                    xaSchemaComponent = component "Exploration Area Object" {
+                        tags "Database Schema"
+                    }
+                    xaObjectScriptComponent = component "Exploration Area Object Script" {
+                        tags "Script"
+                    }
+                    
+                    }
+                maContainer             = container "Metadata Area" "Metadata" "" "Database" {
+                    maSchemaComponent = component "Metadata Area Object" {
+                        tags "Database Schema"
+                    }
+                    maObjectScriptComponent = component "Metadata Area Object Script" {
+                        tags "Script"
+                    }
+                    
+                    }
+
+
+                orchContainer  = container "Orchestration Engine" "Orchestration" "" "" {
+                    tags "Module"
+                    orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "" 
+                }
+            }
+        
+  
+            metadataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
+                tags "System" "InScope"
+            
+            businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
+                tags "Business Glossary"
+                }
+            maGeneralContainer      = container "Metadata General" "" "" ""  {
+                description "General purpose or temporary placeholder"
+            }
+            dataCatalogContainer    = container "Data Catalog" "Catalog" "" "Data Catalog" 
+            dataLineageContainer    = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
+            dataModelContainer      = container "Data Model" "Data Model" "" "Data Model Container"
+            dataQualityContainer    = container "Data Quality Engine" "Data Quality Engine" "" "Module"
+                }
+            
+        
+          EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "" {
+            tags "System" "InScope"
+            biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biDomainDataSet2        = container "BI Domain Dataset 2" "BI Dataset" "Power BI" "Dataset - PowerBI"
+            biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
+            biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
+            }
+
+
+            monitoringSystem = softwaresystem "Monitoring System" "Monitoring" "" {
+                tags "System" "InScope"
+                dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring"
+                dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
+            }
+
+            dataSharingSystem = softwaresystem "Data Sharing System" "Data Sharing" ""  {
+                tags "System" "InScope"
+            }
+
+            dataScienceSystem = softwaresystem "Data Science System" "Data Science" {
+                tags "System" "InScope"
+            }
+
+
+        }
+        group "Personen" {
+            erpStaff    = person "ERP Staff" "ERP" "" {
+                tags "Internal Staff"
+            }
             crmStaff    = person "CRM Staff" "CRM Staff" "Internal Staff"
 
 
@@ -12,12 +115,18 @@
             dataExpert  = person "Data Expert" "CRM Staff" "Internal Staff"
             dataSteward = person "Data Steward" "Data Steward" "Internal Staff"
 
-            reportUser  = person "Reporting Staff" "Reporting Staff" "Internal Staff"
-            dataScientist = person "Data Scientist" "Data Science Staff" "Internal Staff"
-#*/ 
-        }
+            DataManagementEmployee = person "Data Management Medewerker" "" "Internal Staff"
 
-        group "Bron Systemen" {
+            BusinessUser  = person "Business User" "" "Internal Staff"
+            ExternalUser  = person "External User" "" "External Staff"
+            BusinessAnalyst  = person "Business Analyst" "" ""{
+                tags "Internal Staff"
+            }
+            DataScientist = person "Data Scientist" "" "Internal Staff"
+            BeveiligingEmployee            = person "Beveiliging Medewerker" "" "Internal Staff"
+            SupportEmployee            = person "Support Medewerker" "" "Internal Staff"
+        }
+        group "Business Applicaties" {
 
             srcSystem           = softwaresystem "Source System" "Some Source System" {
                 tags "System" "OutScope"
@@ -41,93 +150,23 @@
             mdmSystem           = softwaresystem "Masterdata System" "Data "   {
                 tags "System" "OutScope"
             }
-            
-
-        }
-        group "Data Platform" {
-            enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "" {
-             
-                tags "System" "InScope"
-            
-            enrichmentApplication   = container "Data Enrichment Web Application" "Database" "App"
-
-        }
-            DataPlatformSystem = softwaresystem "Enterprise Data Platform" "Data platform." "System InScope" {
-             
-                tags "System" "InScope"
-            
-                inContainer             = container "Ingestion Area" "Ingest" "<Technology used>" "Datalake"
-                daContainer             = container "Data Area" "Staging" ".." "Database"
-                da2baContainer          = container "Business Area Transformation" "" "" "Component"
-                ba2iaContainer          = container "Information Area Transformation" "" "" "Component"
-                in2daContainer          = container "Data Area Transformation" "" "" "Component"
-                baContainer             = container "Business Area" "Business Area" ".." "Database" {
-                    baSchemaComponent           = component "Business Area Schema" "Business Area" "Database Schema" "Database Schema" {
-                        tags "Database Schema"
-                    } 
-                    baEntityScriptComponent     = component "Business Area Entity Script" "Business Area" "SQL" "Database SQL Script" {
-                        tags "Database SQL Script"
-                    }
-
-                }
-                iaContainer             = container "Information Area" "Information Area" "" "Database"
-                maContainer             = container "Metadata Area" "Metadata" "" "Database"
-
-                orchContainer  = container "Orchestration Engine" "Orchestration" "" "" {
-                    orchestrationComponent = component "OrchestrationComponent" "Orchestration" "" "Microsoft Azure - Data Factories"
-                }
-            }
-        }
-        
-        
-        group "Metadata Systemen"  {
-         metadataSystem = softwaresystem "Metadata System" "Metadata System" "System InScope" {
-                tags "System" "InScope"
-            
-            businessGlossaryContainer = container "Business Glossary" "Business Glossary" "" {
-                tags "Business Glossary"
-                }
-            dataCatalogContainer    = container "Data Catalog" "Catalog" "" "Data Catalog"
-            dataLineageContainer    = container "Data Lineage" "Data Lineage" "" "Data Lineage Container"
-            dataModelContainer      = container "Data Model" "Data Model" "" "Data Model Container"
-            dataQualityContainer    = container "Data Quality Engine" "Data Quality Engine" "" "Component"
-        }
-
-        }
-
-        group "Doel Systems" {
-            
-        
-          EnterpriseReportingSystem = softwaresystem "Enterprise Reporting" "Enterprise Reporting" "" {
-            tags "System" "InScope"
-            biEnterpriseDataSet     = container "BI Enterprise Dataset" "BI Dataset" "Power BI" "Dataset - PowerBI"
-            biDomainDataSet1        = container "BI Domain Dataset 1" "BI Dataset" "Power BI" "Dataset - PowerBI"
-            biDomainDataSet2        = container "BI Domain Dataset 2" "BI Dataset" "Power BI" "Dataset - PowerBI"
-            biReport1               = container "BI Report 1" "BI Report" "Power BI" "Power BI Report"
-            biReport2               = container "BI Report 2" "BI Report" "Power BI" "Power BI Report"
-            }
-
             EnterprisePortalSystem = softwaresystem "Enterprise Portal" "Enterprise Portal" "" {
                 tags "System" "OutScope"
 
             }
-            monitoringSystem = softwaresystem "Monitoring System" "Monitoring" "" {
-                tags "System" "InScope"
-                dpMonitoring = container "Data Platform Monitoring Service" "BI Dataset" "Power BI" "Monitoring - "
-                dpAlerting   = container "Data Platform Alerting Service" "BI Report" "Power BI" "Alerting - OpsGenie"
-            }
-
-            dataSharingSystem = softwaresystem "Data Sharing System" "Data Sharing" ""  {
+                        CustomerSupportSystem = softwaresystem "Customer Support System" {
+                customerTicketing = container "Customer Ticketing System" "" "" "" 
                 tags "System" "OutScope"
             }
-
-            dataScienceSystem = softwaresystem "Data Science System" "Data Science" {
-                tags "System" "InScope"
-            }
+            
 
         }
-
-        group "Relations" {
+     
+        ##########################################
+        # RELATIONS
+        ##########################################
+        
+        group "Relations: People" {
             # relationships between people and software systems
         
             erpStaff        -> erpSystem "Uses"
@@ -136,16 +175,21 @@
             dataSteward     -> mdmSystem "Uses"
             dataExpert      -> metadataSystem "Data Expert"
             dataOwner       -> metadataSystem "Data Owner"
-            reportUser      -> EnterpriseReportingSystem
-            
-            /*
-            dataScientist   -> inContainer
-            dataScientist   -> daContainer
-            dataScientist   -> baContainer
-            dataScientist   -> iaContainer
-            */
-    
 
+            ExternalUser      -> DataSharingSystem
+            BusinessUser      -> EnterpriseReportingSystem
+
+            DataManagementEmployee -> EnterpriseReportingSystem
+            DataManagementEmployee -> dataPlatformSystem
+            DataManagementEmployee -> enrichtmentSystem
+            BusinessAnalyst -> dataPlatformSystem
+            DataManagementEmployee -> metadataSystem
+            BeveiligingEmployee -> iamSystem
+            DataScientist -> dataScienceSystem
+            SupportEmployee -> MonitoringSystem
+            SupportEmployee -> customerTicketing
+         }
+        group "Relations: Systems" {
             # SYSTEM
             mdmSystem                    -> dataPlatformSystem          "Data"
             DataPlatformSystem           -> dataSharingSystem           "Data"
@@ -162,15 +206,15 @@
             iamSystem -> dataScienceSystem          "Access"
             iamSystem -> metaDataSystem          "Access"
             iamSystem -> MonitoringSystem          "Access"
+            iamSystem -> DataSharingSystem          "Access"
+            }
+        group "Relations: Containers" {
+            enrichmentApplication -> laContainer "Data"
+            erpSystem       -> laContainer      "Data"
+            crmSystem       -> laContainer      "Data"
+            wmsSystem       -> laContainer      "Data"
 
-
-            # CONTAINER
-            enrichmentApplication -> inContainer "Data"
-            erpSystem       -> inContainer      "Data"
-            crmSystem       -> inContainer      "Data"
-            wmsSystem       -> inContainer      "Data"
-
-            inContainer     -> in2daContainer   "Data"
+            laContainer     -> in2daContainer   "Data"
             in2daContainer  -> daContainer      "Transform"
 
             daContainer     -> da2baContainer   "Data"
@@ -183,19 +227,24 @@
             orchContainer   -> da2baContainer   "Orchestrate"
             orchContainer   -> ba2iaContainer   "Orchestrate"
 
-            orchContainer   -> monitoringSystem "Status"
+            orchContainer   -> monitoringSystem "Metadata" "Status"
             
 
             daContainer -> maContainer  "Metadata"
             daContainer -> maContainer  "Metadata"
             iaContainer -> maContainer  "Metadata"
 
-            daContainer -> dataQualityContainer "Metadata"
-            baContainer -> dataQualityContainer "Metadatata"
+            daContainer -> maContainer "Metadata"
+            baContainer -> maContainer "Metadata"
+            iaContainer -> maContainer "Metadata"
+            maGeneralContainer -> maContainer 
+
+            dpMonitoring -> customerTicketing "Ticket"
+
             #dataQualityContainer -> maContainer "Metadata"
 
             #businessGlossaryContainer    -> baContainer "Describe"
-
+        
             #COMPONENT
             biEnterpriseDataSet -> biDomainDataSet1 "Dataset Link"
             biEnterpriseDataSet -> biDomainDataSet2 "Dataset Link"
@@ -205,8 +254,10 @@
 
             biReport1 -> dataCatalogContainer "Metadata"
             biReport2 -> dataCatalogContainer "Metadata"
-            
-        }
+         }
+        group "Relations: Components" {
+            }
         
             
     }
+ 

@@ -1,18 +1,19 @@
 views {
-    systemlandscape "dataPlatformLandscape" {
-        include *
-        autoLayout lr
-    }    
+       
     systemlandscape "dataPlatformLandscapeSimple" {
-        include erpSystem dataScienceSystem   crmSystem wmsSystem monitoringSystem metadataSystem  srcSystem dataPlatformSystem  enterpriseReportingSystem   enrichtmentSystem mdmSystem EnterprisePortalSystem DataSharingSystem iamSystem
+        include dataScientist DataManagementEmployee BeveiligingEmployee BusinessUser BusinessAnalyst SupportEmployee ExternalUser CustomerSupportSystem erpSystem dataScienceSystem   crmSystem wmsSystem monitoringSystem metadataSystem  srcSystem dataPlatformSystem  enterpriseReportingSystem   enrichtmentSystem mdmSystem EnterprisePortalSystem DataSharingSystem iamSystem 
+        exclude "DataManagementEmployee -> EnterpriseReportingSystem"
+        exclude "DataManagementEmployee -> DataPlatformSystem"
+        exclude "iamSystem -> *"
         #autoLayout tb
     }
 
-    systemcontext dataPlatformSystem "SystemContext" {
-        include * 
+    systemcontext dataPlatformSystem "SystemContext_DataPlatform " {
+        include *
+        exclude element.type==Person
     }
 
-    container dataPlatformSystem "DataPlatform" {
+    container dataPlatformSystem "Container_DataPlatform" {
         include *
 
     }
