@@ -173,6 +173,12 @@
     "tag" : "Inergy",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/inergy.png"
   }
+  ,
+  
+  {
+    "tag" : "Pentaho",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
+  }
   
   
 ]
