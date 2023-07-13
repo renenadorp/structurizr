@@ -179,6 +179,12 @@
     "tag" : "Pentaho",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/pdi.png"
   }
+  ,
+  
+  {
+    "tag" : "DevOps",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/devops.png"
+  }
   
   
 ]
