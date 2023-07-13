@@ -1,7 +1,9 @@
 
      model {
-            
-     
+          
+        ##########################################
+        # STRUCTURE
+        ##########################################
         group "Data Platform" {
             enrichtmentSystem = softwaresystem "Enrichment System" "Data Enrichment" "" {
              
@@ -165,32 +167,28 @@
         ##########################################
         # RELATIONS
         ##########################################
-        
         group "Relations: People" {
-            # relationships between people and software systems
-        
-            erpStaff        -> erpSystem "Uses"
-            crmStaff        -> crmSystem "Uses"
-            dataSteward     -> metadataSystem "Uses"
-            dataSteward     -> mdmSystem "Uses"
-            dataExpert      -> metadataSystem "Data Expert"
-            dataOwner       -> metadataSystem "Data Owner"
+            erpStaff                -> erpSystem "Uses"
+            crmStaff                -> crmSystem "Uses"
+            dataSteward             -> metadataSystem "Uses"
+            dataSteward             -> mdmSystem "Uses"
+            dataExpert              -> metadataSystem "Data Expert"
+            dataOwner               -> metadataSystem "Data Owner"
 
-            ExternalUser      -> DataSharingSystem
-            BusinessUser      -> EnterpriseReportingSystem
+            ExternalUser            -> DataSharingSystem
+            BusinessUser            -> EnterpriseReportingSystem
 
-            DataManagementEmployee -> EnterpriseReportingSystem
-            DataManagementEmployee -> dataPlatformSystem
-            DataManagementEmployee -> enrichtmentSystem
-            BusinessAnalyst -> dataPlatformSystem
-            DataManagementEmployee -> metadataSystem
-            BeveiligingEmployee -> iamSystem
-            DataScientist -> dataScienceSystem
-            SupportEmployee -> MonitoringSystem
-            SupportEmployee -> customerTicketing
+            DataManagementEmployee  -> EnterpriseReportingSystem
+            DataManagementEmployee  -> dataPlatformSystem
+            DataManagementEmployee  -> enrichtmentSystem
+            BusinessAnalyst         -> dataPlatformSystem
+            DataManagementEmployee  -> metadataSystem
+            BeveiligingEmployee     -> iamSystem
+            DataScientist           -> dataScienceSystem
+            SupportEmployee         -> MonitoringSystem
+            SupportEmployee         -> customerTicketing
          }
         group "Relations: Systems" {
-            # SYSTEM
             mdmSystem                    -> dataPlatformSystem          "Data"
             DataPlatformSystem           -> dataSharingSystem           "Data"
             DataPlatformSystem           -> EnterpriseReportingSystem   "Data"
@@ -200,60 +198,55 @@
             DataPlatformSystem           -> dataScienceSystem           "Data" 
             dataScienceSystem            -> DataPlatformSystem          "Model"
 
-            iamSystem -> dataPlatformSystem         "Access"
-            iamSystem -> EnterpriseReportingSystem  "Access" 
-            iamSystem -> enrichtmentSystem          "Access"
-            iamSystem -> dataScienceSystem          "Access"
-            iamSystem -> metaDataSystem          "Access"
-            iamSystem -> MonitoringSystem          "Access"
-            iamSystem -> DataSharingSystem          "Access"
-            }
+            iamSystem                    -> dataPlatformSystem         "Access"
+            iamSystem                    -> EnterpriseReportingSystem  "Access" 
+            iamSystem                    -> enrichtmentSystem          "Access"
+            iamSystem                    -> dataScienceSystem          "Access"
+            iamSystem                    -> metaDataSystem          "Access"
+            iamSystem                    -> MonitoringSystem          "Access"
+            iamSystem                    -> DataSharingSystem          "Access"
+            }                    
         group "Relations: Containers" {
             enrichmentApplication -> laContainer "Data"
-            erpSystem       -> laContainer      "Data"
-            crmSystem       -> laContainer      "Data"
-            wmsSystem       -> laContainer      "Data"
-
-            laContainer     -> in2daContainer   "Data"
-            in2daContainer  -> daContainer      "Transform"
-
-            daContainer     -> da2baContainer   "Data"
-            da2baContainer  -> baContainer      "Transform"
-
-            baContainer     -> ba2iaContainer   "Data"
-            ba2iaContainer  -> iaContainer      "Transform"
-
-            orchContainer   -> in2daContainer   "Orchestrate"
-            orchContainer   -> da2baContainer   "Orchestrate"
-            orchContainer   -> ba2iaContainer   "Orchestrate"
-
-            orchContainer   -> monitoringSystem "Metadata" "Status"
+            erpSystem                    -> laContainer      "Data"
+            crmSystem                    -> laContainer      "Data"
+            wmsSystem                    -> laContainer      "Data"
+             
+            laContainer                  -> in2daContainer   "Data"
+            in2daContainer               -> daContainer      "Transform"
+             
+            daContainer                  -> da2baContainer   "Data"
+            da2baContainer               -> baContainer      "Transform"
+             
+            baContainer                  -> ba2iaContainer   "Data"
+            ba2iaContainer               -> iaContainer      "Transform"
+             
+            orchContainer                -> in2daContainer   "Orchestrate"
+            orchContainer                -> da2baContainer   "Orchestrate"
+            orchContainer                -> ba2iaContainer   "Orchestrate"
+             
+            orchContainer                -> monitoringSystem "Metadata" "Status"
             
 
-            daContainer -> maContainer  "Metadata"
-            daContainer -> maContainer  "Metadata"
-            iaContainer -> maContainer  "Metadata"
+            daContainer                  -> maContainer  "Metadata"
+            daContainer                  -> maContainer  "Metadata"
+            iaContainer                  -> maContainer  "Metadata"
+                 
+            daContainer                  -> maContainer "Metadata"
+            baContainer                  -> maContainer "Metadata"
+            iaContainer                  -> maContainer "Metadata"
+            maGeneralContainer           -> maContainer 
 
-            daContainer -> maContainer "Metadata"
-            baContainer -> maContainer "Metadata"
-            iaContainer -> maContainer "Metadata"
-            maGeneralContainer -> maContainer 
+            dpMonitoring                 -> customerTicketing "Ticket"
 
-            dpMonitoring -> customerTicketing "Ticket"
+            biEnterpriseDataSet          -> biDomainDataSet1 "Dataset Link"
+            biEnterpriseDataSet          -> biDomainDataSet2 "Dataset Link"
 
-            #dataQualityContainer -> maContainer "Metadata"
+            biDomainDataSet1             -> biReport1 "Data"
+            biDomainDataSet2             -> biReport2 "Data"
 
-            #businessGlossaryContainer    -> baContainer "Describe"
-        
-            #COMPONENT
-            biEnterpriseDataSet -> biDomainDataSet1 "Dataset Link"
-            biEnterpriseDataSet -> biDomainDataSet2 "Dataset Link"
-
-            biDomainDataSet1 -> biReport1 "Data"
-            biDomainDataSet2 -> biReport2 "Data"
-
-            biReport1 -> dataCatalogContainer "Metadata"
-            biReport2 -> dataCatalogContainer "Metadata"
+            biReport1                    -> dataCatalogContainer "Metadata"
+            biReport2                    -> dataCatalogContainer "Metadata"
          }
         group "Relations: Components" {
             }

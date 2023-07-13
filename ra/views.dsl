@@ -19,11 +19,7 @@ views {
     }
 
 
-    container EnterpriseReportingSystem "Reporting" {
-        include *
-
-        autoLayout lr
-    }
+    
 
     container metadataSystem "Metadata" {
         include *
@@ -31,15 +27,7 @@ views {
         autoLayout lr
     }
 
-    component baContainer "baContainer"    {
-        include *
-        autoLayout
-    }
 
-    component orchContainer "Orchestration"    {
-        include *
-        autoLayout
-    }
 
     !include styles.dsl
 

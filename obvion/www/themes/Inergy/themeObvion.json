@@ -23,32 +23,32 @@
   }
   ,
   {
-    "tag" : "Cloud - Azure",
+    "tag" : "Azure",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/azure.png"
     
   }
   ,
   {
-    "tag" : "Data Center - Centric",
+    "tag" : "Centric",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/centric.png"
     
   },
   {
-    "tag" : "Data Center - Itility",
+    "tag" : "Itility",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/itility.jpeg"
     
   },
   {
-    "tag" : "Data Center - Stater",
+    "tag" : "Stater",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/stater.png"
     
   }
   ,
   {
-    "tag" : "Data Center - Previder",
+    "tag" : "Previder",
 
   "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/Previder.png"
     
