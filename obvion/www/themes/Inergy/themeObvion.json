@@ -184,7 +184,14 @@
   {
     "tag" : "DevOps",
     "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/devops.png"
+  },
+  {
+    "tag" : "Squirrel",
+    "icon" : "https://renenadorp.github.io/structurizr/obvion/www/themes/Inergy/images/squirrel-sql.png"
   }
+  
+  
+  
   
   
 ]
